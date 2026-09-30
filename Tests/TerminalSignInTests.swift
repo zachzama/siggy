@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// A CLI-backed account signs in from its own login command, so the Accounts
 /// row can offer a button rather than a sentence to copy into a terminal.

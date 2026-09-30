@@ -1,6 +1,6 @@
 import SwiftUI
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 @MainActor
 final class SettingsQuitButtonTests: XCTestCase {
@@ -17,8 +17,7 @@ final class SettingsQuitButtonTests: XCTestCase {
             switchAccount: { _ in false },
             retry: { _ in },
             resetPosition: {},
-            quit: { didQuit = true },
-            updater: Updater()
+            quit: { didQuit = true }
         )
         let view = settings.frame(width: SettingsView.width, height: SettingsView.height)
 

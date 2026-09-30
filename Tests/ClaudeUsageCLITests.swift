@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// `claude "/usage"` is asked before the keychain, because Claude Code files a
 /// new keychain item on every token rotation and a grant against the old one
@@ -215,7 +215,7 @@ final class ClaudeUsageCLITests: XCTestCase {
         let second = try ClaudeUsageCLI.scratchDirectory(applicationSupport: support)
 
         XCTAssertEqual(first, second)
-        XCTAssertEqual(first.path, support.appendingPathComponent("Codenotch/usage-scratch").path)
+        XCTAssertEqual(first.path, support.appendingPathComponent("Siggy/usage-scratch").path)
         var isDirectory: ObjCBool = false
         XCTAssertTrue(FileManager.default.fileExists(atPath: first.path, isDirectory: &isDirectory))
         XCTAssertTrue(isDirectory.boolValue)
@@ -226,7 +226,7 @@ final class ClaudeUsageCLITests: XCTestCase {
     func testAScratchDirectoryThatCannotBeMadeThrows() throws {
         let support = try makeHome(executableAt: nil)
         // A file where the parent directory has to go.
-        FileManager.default.createFile(atPath: support.appendingPathComponent("Codenotch").path,
+        FileManager.default.createFile(atPath: support.appendingPathComponent("Siggy").path,
                                        contents: Data())
 
         XCTAssertThrowsError(try ClaudeUsageCLI.scratchDirectory(applicationSupport: support))

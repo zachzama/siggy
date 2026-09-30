@@ -1,6 +1,6 @@
 import CryptoKit
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 final class PhoneLinkTests: XCTestCase {
     private struct Vector: Decodable {

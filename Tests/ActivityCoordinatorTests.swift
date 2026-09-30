@@ -1,6 +1,6 @@
 import Combine
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 @MainActor
 final class ActivityCoordinatorTests: XCTestCase {

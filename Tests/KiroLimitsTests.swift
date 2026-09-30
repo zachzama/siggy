@@ -1,6 +1,6 @@
 import SQLite3
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// Pinned to a `GetUsageLimits` CREDIT row recorded from a KIRO POWER account
 /// whose plan credits were fully spent and whose overage was in use.

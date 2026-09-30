@@ -1,7 +1,7 @@
 import AppKit
 import SwiftUI
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 final class UsageBandTests: XCTestCase {
     func testBandsMatchTheDesignFrame() {

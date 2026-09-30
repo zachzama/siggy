@@ -181,8 +181,6 @@ enum NotchLayout {
 
     // The hover tooltip
     static let cardWidth     = Design.px(600)
-    /// The update card's, wider for its three buttons — see `UpdateCard`.
-    static let updateCardWidth = Design.px(820)
     static let cardCorner    = Design.px(49.5)
     static let cardPadding   = Design.px(32)
     static let tailLength    = Design.px(75)
@@ -589,9 +587,6 @@ enum NotchLayout {
     /// below or above it on a horizontal one.
     static func tooltipDepth(for edge: NotchEdge,
                              maxCardHeight: CGFloat = defaultMaxCardHeight) -> CGFloat {
-        // Beside a side edge's notch the update card has to fit too, and it is
-        // wider than a tooltip: held to the tooltip's width, the window cut
-        // its far side off.
-        (edge.isVertical ? max(cardWidth, updateCardWidth) : maxCardHeight) + tailLength + tailGap
+        (edge.isVertical ? cardWidth : maxCardHeight) + tailLength + tailGap
     }
 }

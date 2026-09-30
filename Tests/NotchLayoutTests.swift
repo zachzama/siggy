@@ -1,6 +1,6 @@
 import AppKit
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// The layout is a scaled copy of `docs/design/frame-124-hover-tooltip.png`.
 /// These pin the ratios the frame fixes, so a change to `Design.scale` resizes
@@ -1053,61 +1053,6 @@ final class NotchFleetScopeTests: XCTestCase {
         for controller in fleet.controllersForTesting {
             XCTAssertEqual(controller.model.snapshots, [reading])
         }
-    }
-}
-
-/// Renaming the app renames its defaults domain, so every setting moves to a
-/// new empty one unless it is carried across.
-final class RenameMigrationTests: XCTestCase {
-    private func suite() -> (UserDefaults, String) {
-        let name = "RenameMigrationTests.\(UUID().uuidString)"
-        let defaults = UserDefaults(suiteName: name)!
-        defaults.removePersistentDomain(forName: name)
-        return (defaults, name)
-    }
-
-    /// A source domain of our own, so the tests never read the real one — the
-    /// first version of this did exactly that, and copied live settings into a
-    /// scratch suite.
-    private func oldDomain(_ contents: [String: Any]) -> String {
-        let name = "RenameMigrationTests.old.\(UUID().uuidString)"
-        UserDefaults.standard.setPersistentDomain(contents, forName: name)
-        return name
-    }
-
-    @MainActor
-    func testItCarriesSettingsAcrossTheRename() {
-        let (defaults, _) = suite()
-        let old = oldDomain(["hiddenProviders": ["cursor"], "notchVisibility": "alwaysShow"])
-        defer { UserDefaults.standard.removePersistentDomain(forName: old) }
-
-        Preferences.migrateFromPreviousName(into: defaults, from: old)
-
-        let preferences = Preferences(defaults: defaults)
-        XCTAssertFalse(preferences.isConnected("cursor"))
-        XCTAssertEqual(preferences.notchVisibility, .alwaysShow)
-    }
-
-    /// The guard that matters: a domain already in use is never overwritten, or
-    /// a later launch would undo whatever the user changed after the rename.
-    @MainActor
-    func testItLeavesAnAlreadyUsedDomainAlone() {
-        let (defaults, _) = suite()
-        _ = Preferences(defaults: defaults)          // stamps hasLaunchedBefore
-        defaults.set(["codex"], forKey: "hiddenProviders")
-        let old = oldDomain(["hiddenProviders": ["cursor"]])
-        defer { UserDefaults.standard.removePersistentDomain(forName: old) }
-
-        Preferences.migrateFromPreviousName(into: defaults, from: old)
-
-        XCTAssertEqual(defaults.stringArray(forKey: "hiddenProviders"), ["codex"])
-    }
-
-    @MainActor
-    func testMigratingWithNothingToMigrateIsHarmless() {
-        let (defaults, _) = suite()
-        Preferences.migrateFromPreviousName(into: defaults, from: "does.not.exist")
-        XCTAssertTrue(Preferences(defaults: defaults).isConnected("claude"))
     }
 }
 

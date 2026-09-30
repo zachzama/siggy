@@ -29,7 +29,7 @@ final class PriceTable: ObservableObject {
 
     static let fileURL: URL = {
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-        return base.appendingPathComponent("Codenotch/costs/prices.json")
+        return base.appendingPathComponent("Siggy/costs/prices.json")
     }()
 
     /// Fallback prices from the bundle (Resources/prices-default.json); replaced
@@ -259,7 +259,7 @@ final class PlanCatalog: ObservableObject {
 
     static let fileURL: URL = {
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-        return base.appendingPathComponent("Codenotch/costs/plans.json")
+        return base.appendingPathComponent("Siggy/costs/plans.json")
     }()
     static let remoteKey = "plansURL"
     var remoteURL: String {

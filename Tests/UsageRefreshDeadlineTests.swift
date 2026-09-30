@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// A refresh must never be able to wedge the store.
 ///

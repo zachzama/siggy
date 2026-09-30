@@ -80,28 +80,6 @@ final class NotchFleet {
     var onLook: (() -> Void)?
     var onRefreshProvider: ((String) async -> Void)?
     var onOpenSettings: (() -> Void)?
-    /// The notch's answer to an update it offered.
-    var onUpdateChoice: ((UpdateChoice) -> Void)?
-    private var updatePrompt: UpdatePrompt?
-
-    private var updatePending = false
-
-    /// A newer version waiting — see `NotchViewModel.updatePending`.
-    func apply(updatePending: Bool) {
-        self.updatePending = updatePending
-        for controller in controllers.values {
-            controller.model.updatePending = updatePending
-        }
-    }
-
-    /// An update to offer in the notch, or how its install is going; nil once
-    /// answered or done.
-    func apply(updatePrompt: UpdatePrompt?) {
-        self.updatePrompt = updatePrompt
-        for controller in controllers.values {
-            controller.apply(updatePrompt: updatePrompt)
-        }
-    }
     var onFocusSession: ((pid_t) -> Void)?
     var signInItems: [(title: String, action: () -> Void)] = []
     /// An ⌥-drag on any one panel settled at a new offset. Persisting it is
@@ -479,9 +457,6 @@ final class NotchFleet {
         controller.onOpenSettings = onOpenSettings
         controller.model.onOpenSettings = onOpenSettings
         controller.model.onFocusSession = onFocusSession
-        controller.model.onUpdateChoice = { [weak self] in self?.onUpdateChoice?($0) }
-        controller.apply(updatePrompt: updatePrompt)
-        controller.model.updatePending = updatePending
         controller.onReposition = onReposition
         controller.onMoveToEdge = onMoveToEdge
         controller.signInItems = signInItems

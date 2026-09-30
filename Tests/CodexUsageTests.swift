@@ -1,6 +1,6 @@
 import SQLite3
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 final class CodexUsageTests: XCTestCase {
     private func windows(_ json: String) throws -> [LimitWindow] {

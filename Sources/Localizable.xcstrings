@@ -6679,79 +6679,79 @@
         }
       }
     },
-    "A normal app icon in the Dock while Codenotch is running.": {
+    "A normal app icon in the Dock while Siggy is running.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Обычный значок приложения в Dock во время работы Codenotch."
+            "value": "Обычный значок приложения в Dock во время работы Siggy."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Une icône d'app normale dans le Dock tant que Codenotch fonctionne."
+            "value": "Une icône d'app normale dans le Dock tant que Siggy fonctionne."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch の実行中、Dock に通常のアプリアイコンが出ます。"
+            "value": "Siggy の実行中、Dock に通常のアプリアイコンが出ます。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Um ícone de app normal no Dock enquanto o Codenotch está em execução."
+            "value": "Um ícone de app normal no Dock enquanto o Siggy está em execução."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 运行时，程序坞里有一个普通应用图标。"
+            "value": "Siggy 运行时，程序坞里有一个普通应用图标。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 執行時，程式塢裡有一個普通 App 圖示。"
+            "value": "Siggy 執行時，程式塢裡有一個普通 App 圖示。"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ein normales App-Symbol im Dock, solange Codenotch läuft."
+            "value": "Ein normales App-Symbol im Dock, solange Siggy läuft."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Звичайний значок застосунку в Dock, поки Codenotch працює."
+            "value": "Звичайний значок застосунку в Dock, поки Siggy працює."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch가 실행 중일 때 Dock에 일반 앱 아이콘을 표시합니다."
+            "value": "Siggy가 실행 중일 때 Dock에 일반 앱 아이콘을 표시합니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch ishlab turganda Dockʼda oddiy ilova belgisi."
+            "value": "Siggy ishlab turganda Dockʼda oddiy ilova belgisi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ikon aplikasi biasa di Dock saat Codenotch berjalan."
+            "value": "Ikon aplikasi biasa di Dock saat Siggy berjalan."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch çalışırken Dock'ta normal bir uygulama simgesi."
+            "value": "Siggy çalışırken Dock'ta normal bir uygulama simgesi."
           }
         }
       }
@@ -6833,79 +6833,79 @@
         }
       }
     },
-    "No icon anywhere. Open Codenotch again from Applications to bring these settings back.": {
+    "No icon anywhere. Open Siggy again from Applications to bring these settings back.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ни одного значка. Откройте Codenotch снова из Программ, чтобы вернуть эти настройки."
+            "value": "Ни одного значка. Откройте Siggy снова из Программ, чтобы вернуть эти настройки."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aucune icône nulle part. Rouvrez Codenotch depuis Applications pour retrouver ces réglages."
+            "value": "Aucune icône nulle part. Rouvrez Siggy depuis Applications pour retrouver ces réglages."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "どこにもアイコンが出ません。この設定に戻るには、アプリケーションから Codenotch をもう一度開いてください。"
+            "value": "どこにもアイコンが出ません。この設定に戻るには、アプリケーションから Siggy をもう一度開いてください。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nenhum ícone em lugar algum. Abra o Codenotch novamente em Aplicativos para trazer estes ajustes de volta."
+            "value": "Nenhum ícone em lugar algum. Abra o Siggy novamente em Aplicativos para trazer estes ajustes de volta."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "哪里都没有图标。从「应用程序」再打开 Codenotch，才能回到这些设置。"
+            "value": "哪里都没有图标。从「应用程序」再打开 Siggy，才能回到这些设置。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "哪裡都沒有圖示。從「應用程式」再開啟 Codenotch，才能回到這些設定。"
+            "value": "哪裡都沒有圖示。從「應用程式」再開啟 Siggy，才能回到這些設定。"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nirgends ein Symbol. Öffne Codenotch erneut aus dem Programme-Ordner, um diese Einstellungen zurückzuholen."
+            "value": "Nirgends ein Symbol. Öffne Siggy erneut aus dem Programme-Ordner, um diese Einstellungen zurückzuholen."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Жодного значка. Відкрийте Codenotch знову з теки «Програми», щоб повернути ці налаштування."
+            "value": "Жодного значка. Відкрийте Siggy знову з теки «Програми», щоб повернути ці налаштування."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "아이콘을 어디에도 표시하지 않습니다. 이 설정으로 돌아오려면 응용 프로그램에서 Codenotch를 다시 여십시오."
+            "value": "아이콘을 어디에도 표시하지 않습니다. 이 설정으로 돌아오려면 응용 프로그램에서 Siggy를 다시 여십시오."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hech qayerda belgi yoʻq. Bu sozlamalarni qaytarish uchun Codenotchʼni Applicationsʼdan qayta oching."
+            "value": "Hech qayerda belgi yoʻq. Bu sozlamalarni qaytarish uchun Siggyʼni Applicationsʼdan qayta oching."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tanpa ikon di mana pun. Buka kembali Codenotch dari Aplikasi untuk mengembalikan pengaturan ini."
+            "value": "Tanpa ikon di mana pun. Buka kembali Siggy dari Aplikasi untuk mengembalikan pengaturan ini."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Hiçbir yerde simge yok. Bu ayarları geri getirmek için Codenotch'u Uygulamalar klasöründen yeniden açın."
+            "value": "Hiçbir yerde simge yok. Bu ayarları geri getirmek için Siggy'u Uygulamalar klasöründen yeniden açın."
           }
         }
       }
@@ -7988,79 +7988,79 @@
         }
       }
     },
-    "Open Codenotch at login": {
+    "Open Siggy at login": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Открывать Codenotch при входе"
+            "value": "Открывать Siggy при входе"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ouvrir Codenotch à l'ouverture de session"
+            "value": "Ouvrir Siggy à l'ouverture de session"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ログイン時に Codenotch を開く"
+            "value": "ログイン時に Siggy を開く"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Abrir o Codenotch ao iniciar a sessão"
+            "value": "Abrir o Siggy ao iniciar a sessão"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "登录时打开 Codenotch"
+            "value": "登录时打开 Siggy"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "登入時開啟 Codenotch"
+            "value": "登入時開啟 Siggy"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch bei der Anmeldung öffnen"
+            "value": "Siggy bei der Anmeldung öffnen"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Відкривати Codenotch під час входу"
+            "value": "Відкривати Siggy під час входу"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "로그인 시 Codenotch 열기"
+            "value": "로그인 시 Siggy 열기"
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tizimga kirganda Codenotchʼni ochish"
+            "value": "Tizimga kirganda Siggyʼni ochish"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Buka Codenotch saat login"
+            "value": "Buka Siggy saat login"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Girişte Codenotch'u aç"
+            "value": "Girişte Siggy'u aç"
           }
         }
       }
@@ -9605,79 +9605,79 @@
         }
       }
     },
-    "What's new in Codenotch": {
+    "What's new in Siggy": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Les nouveautés de Codenotch"
+            "value": "Les nouveautés de Siggy"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch の新機能"
+            "value": "Siggy の新機能"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Novidades do Codenotch"
+            "value": "Novidades do Siggy"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 新变化"
+            "value": "Siggy 新变化"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 新變化"
+            "value": "Siggy 新變化"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Что нового в Codenotch"
+            "value": "Что нового в Siggy"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Neuheiten in Codenotch"
+            "value": "Neuheiten in Siggy"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Що нового в Codenotch"
+            "value": "Що нового в Siggy"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch의 새로운 기능"
+            "value": "Siggy의 새로운 기능"
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotchʼdagi yangiliklar"
+            "value": "Siggyʼdagi yangiliklar"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Yang baru di Codenotch"
+            "value": "Yang baru di Siggy"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch'taki yenilikler"
+            "value": "Siggy'taki yenilikler"
           }
         }
       }
@@ -9836,79 +9836,79 @@
         }
       }
     },
-    "macOS refused this — try moving Codenotch to /Applications.": {
+    "macOS refused this — try moving Siggy to /Applications.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS a refusé — essayez de déplacer Codenotch dans /Applications."
+            "value": "macOS a refusé — essayez de déplacer Siggy dans /Applications."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS に拒否されました — Codenotch を /Applications に移動してみてください。"
+            "value": "macOS に拒否されました — Siggy を /Applications に移動してみてください。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O macOS recusou isso — tente mover o Codenotch para /Applications."
+            "value": "O macOS recusou isso — tente mover o Siggy para /Applications."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS 拒绝了 — 试着把 Codenotch 移到「应用程序」。"
+            "value": "macOS 拒绝了 — 试着把 Siggy 移到「应用程序」。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS 拒絕了 — 試著把 Codenotch 移到「應用程式」。"
+            "value": "macOS 拒絕了 — 試著把 Siggy 移到「應用程式」。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS отказала — попробуйте переместить Codenotch в /Applications."
+            "value": "macOS отказала — попробуйте переместить Siggy в /Applications."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS hat das abgelehnt — versuche, Codenotch nach /Applications zu verschieben."
+            "value": "macOS hat das abgelehnt — versuche, Siggy nach /Applications zu verschieben."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS відмовила — спробуйте перемістити Codenotch у /Applications."
+            "value": "macOS відмовила — спробуйте перемістити Siggy у /Applications."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS가 이 작업을 거부했습니다 — Codenotch를 /Applications로 옮겨 보십시오."
+            "value": "macOS가 이 작업을 거부했습니다 — Siggy를 /Applications로 옮겨 보십시오."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS buni rad etdi — Codenotchʼni /Applications ga koʻchirib koʻring."
+            "value": "macOS buni rad etdi — Siggyʼni /Applications ga koʻchirib koʻring."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS menolak ini — coba pindahkan Codenotch ke folder /Applications."
+            "value": "macOS menolak ini — coba pindahkan Siggy ke folder /Applications."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS buna izin vermedi — Codenotch'u /Applications klasörüne taşımayı deneyin."
+            "value": "macOS buna izin vermedi — Siggy'u /Applications klasörüne taşımayı deneyin."
           }
         }
       }
@@ -11607,79 +11607,79 @@
         }
       }
     },
-    "Quit Codenotch": {
+    "Quit Siggy": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Выйти из Codenotch"
+            "value": "Выйти из Siggy"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Quitter Codenotch"
+            "value": "Quitter Siggy"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch を終了"
+            "value": "Siggy を終了"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Encerrar o Codenotch"
+            "value": "Encerrar o Siggy"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "退出 Codenotch"
+            "value": "退出 Siggy"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "結束 Codenotch"
+            "value": "結束 Siggy"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch beenden"
+            "value": "Siggy beenden"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Вийти з Codenotch"
+            "value": "Вийти з Siggy"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 종료"
+            "value": "Siggy 종료"
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotchʼni yopish"
+            "value": "Siggyʼni yopish"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Keluar dari Codenotch"
+            "value": "Keluar dari Siggy"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch'tan Çık"
+            "value": "Siggy'tan Çık"
           }
         }
       }
@@ -16614,79 +16614,79 @@
         }
       }
     },
-    "Codenotch": {
+    "Siggy": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch"
+            "value": "Siggy"
           }
         }
       }
@@ -42165,79 +42165,79 @@
         }
       }
     },
-    "What Codenotch tells you, and when.": {
+    "What Siggy tells you, and when.": {
       "extractionState": "manual",
       "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Was Codenotch dir mitteilt, und wann."
+            "value": "Was Siggy dir mitteilt, und wann."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ce que Codenotch vous signale, et quand."
+            "value": "Ce que Siggy vous signale, et quand."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch が知らせる内容とタイミング。"
+            "value": "Siggy が知らせる内容とタイミング。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O que o Codenotch avisa, e quando."
+            "value": "O que o Siggy avisa, e quando."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "О чём и когда сообщает Codenotch."
+            "value": "О чём и когда сообщает Siggy."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Про що й коли повідомляє Codenotch."
+            "value": "Про що й коли повідомляє Siggy."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 提醒你什么，以及何时提醒。"
+            "value": "Siggy 提醒你什么，以及何时提醒。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 提醒你什麼，以及何時提醒。"
+            "value": "Siggy 提醒你什麼，以及何時提醒。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch가 알릴 내용과 시점을 설정합니다."
+            "value": "Siggy가 알릴 내용과 시점을 설정합니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch sizga nima va qachon aytadi."
+            "value": "Siggy sizga nima va qachon aytadi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pemberitahuan yang diberikan Codenotch dan waktunya."
+            "value": "Pemberitahuan yang diberikan Siggy dan waktunya."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch'un size neyi, ne zaman söylediği."
+            "value": "Siggy'un size neyi, ne zaman söylediği."
           }
         }
       }
@@ -50190,13 +50190,13 @@
         }
       }
     },
-    "Opens System Settings when banners are off for Codenotch.": {
+    "Opens System Settings when banners are off for Siggy.": {
       "extractionState": "manual",
       "localizations": {
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Abre os Ajustes do Sistema se os avisos do Codenotch estiverem desligados."
+            "value": "Abre os Ajustes do Sistema se os avisos do Siggy estiverem desligados."
           }
         }
       }
@@ -50212,13 +50212,13 @@
         }
       }
     },
-    "Codenotch test": {
+    "Siggy test": {
       "extractionState": "manual",
       "localizations": {
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Teste do Codenotch"
+            "value": "Teste do Siggy"
           }
         }
       }

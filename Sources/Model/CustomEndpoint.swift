@@ -53,7 +53,7 @@ public struct CustomEndpointUsageDay: Codable, Equatable, Sendable {
 }
 
 public struct CustomEndpoint: Identifiable, Codable, Equatable, Sendable {
-    public static let keychainService = "com.vinzdg.codenotch.custom-endpoint"
+    public static let keychainService = "com.zachzama.siggy.custom-endpoint"
 
     public static func keychainAccount(for endpointID: String) -> String {
         "endpoint-\(endpointID)"
@@ -480,7 +480,7 @@ public struct CustomEndpointPreset: Identifiable, Sendable {
 public enum CustomIconStore {
     private static var customIconsDirectory: URL {
         let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-        let codenotchDir = appSupport.appendingPathComponent("Codenotch", isDirectory: true)
+        let codenotchDir = appSupport.appendingPathComponent("Siggy", isDirectory: true)
         let iconsDir = codenotchDir.appendingPathComponent("CustomIcons", isDirectory: true)
         try? FileManager.default.createDirectory(at: iconsDir, withIntermediateDirectories: true)
         return iconsDir

@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// Path normalisation and AppleScript escaping behind exact-tab focus.
 final class TerminalTabFocusTests: XCTestCase {

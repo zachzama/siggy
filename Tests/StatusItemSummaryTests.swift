@@ -1,6 +1,6 @@
 import XCTest
 import AppKit
-@testable import Codenotch
+@testable import Siggy
 
 /// What the menu bar item says in place of its icon: each five-hour window as
 /// its provider's mark, the share spent, and the time until it resets.

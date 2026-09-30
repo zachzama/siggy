@@ -1,10 +1,7 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
-/// The rename from UsageNotch to Codenotch moved every setting into a new,
-/// empty defaults domain — the migration is the difference between a rename
-/// and what looks like a reset, so it is pinned here. (Round-trip and
-/// first-launch basics live with the other PreferencesTests.)
+/// First-launch defaults and round-trips.
 @MainActor
 final class PreferencesMigrationTests: XCTestCase {
     private func makeDefaults() -> (UserDefaults, String) {
@@ -18,45 +15,6 @@ final class PreferencesMigrationTests: XCTestCase {
         let old = UserDefaults(suiteName: name)!
         for (key, value) in values { old.set(value, forKey: key) }
         old.synchronize()
-    }
-
-    // MARK: Migration
-
-    func testSettingsSurviveTheRename() {
-        let (fresh, freshName) = makeDefaults()
-        let oldName = "PreferencesTests.old.\(UUID().uuidString)"
-        setOldDomain(["hiddenProviders": ["glm"], "notchVisibility": "alwaysShow"],
-                     from: oldName)
-
-        Preferences.migrateFromPreviousName(into: fresh, from: oldName)
-
-        let preferences = Preferences(defaults: fresh)
-        XCTAssertFalse(preferences.isConnected("glm"))
-        XCTAssertTrue(preferences.isConnected("claude"))
-        XCTAssertEqual(preferences.notchVisibility, .alwaysShow)
-    }
-
-    /// Once this copy has launched, nothing may be copied again: a stale old
-    /// domain beside a live one must never overwrite newer choices.
-    func testMigrationRunsOnce() {
-        let (fresh, _) = makeDefaults()
-        let oldName = "PreferencesTests.old.\(UUID().uuidString)"
-        setOldDomain(["notchVisibility": "alwaysShow"], from: oldName)
-
-        Preferences.migrateFromPreviousName(into: fresh, from: oldName)
-        let preferences = Preferences(defaults: fresh)
-        preferences.notchVisibility = .hidden
-
-        Preferences.migrateFromPreviousName(into: fresh, from: oldName)
-        XCTAssertEqual(preferences.notchVisibility, .hidden)
-    }
-
-    func testAnEmptyOldDomainMigratesNothing() {
-        let (fresh, _) = makeDefaults()
-        let oldName = "PreferencesTests.old.\(UUID().uuidString)"
-        Preferences.migrateFromPreviousName(into: fresh, from: oldName)
-        let preferences = Preferences(defaults: fresh)
-        XCTAssertEqual(preferences.notchVisibility, .onHover)
     }
 
     // MARK: Defaults

@@ -99,7 +99,7 @@ final class CostStore {
     static let unexplainedKey = "__unexplained__"
 
     private var db: OpaquePointer?
-    let queue = DispatchQueue(label: "com.vinz.codenotch.costs.cost")
+    let queue = DispatchQueue(label: "com.zachzama.siggy.costs.cost")
     private static let transient = unsafeBitCast(-1, to: sqlite3_destructor_type.self)
 
     // Weights that split a limit delta across turns within one interval. They are

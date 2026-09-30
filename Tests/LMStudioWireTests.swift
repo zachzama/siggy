@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// The SDK socket's frames, checked against what LM Studio 0.4.24 accepted
 /// and answered on 2026-09-10.

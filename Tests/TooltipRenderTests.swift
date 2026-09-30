@@ -1,6 +1,6 @@
 import XCTest
 import SwiftUI
-@testable import Codenotch
+@testable import Siggy
 
 /// Renders the tooltip with a session in every state.
 ///

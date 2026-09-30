@@ -28,10 +28,9 @@ Settings. To stop the refusal happening at all, `Scripts/fix-keychain-partitions
 adds Codenotch's Team ID to those items' partition lists — once, with your login
 password.
 
-`make release` is different: it archives, signs with a Developer ID
-certificate, notarizes with Apple, and regenerates the Sparkle auto-update
-feed. That's the maintainer's job for cutting an official build, and it needs
-credentials only the maintainer has. You won't need it to contribute.
+`make release TEAM_ID=<team>` is different: it archives, signs with a
+Developer ID certificate and notarizes with Apple. Siggy has no auto-update
+feed. You won't need it to contribute.
 
 ## Before opening a PR
 
@@ -88,5 +87,5 @@ minimum:
 Include the unified log around the time it happened:
 
 ```sh
-/usr/bin/log show --last 10m --predicate 'subsystem == "com.vinz.codenotch"' --info --debug
+/usr/bin/log show --last 10m --predicate 'subsystem == "com.zachzama.siggy"' --info --debug
 ```

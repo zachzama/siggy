@@ -40,7 +40,7 @@ struct SettingsOrb: View {
     var returning: Bool = false
     /// With the notch folding away as it goes — see `GooArc.quick`.
     var quick: Bool = false
-    /// **A red dot**: a newer version is waiting — see `Updater.pending`.
+    /// **A red dot**: something needs attention.
     var badge: Bool = false
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion

@@ -1,6 +1,6 @@
 import SwiftUI
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 @MainActor
 final class ApifyProviderTests: XCTestCase {

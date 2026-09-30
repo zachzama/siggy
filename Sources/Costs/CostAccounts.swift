@@ -59,7 +59,7 @@ final class CostAccountStore: ObservableObject {
 
     static let fileURL: URL = {
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-        return base.appendingPathComponent("Codenotch/costs/accounts.json")
+        return base.appendingPathComponent("Siggy/costs/accounts.json")
     }()
 
     private init() {

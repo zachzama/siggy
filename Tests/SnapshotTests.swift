@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 final class SnapshotTests: XCTestCase {
     private func window(_ id: String, _ used: Double) -> LimitWindow {

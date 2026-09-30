@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 final class ClaudeResetCreditsTests: XCTestCase {
     private let now = ISO8601DateFormatter().date(from: "2026-09-23T00:00:00Z")!

@@ -20,7 +20,6 @@ final class SettingsWindowController: NSObject, NSWindowDelegate {
     private let signIn: (String) -> Bool
     private let switchAccount: (String) -> Bool
     private let retry: (String) -> Void
-    private let updater: Updater
     private let ollamaRelay: OllamaActivityRelay?
     private let lmstudioMetrics: LMStudioMetrics?
     private let usageStore: UsageStore?
@@ -36,7 +35,6 @@ final class SettingsWindowController: NSObject, NSWindowDelegate {
 
     init(preferences: Preferences,
          providers: @escaping () -> [ProviderSummary],
-         updater: Updater,
          signOut: @escaping (String) -> Void,
          signIn: @escaping (String) -> Bool,
          switchAccount: @escaping (String) -> Bool,
@@ -64,7 +62,6 @@ final class SettingsWindowController: NSObject, NSWindowDelegate {
         self.sendTestNotification = sendTestNotification
         self.switchAccount = switchAccount
         self.retry = retry
-        self.updater = updater
         self.preferences = preferences
         self.providers = providers
         self.signOut = signOut
@@ -266,7 +263,6 @@ final class SettingsWindowController: NSObject, NSWindowDelegate {
                                    retry: retry,
                                    resetPosition: resetPosition,
                                    quit: quit,
-                                   updater: updater,
                                    ollamaRelay: ollamaRelay, lmstudioMetrics: lmstudioMetrics,
                                    usageStore: usageStore,
                                    previewResetAlert: previewResetAlert,

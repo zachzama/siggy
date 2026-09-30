@@ -1,6 +1,6 @@
 import AppKit
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// The working arc turns in Core Animation rather than SwiftUI, so what the
 /// SwiftUI version said in its modifiers is pinned here on the layer instead.

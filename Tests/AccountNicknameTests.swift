@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// An account is called what its owner named it, everywhere at once: the
 /// name lives in Preferences and the store writes it into every snapshot it

@@ -16,8 +16,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private var preferences: Preferences?
     private var settings: SettingsWindowController?
     private var whatsNew: WhatsNewWindowController?
-    /// Held for the life of the app: releasing it stops the scheduled checks.
-    private var updater: Updater?
     private var thresholdNotifier: ThresholdNotifier?
     private var resetWatcher: UsageResetWatcher?
     private var limitWatcher: UsageLimitWatcher?
@@ -103,9 +101,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         Self.retireOlderInstances()
         ChannelNotifications.installPresenter()
 
-        // Before Preferences reads anything, or the first launch flag and
-        // every choice would be read from an empty domain.
-        Preferences.migrateFromPreviousName()
         let preferences = Preferences()
         self.preferences = preferences
 
@@ -222,25 +217,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 store?.providerAuthenticationChanged(providerID: "minimax")
             }
 
-            let updater = Updater()
-            self.updater = updater
-            // An update is offered in the notch, and installed there — see
-            // `UpdateCard`. Checked for as it launches; never under test, where
-            // it would reach for the real feed.
-            updater.$prompt
-                .receive(on: RunLoop.main)
-                .sink { [weak fleet] in fleet?.apply(updatePrompt: $0) }
-                .store(in: &cancellables)
-            fleet.onUpdateChoice = { [weak updater] in updater?.respond($0) }
-            // Put off: a red dot on the settings button until it is taken.
-            Publishers.CombineLatest(updater.$pending, updater.$prompt)
-                .map { pending, prompt in pending != nil && prompt == nil }
-                .removeDuplicates()
-                .receive(on: RunLoop.main)
-                .sink { [weak fleet] in fleet?.apply(updatePending: $0) }
-                .store(in: &cancellables)
-            if !isRunningTests { updater.start() }
-
             let relay = OllamaActivityRelay()
             self.ollamaRelay = relay
             // A single publisher chain exceeds Swift's type-checking time limit.
@@ -315,7 +291,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 dir = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
             } else {
                 let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-                dir = appSupport.appendingPathComponent("Codenotch/phone-link", isDirectory: true)
+                dir = appSupport.appendingPathComponent("Siggy/phone-link", isDirectory: true)
             }
             let phoneSecretStore: PhoneLinkSecretStore = NSClassFromString("XCTestCase") != nil
                 ? InMemoryPhoneLinkSecretStore()
@@ -383,7 +359,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
                 // forward; a snapshot here is what made a switched account keep
                 // showing the old address until the app restarted.
                 providers: { [weak store] in store?.providerSummaries ?? [] },
-                updater: updater,
                 signOut: { [weak store] in store?.signOut(providerID: $0) },
                 signIn: { [weak store] in store?.signIn(providerID: $0) ?? false },
                 switchAccount: { [weak store] in
@@ -425,7 +400,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             // What changed, once per version — including on a fresh install,
             // where it is the introduction.
             let whatsNew = WhatsNewWindowController(
-                preferences: preferences, version: updater.currentVersion
+                preferences: preferences, version: AppVersion.current
             )
             self.whatsNew = whatsNew
 
@@ -1101,10 +1076,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             return
         }
         if preferences.sessionEndSound { SessionChime.play(preferences.sessionEndSoundName) }
-        var notice = UsageResetEvent(providerID: "codenotch", providerName: "Codenotch",
+        var notice = UsageResetEvent(providerID: "siggy", providerName: "Siggy",
                                      windowLabel: "", glyph: .claude,
                                      previousFraction: 0, currentFraction: 0, resetsAt: nil)
-        notice.noticeTitle = L10n.t("Codenotch test")
+        notice.noticeTitle = L10n.t("Siggy test")
         notice.noticeSubtitle = L10n.t("This is what one looks like.")
         notice.noticeStatus = ""
         fleet.showResetAlert(notice, duration: 5.0)

@@ -1,6 +1,6 @@
 import SwiftUI
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 @MainActor
 final class AccessibilityTransparencyTests: XCTestCase {
@@ -94,8 +94,6 @@ final class AccessibilityTransparencyTests: XCTestCase {
     func testSettingsViewRendersUnderReducedTransparency() throws {
         let defaults = UserDefaults(suiteName: "AccessibilityTransparencyTests.\(UUID().uuidString)")!
         let preferences = Preferences(defaults: defaults)
-        let updater = Updater()
-
         let view = SettingsView(
             preferences: preferences,
             providers: { [] },
@@ -104,8 +102,7 @@ final class AccessibilityTransparencyTests: XCTestCase {
             switchAccount: { _ in false },
             retry: { _ in },
             resetPosition: {},
-            quit: {},
-            updater: updater
+            quit: {}
         )
         .environment(\.codenotchReduceTransparency, true)
         .frame(width: SettingsView.width, height: SettingsView.height)

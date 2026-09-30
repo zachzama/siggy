@@ -81,9 +81,9 @@ private enum SettingsSection: String, CaseIterable, Identifiable, Hashable {
         case .lmstudio:      return L10n.t("Models loaded in LM Studio on this Mac.")
         case .customEndpoints: return L10n.t("OpenAI-compatible APIs, local runtimes and custom proxies.")
         case .appearance:    return L10n.t("How the notch looks and where it sits.")
-        case .notifications: return L10n.t("What Codenotch tells you, and when.")
+        case .notifications: return L10n.t("What Siggy tells you, and when.")
         case .costs:         return L10n.t("What each project spent of each login's allowance.")
-        case .general:       return L10n.t("Startup, updates and everything else.")
+        case .general:       return L10n.t("Startup and everything else.")
         }
     }
 
@@ -206,7 +206,7 @@ private struct SettingsSidebarRow: View {
                     .foregroundStyle(.white.opacity(isSelected ? 0.95 : isHovered ? 0.92 : 0.78))
                     .lineLimit(1)
                 Spacer(minLength: 4)
-                // A newer version waiting — see `Updater.pending`.
+                // Something in this section needs attention.
                 if badge {
                     Circle()
                         .fill(Color(nsColor: .systemRed))
@@ -349,7 +349,7 @@ private struct SettingsQuitRow: View {
                 Image(systemName: "power")
                     .font(.system(size: 12, weight: .regular))
                     .frame(width: 18)
-                Text(L10n.t("Quit Codenotch"))
+                Text(L10n.t("Quit Siggy"))
                     .font(.system(size: 13, weight: .regular))
             }
             .foregroundStyle(isHovered ? Self.hoverRed : Color.white.opacity(0.55))
@@ -458,7 +458,6 @@ struct SettingsView: View {
     /// effect the next time the edge changed.
     let resetPosition: () -> Void
     let quit: () -> Void
-    @ObservedObject var updater: Updater
     var ollamaRelay: OllamaActivityRelay? = nil
     var lmstudioMetrics: LMStudioMetrics? = nil
     var usageStore: UsageStore? = nil
@@ -588,7 +587,7 @@ struct SettingsView: View {
                     .resizable()
                     .interpolation(.high)
                     .frame(width: 22, height: 22)
-                Text("Codenotch")
+                Text("Siggy")
                     .font(.system(size: 14, weight: .semibold))
                     .foregroundStyle(.white)
             }
@@ -603,7 +602,6 @@ struct SettingsView: View {
                             isSelected: selection == section,
                             selectionSpace: selectionSpace,
                             count: section == .accounts ? connectedCount : nil,
-                            badge: section == .general && updater.pending != nil,
                             disclosure: section == .accounts ? $accountsExpanded : nil,
                             select: { selectSection(section) }
                         )
@@ -626,23 +624,10 @@ struct SettingsView: View {
 
             VStack(alignment: .leading, spacing: 6) {
                 SettingsQuitRow(quit: quit)
-                HStack(spacing: 8) {
-                    Text("Codenotch \(updater.currentVersion)")
-                        .font(.system(size: 11, weight: .regular))
-                        .foregroundStyle(.white.opacity(0.32))
-                    Spacer(minLength: 0)
-                    // Only once a check has found a newer version. Sparkle
-                    // downloads it in the background either way; this is for
-                    // someone who would rather have it now than on next launch.
-                    if let newer = updater.pending {
-                        Button(L10n.t("Update")) { updater.reoffer() }
-                            .buttonStyle(SettingsButtonStyle(kind: .prominent, compact: true))
-                            .help(L10n.t("Version \(newer) is available"))
-                            .transition(.opacity.combined(with: .scale(scale: 0.9)))
-                    }
-                }
-                .animation(.easeOut(duration: 0.2), value: updater.outcome)
-                .padding(.horizontal, 10)
+                Text("Siggy \(AppVersion.current)")
+                    .font(.system(size: 11, weight: .regular))
+                    .foregroundStyle(.white.opacity(0.32))
+                    .padding(.horizontal, 10)
             }
             .padding(.horizontal, 10)
             .padding(.bottom, 16)
@@ -1219,7 +1204,7 @@ struct SettingsView: View {
                 if let sendTestNotification {
                     Button(L10n.t("Send a test")) { sendTestNotification() }
                     Text(preferences.notificationChannel == .mac
-                         ? L10n.t("Opens System Settings when banners are off for Codenotch.")
+                         ? L10n.t("Opens System Settings when banners are off for Siggy.")
                          : L10n.t("The notch opens for a moment, with the session sound."))
                         .font(.caption)
                         .foregroundStyle(.secondary)
@@ -1337,50 +1322,11 @@ struct SettingsView: View {
             // No title on the group: the pane's own header above already
             // says "General", and repeating it here would say it twice.
             Section {
-                Toggle(L10n.t("Open Codenotch at login"), isOn: $preferences.launchAtLogin)
+                Toggle(L10n.t("Open Siggy at login"), isOn: $preferences.launchAtLogin)
                 if let problem = preferences.launchAtLoginProblem {
                     Text(problem)
                         .font(.caption)
                         .foregroundStyle(.secondary)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-
-                Toggle(L10n.t("Check for updates automatically"), isOn: Binding(
-                    get: { updater.automatic },
-                    set: { updater.automatic = $0 }
-                ))
-
-                HStack(alignment: .firstTextBaseline, spacing: 10) {
-                    // Disclosed rather than merely silent. An app that updates
-                    // itself unprompted *and* reads other apps' credentials is
-                    // exactly the shape security tooling flags; saying so, with
-                    // a way to switch it off, is the difference between a
-                    // background updater and something that looks like it is
-                    // hiding.
-                    Text(L10n.t("Version \(updater.currentVersion). New versions are offered in the notch, and install when you choose Update."))
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                        .fixedSize(horizontal: false, vertical: true)
-                    Spacer(minLength: 0)
-                    // The card a new version brings up in the notch, played
-                    // through for a version that is not there.
-                    Button(L10n.t("Preview")) { updater.preview() }
-                        .controlSize(.small)
-                        .help(L10n.t("Show the update card in the notch, with nothing downloaded"))
-                    Button(L10n.t("Check now")) { updater.checkNow() }
-                        .controlSize(.small)
-                }
-
-                // Says what happened, where the user is already looking.
-                // Sparkle's own answer to a failed check is a modal reading
-                // "an error occurred in retrieving update information", which
-                // names no cause and offers nothing to do about it.
-                if let message = updater.outcome.message {
-                    Text(message)
-                        .font(.caption)
-                        .foregroundStyle(
-                            updater.outcome == .unreachable ? .orange : .secondary
-                        )
                         .fixedSize(horizontal: false, vertical: true)
                 }
             }

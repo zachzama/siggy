@@ -1,6 +1,5 @@
 import XCTest
-import Sparkle
-@testable import Codenotch
+@testable import Siggy
 
 /// Fixtures are the real thing: the keychain payload's shape and the actual
 /// `loadCodeAssist` response from a signed-in install.
@@ -1094,8 +1093,7 @@ final class FirstRunCopyTests: XCTestCase {
                             switchAccount: { _ in true },
                             retry: { _ in },
                             resetPosition: {},
-                            quit: {},
-                            updater: Updater())
+                            quit: {})
     }
 
     /// The setup note has to name the tools. "Tools already signed in on this
@@ -1218,42 +1216,6 @@ final class AppPresenceTests: XCTestCase {
     }
 }
 
-/// What the settings sheet says after a check. Sparkle's own answer to a failed
-/// one is a modal reading "an error occurred in retrieving update information",
-/// which names no cause and offers nothing to do — so the outcome is kept and
-/// worded here instead.
-@MainActor
-final class UpdateOutcomeTests: XCTestCase {
-    /// The case people actually hit, and the one that most needs reassuring:
-    /// nothing is wrong with their copy of the app.
-    func testAnUnreachableFeedSaysSoWithoutBlamingTheApp() throws {
-        let message = try XCTUnwrap(Updater.Outcome.unreachable.message)
-        XCTAssertTrue(message.contains("Couldn't reach"))
-        XCTAssertTrue(message.contains("nothing is wrong with this copy"))
-        XCTAssertFalse(message.lowercased().contains("error occurred"))
-    }
-
-    func testEveryOutcomeExceptIdleSaysSomething() {
-        XCTAssertNil(Updater.Outcome.idle.message)
-        for outcome: Updater.Outcome in [.checking, .upToDate(Date()), .found("1.1.0"),
-                                         .unreachable, .failed("disk full")] {
-            XCTAssertNotNil(outcome.message, "\(outcome) says nothing")
-        }
-    }
-
-    func testAFoundUpdateNamesTheVersion() throws {
-        let message = try XCTUnwrap(Updater.Outcome.found("1.2.0").message)
-        XCTAssertTrue(message.contains("1.2.0"))
-    }
-
-    /// The distinction the wording depends on: a feed that cannot be fetched is
-    /// routine, anything else is reported as itself.
-    func testOnlyAFeedFailureCountsAsUnreachable() {
-        XCTAssertTrue(Updater.isUnreachable(Int(SUError.appcastError.rawValue)))
-        XCTAssertFalse(Updater.isUnreachable(Int(SUError.installationError.rawValue)))
-    }
-}
-
 /// The menu bar mark. Loaded from the asset catalogue rather than drawn from
 /// the app icon, and a template so macOS can tint it for whatever the bar is.
 @MainActor
@@ -1350,7 +1312,7 @@ final class StatusMenuTests: XCTestCase {
         XCTAssertTrue(titles[1].contains("29% Used · 71% left"), titles[1])
         XCTAssertTrue(titles.contains("Refresh all"))
         XCTAssertTrue(titles.contains("Settings…"))
-        XCTAssertTrue(titles.contains("Quit Codenotch"))
+        XCTAssertTrue(titles.contains("Quit Siggy"))
         // The header re-reads its own provider.
         XCTAssertEqual(menu.items[0].representedObject as? String, "codex")
     }

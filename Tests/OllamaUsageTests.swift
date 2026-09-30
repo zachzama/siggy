@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// Parses the response from Ollama's `GET /api/usage` endpoint, covering both
 /// modern (Pro 20/60/100/500) and legacy plan shapes.

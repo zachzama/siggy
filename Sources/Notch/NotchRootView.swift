@@ -64,8 +64,7 @@ struct NotchRootView: View {
                                     reversed: model.carriedOnTheLeft,
                                     separation: arcSeparation,
                                     returning: arcStraight,
-                                    quick: arcQuick,
-                                    badge: model.updatePending)
+                                    quick: arcQuick)
                         // Its own timing, here, next to it: the notch's own
                         // unfold spring is set further out for everything that
                         // changes as it opens or folds, and took the arc over —
@@ -120,19 +119,7 @@ struct NotchRootView: View {
                         .position(orbCentre(place))
                 }
 
-                if let prompt = model.updatePrompt, model.isExpanded {
-                    // An update offered, or installing — ahead of anything
-                    // else the notch would show here, until it is answered.
-                    UpdateCard(prompt: prompt,
-                               direction: model.edge.tooltipDirection,
-                               tailOffset: model.notchMiddleAlong - updateCardAlong,
-                               onChoice: { model.onUpdateChoice?($0) })
-                        .position(updateCardCentre(place))
-                        .transition(.opacity.combined(with: .offset(
-                            x: model.edge.outward.x * Design.px(24),
-                            y: model.edge.outward.y * Design.px(24)
-                        )))
-                } else if let resetEvent = model.activeResetAlert,
+                if let resetEvent = model.activeResetAlert,
                    model.isExpanded,
                    model.hoveredIndex == nil {
                     let index = model.resetAlertIndex(for: resetEvent) ?? 0
@@ -617,21 +604,6 @@ struct NotchRootView: View {
             along: model.tooltipAlong(index: index, length: tooltipLength(snapshot)),
             across: model.tooltipInset + (NotchLayout.tailLength + card) / 2
         )
-    }
-
-    /// Where the update card is centred along the notch: on its middle, kept
-    /// on the screen.
-    private var updateCardAlong: CGFloat {
-        let size = UpdateCard.size(for: model.edge.tooltipDirection)
-        return model.cardAlong(centredOn: model.notchMiddleAlong,
-                               length: model.edge.isVertical ? size.height : size.width)
-    }
-
-    private func updateCardCentre(_ place: NotchPlacement) -> CGPoint {
-        let size = UpdateCard.size(for: model.edge.tooltipDirection)
-        let across = model.edge.isVertical ? size.width : size.height
-        return place.point(along: updateCardAlong,
-                           across: model.tooltipInset + (NotchLayout.tailLength + across) / 2)
     }
 
     private func resetCardCentre(_ place: NotchPlacement, index: Int) -> CGPoint {

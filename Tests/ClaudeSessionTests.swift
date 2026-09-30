@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 final class ClaudeSessionRecordTests: XCTestCase {
     private func record(_ json: String) -> ClaudeSessionRecord? {

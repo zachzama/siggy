@@ -1,6 +1,6 @@
 import SwiftUI
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// A MacBook's own notch, as this machine reports it.
 private let realNotch = HardwareNotch(width: 220, height: 38)

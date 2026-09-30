@@ -1,6 +1,6 @@
 import SQLite3
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// Guards the shape of `GET /api/oauth/usage`. It is not a published API, so
 /// these are the tests that will fail first if Anthropic changes it.

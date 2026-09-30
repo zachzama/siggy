@@ -1,6 +1,6 @@
 import XCTest
 import SwiftUI
-@testable import Codenotch
+@testable import Siggy
 
 private struct FakeScreen: ScreenDescribing {
     var frameValue: CGRect

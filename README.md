@@ -1,50 +1,16 @@
-<div align="center">
+# Siggy
 
-![Codenotch](docs/design/codenotch-banner.png)
+**A macOS desktop signal widget. Siggy pins a small notch to a screen edge and
+triages Slack, Jira and email into three states: quiet, peek and attention.**
 
-[![CI](https://github.com/vinzdg/codenotch/actions/workflows/ci.yml/badge.svg)](https://github.com/vinzdg/codenotch/actions/workflows/ci.yml)
-![Platform](https://img.shields.io/badge/platform-macOS%2026%2B-black)
-![Swift](https://img.shields.io/badge/swift-5-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
+Siggy is a fork of [Codenotch](https://github.com/vinzdg/codenotch) by Vinz,
+used under the MIT License. The edge-pinned notch, its placement and motion
+come from Codenotch.
 
-**A macOS app that pins a small black notch to a screen edge, showing how much
-of each coding assistant's usage limit you have burned — and whether it is
-still working, done, or waiting on you.**
-
-![Collapsed notch with hover tooltip](docs/design/frame-124-hover-tooltip.png)
-
-</div>
-
-Hover a ring for its limit windows and when they reset. Claude's ring shows the
-same **current session** window Claude Code's own `/usage` leads with, so the
-two never disagree.
-
-## Download
-
-[![Download for macOS](docs/design/download-macos.svg)](../../releases/latest/download/Codenotch.dmg)
-
-That button is the disk image itself, not the page it sits on — the asset is
-named `Codenotch.dmg` in every release, so `releases/latest/download/` always
-resolves to the newest one and the link never needs updating. Signed,
-notarized, and updating itself from then on. Take this one unless you have a
-reason not to; the [release page](../../releases/latest) has the notes.
-
-To try unreleased `main` without an Xcode install, the [preview
-build](../../releases/tag/preview) is rebuilt from every commit, and the
-Package workflow keeps a per-commit disk image on each of its
-[runs](../../actions/workflows/package.yml). Neither is notarized — they are
-ad-hoc signed, because the Developer ID certificate exists on one machine — so
-macOS quarantines the download. Clear the flag once, after dragging the app to
-Applications:
-
-```sh
-xattr -dr com.apple.quarantine /Applications/Codenotch.app
-```
-
-If macOS says the app is *damaged*, that is the quarantine flag rather than a bad download — run the command above.
-
-Universal binary. macOS 15 or later. To build and install a copy from source
-instead, see [Building](#building).
+> **Work in progress.** Siggy is being built in phases. The sections below
+> still describe the features inherited from Codenotch, and will be rewritten
+> as those features are removed or replaced. Siggy has no auto-updater and
+> ships no connections to real Slack, Jira or email accounts.
 
 ## Windows
 
@@ -283,13 +249,6 @@ and the time until it resets, like `72% · 2h 18m | 41% · 4h 05m`. Choosing
 what the bar shows never changes what Codenotch reads, and with nothing chosen
 the icon comes back. Its menu has the full readings either way.
 
-## Updates
-
-Codenotch updates itself. [Sparkle](https://sparkle-project.org) checks daily
-and installs in the background without prompting; Settings says so and can
-switch it off. Every update is EdDSA-signed, so nothing installs that wasn't
-built and signed by the maintainer.
-
 ## Building
 
 ```sh
@@ -430,7 +389,7 @@ schedule.
 unified log.
 
 ```sh
-/usr/bin/log stream --predicate 'subsystem == "com.vinz.codenotch"' --level debug
+/usr/bin/log stream --predicate 'subsystem == "com.zachzama.siggy"' --level debug
 ```
 
 ## Contributing
@@ -439,4 +398,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-[MIT](LICENSE) © 2026 Vinz
+[MIT](LICENSE) © 2026 Vinz. Siggy is a fork of Codenotch by Vinz.

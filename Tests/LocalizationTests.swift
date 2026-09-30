@@ -1,5 +1,5 @@
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// Catalog lookups with an explicit locale. English is the source; Chinese,
 /// French and Brazilian Portuguese assertions here only prove a translation
@@ -710,8 +710,8 @@ final class LocalizationTests: XCTestCase {
             "Pengaturan…"
         )
         XCTAssertEqual(
-            L10n.t("Quit Codenotch", locale: indonesian),
-            "Keluar dari Codenotch"
+            L10n.t("Quit Siggy", locale: indonesian),
+            "Keluar dari Siggy"
         )
     }
 

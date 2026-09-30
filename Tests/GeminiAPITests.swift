@@ -1,6 +1,6 @@
 import SQLite3
 import XCTest
-@testable import Codenotch
+@testable import Siggy
 
 /// A date in the calendar the readers use, so a fixture and the `now` it is
 /// measured against cannot disagree about the zone.

@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Codenotch</string>
+	<string>Siggy</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -29,7 +29,7 @@
 		<string>tr</string>
 	</array>
 	<key>CFBundleName</key>
-	<string>Codenotch</string>
+	<string>Siggy</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -39,16 +39,6 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>15.0</string>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>Codenotch answers your phone on this network so it can show your usage.</string>
-	<key>SUAutomaticallyUpdate</key>
-	<false/>
-	<key>SUEnableAutomaticChecks</key>
-	<true/>
-	<key>SUFeedURL</key>
-	<string>https://hivinz.com/appcast.xml</string>
-	<key>SUPublicEDKey</key>
-	<string>rmUfT5r49nR+3HdkbR5/YYLghfnAi6L49eOk3sIegSk=</string>
-	<key>SUScheduledCheckInterval</key>
-	<integer>86400</integer>
+	<string>Siggy answers your phone on this network so it can show your usage.</string>
 </dict>
 </plist>
