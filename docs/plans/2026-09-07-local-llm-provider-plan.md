@@ -37,7 +37,7 @@ Local inventory polling runs every second independently of cloud quota polling,
 so a model stopped through the ordinary Ollama address leaves the UI on the next
 poll. Speed still requires a completed native response through port 11435;
 direct requests to 11434 cannot be observed. The separate Ollama page exposes
-this requirement and the listener's current status. Closing Codenotch closes
+this requirement and the listener's current status. Closing Siggy closes
 the measurement connection too.
 
 The 2026-09-09 correction passed 816 tests (815 passed, one opt-in live listing
@@ -125,7 +125,7 @@ models, the managed Ollama service was restarted with
 was restored immediately afterward; the Homebrew service file was unchanged.
 
 All five models then remained present in the same `/api/ps` response. The
-unlocked Mac's running Codenotch UI showed five distinct brand icons and their
+unlocked Mac's running Siggy UI showed five distinct brand icons and their
 RAM readings, alongside the existing Codex cell. This directly verifies the
 brand-specific display in the running app as well as the provider render tests.
 
@@ -146,7 +146,7 @@ Default to `http://127.0.0.1:11434`, with a loopback address
 and port setting. The user selected Ollama first.
 LM Studio can follow through the same display model.
 
-This interpretation follows the current product: Codenotch monitors other tools.
+This interpretation follows the current product: Siggy monitors other tools.
 A prompt composer, choosing a model to run, and tool execution remain outside
 the app. The later-approved thinking relay forwards client requests with its
 own lifecycle, as recorded below.
@@ -187,7 +187,7 @@ model unloading, not a subscription reset. Optional unload-time display can wait
 These are the implemented display states. RAM has no quota arc; unknown RAM
 shows a dash. Values use binary units with at most one decimal, using the app's
 GB/MB convention. Context limit is capacity, not current token consumption.
-Refresh animation only means Codenotch is fetching a reading. Model names take
+Refresh animation only means Siggy is fetching a reading. Model names take
 up to two tooltip lines, with middle truncation and the full accessibility label.
 The standard notch spacing is retained when it fits; vertical stacks reduce
 their gaps on smaller displays. Extremely long stacks can still exceed a small
@@ -309,7 +309,7 @@ separate residency check. [Ollama cloud routing behavior](https://docs.ollama.co
 
 Use isolated defaults and stubbed URLSession responses for automated tests.
 Add focused Ollama tests and extend the existing lifecycle/render suites listed
-in the [provider integration map](../../.agents/skills/codenotch-providers/references/provider-integration.md).
+in the [provider integration map](../../.agents/skills/siggy-providers/references/provider-integration.md).
 Run the repository tests and whitespace checks. A fixture render proves layout;
 a live API response proves runtime data; only comparing both proves the end-to-end
 integration. Loading a large model or changing the user's runtime is unnecessary
@@ -358,15 +358,15 @@ local Ollama server and renders each model returned by its actual listing.
 Multiple-model display is checked with fixtures and the live two-model check
 recorded above.
 
-The tests use `TEST_RUNNER_CODENOTCH_OLLAMA_LIVE=1` to opt into the live check and
+The tests use `TEST_RUNNER_SIGGY_OLLAMA_LIVE=1` to opt into the live check and
 `TEST_RUNNER_OLLAMA_RENDER_DIRECTORY` to choose an existing render output folder
 when invoking xcodebuild. Ordinary test runs skip the live check. The standalone
 Debug app was launched from the build directory and the user confirmed the
 initial monitor worked; it has not been installed or published.
 
 For brand assertions, the live check also accepts
-`TEST_RUNNER_CODENOTCH_OLLAMA_EXPECTED_MODEL` and
-`TEST_RUNNER_CODENOTCH_OLLAMA_EXPECTED_BRAND` (`qwen`, `gemma`, `llama`,
+`TEST_RUNNER_SIGGY_OLLAMA_EXPECTED_MODEL` and
+`TEST_RUNNER_SIGGY_OLLAMA_EXPECTED_BRAND` (`qwen`, `gemma`, `llama`,
 `deepseek`, `mistral`, or `ollama` for an unrecognized name).
 
 The final per-model build passed all 570 tests, including the opt-in live check.

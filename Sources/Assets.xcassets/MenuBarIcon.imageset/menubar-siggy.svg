@@ -1,0 +1,11 @@
+<svg width="560" height="560" viewBox="515 326 560 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<mask id="tails" maskUnits="userSpaceOnUse" x="515" y="326" width="560" height="560"><rect x="515" y="326" width="560" height="560" fill="white"/><circle cx="777" cy="522" r="195" fill="black"/><circle cx="813" cy="690" r="195" fill="black"/></mask>
+<mask id="spine" maskUnits="userSpaceOnUse" x="515" y="326" width="560" height="560"><rect x="515" y="326" width="560" height="560" fill="white"/><path d="M932.7 576.5 A165 165 0 0 0 778.4 528.7" stroke="black" stroke-width="30"/><path d="M657.3 635.5 A165 165 0 0 0 811.6 683.3" stroke="black" stroke-width="30"/></mask>
+</defs>
+<polygon points="834.2,341.2 1017.0,456.3 755.8,870.8 573.0,755.7" fill="black" mask="url(#tails)"/>
+<g mask="url(#spine)">
+<circle cx="777" cy="522" r="165" fill="black"/>
+<circle cx="813" cy="690" r="165" fill="black"/>
+</g>
+</svg>

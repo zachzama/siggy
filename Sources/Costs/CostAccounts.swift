@@ -1,7 +1,7 @@
 import Foundation
 import Combine
 
-/// One CLI login as the cost layer sees it: a Codenotch profile (Claude or
+/// One CLI login as the cost layer sees it: a Siggy profile (Claude or
 /// Codex, default or `~/.claude-<slug>`) plus how it is paid. Billing choices,
 /// the detected plan and the credit cap persist in accounts.json.
 struct CostAccount: Identifiable, Equatable {
@@ -11,7 +11,7 @@ struct CostAccount: Identifiable, Equatable {
         var title: String { self == .subscription ? L10n.t("Monthly plan") : L10n.t("API key (per token)") }
     }
 
-    let id: String                 // the provider id Codenotch uses ("claude", "claude-braspine", "codex", …)
+    let id: String                 // the provider id Siggy uses ("claude", "claude-braspine", "codex", …)
     let provider: String           // "claude" | "codex"
     let name: String               // "Claude (work)": the profile's own name
     let configDirectory: URL

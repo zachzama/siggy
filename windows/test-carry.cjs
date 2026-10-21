@@ -7,7 +7,7 @@ const vm = require('node:vm');
 const assert = require('node:assert/strict');
 const { test } = require('node:test');
 
-const html = readFileSync(join(__dirname, 'codenotch/ui/carry.html'), 'utf8');
+const html = readFileSync(join(__dirname, 'siggy/ui/carry.html'), 'utf8');
 const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
 
 function page() {

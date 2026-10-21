@@ -77,7 +77,7 @@ final class CostModel: ObservableObject {
     }
 
     /// Called after every usage poll. Samples the limit and attributes any increase.
-    /// Codenotch's windows carry ids: "session"/"primary" are the rolling
+    /// Siggy's windows carry ids: "session"/"primary" are the rolling
     /// session, "weekly_all"/"secondary" the week, anything named credits the
     /// credit cap of a Business seat.
     func observe(_ snapshots: [ProviderSnapshot]) {

@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-const html = fs.readFileSync(path.join(__dirname, '../codenotch/ui/settings.html'), 'utf8');
+const html = fs.readFileSync(path.join(__dirname, '../siggy/ui/settings.html'), 'utf8');
 const start = html.indexOf('/* ---- updates ');
 const end = html.indexOf('/* ---- start ', start);
 assert.ok(start >= 0 && end > start);

@@ -4,7 +4,7 @@ import Foundation
 /// it has always been — or the five-hour limits of the providers chosen for it.
 ///
 /// Presentation only, and kept apart from `Preferences.connectedProviders` on
-/// purpose. That list decides what Codenotch *reads*; this one decides what the
+/// purpose. That list decides what Siggy *reads*; this one decides what the
 /// menu bar *shows* of it. A provider can be read and kept out of the bar, and
 /// taking it out never stops the reading — the notch, the menu, the alerts and
 /// the phone all carry on. The other way round there is nothing to show: a

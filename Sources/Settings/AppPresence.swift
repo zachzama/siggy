@@ -1,6 +1,6 @@
 import AppKit
 
-/// Where Codenotch shows itself, apart from the notch.
+/// Where Siggy shows itself, apart from the notch.
 ///
 /// The notch is the product; this is only about how the *app* is reached — to
 /// open settings, or to quit it. Three states because the two obvious ones

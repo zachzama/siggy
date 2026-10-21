@@ -215,7 +215,7 @@ final class Preferences: ObservableObject {
     /// when the cache was written seconds ago — and on a provider that rate
     /// limits, one request too many is answered with a back-off that then holds
     /// a number older than the cache would have been. Worth having for somebody
-    /// comparing Codenotch against a vendor's own dashboard figure by figure;
+    /// comparing Siggy against a vendor's own dashboard figure by figure;
     /// not worth making everybody pay for.
     @Published var asksProviderOnLook: Bool {
         didSet { defaults.set(asksProviderOnLook, forKey: Keys.asksProviderOnLook) }
@@ -365,7 +365,7 @@ final class Preferences: ObservableObject {
     /// stays out of the bar until someone puts it there.
     ///
     /// Never written alongside `connectedProviders`: one is what the menu bar
-    /// shows, the other what Codenotch reads, and `MenuBarLimits` says why the
+    /// shows, the other what Siggy reads, and `MenuBarLimits` says why the
     /// two stay apart.
     @Published private(set) var menuBarProviders: Set<String>? {
         didSet {
@@ -852,7 +852,7 @@ final class Preferences: ObservableObject {
             .flatMap(AntigravityHeadlineLimit.init(rawValue:)) ?? .automatic
         self.antigravityHeadlineModel = defaults.string(forKey: Keys.antigravityHeadlineModel)
             .flatMap(AntigravityHeadlineModel.init(rawValue:)) ?? .gemini
-        // Follow the Mac unless the user explicitly chooses a Codenotch colour.
+        // Follow the Mac unless the user explicitly chooses a Siggy colour.
         // Off by default: an extra arc in a 44pt circle is a change to how
         // every reading looks, and nobody asked for it on their behalf.
         self.weeklyRingDashed = defaults.object(forKey: Keys.weeklyRingDashed) as? Bool ?? false

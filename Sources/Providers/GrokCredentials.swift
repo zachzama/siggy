@@ -2,7 +2,7 @@ import Foundation
 
 /// Identity and token from `~/.grok/auth.json`.
 ///
-/// Grok CLI signs in through `auth.x.ai` and writes the session here. Codenotch
+/// Grok CLI signs in through `auth.x.ai` and writes the session here. Siggy
 /// only reads it — the file is the CLI's, and writing a new access token into
 /// it would race the CLI for the file. The access token lasts six hours and the
 /// CLI renews it only while it runs, so on a Mac that merely *watches* Grok the

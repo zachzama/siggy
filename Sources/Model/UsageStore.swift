@@ -731,7 +731,7 @@ final class UsageStore: ObservableObject {
     /// something you do while already signed in, so the shortcut `signIn` takes
     /// when a credential exists is exactly wrong here.
     ///
-    /// Codenotch cannot switch the account itself. The credential belongs to
+    /// Siggy cannot switch the account itself. The credential belongs to
     /// Claude Code, Cursor or Codex, and the most this can honestly do is open
     /// the thing that owns it.
     @discardableResult

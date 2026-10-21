@@ -242,7 +242,7 @@ enum KimiActivity {
     /// symlinks looks at every folder along the path, and this runs every two
     /// seconds on each session's working directory — a project in Documents
     /// or on a network volume then puts up macOS's "access files in
-    /// Documents" prompt under Codenotch's name (#227). The one difference
+    /// Documents" prompt under Siggy's name (#227). The one difference
     /// that matters here is macOS's own `/private` alias.
     static func resolve(_ path: String) -> String {
         // Plain text only: `standardizingPath` also consults the disk for

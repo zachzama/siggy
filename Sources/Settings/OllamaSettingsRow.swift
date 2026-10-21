@@ -62,7 +62,7 @@ struct OllamaSettingsRow: View {
 
             Toggle(L10n.t("Measure speed and thinking"), isOn: $preferences.ollamaMetricsEnabled)
                 .disabled(!enabled)
-            Text(L10n.t("To measure responses, point your chat client to http://127.0.0.1:11435 and keep Codenotch open."))
+            Text(L10n.t("To measure responses, point your chat client to http://127.0.0.1:11435 and keep Siggy open."))
                 .foregroundStyle(.secondary)
             if enabled, preferences.ollamaMetricsEnabled, let relay {
                 OllamaRelayStatus(relay: relay)
@@ -107,7 +107,7 @@ private struct OllamaRelayStatus: View {
                 Text("OLLAMA_HOST=\(OllamaActivityRelay.address) ollama")
                     .font(.system(.caption, design: .monospaced))
                     .textSelection(.enabled)
-                Text("Keep Codenotch open. Speed appears after each completed native Ollama response. Requests sent directly to the server address only provide model detection here.")
+                Text("Keep Siggy open. Speed appears after each completed native Ollama response. Requests sent directly to the server address only provide model detection here.")
                     .foregroundStyle(.secondary)
             }
         }

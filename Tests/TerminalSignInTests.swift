@@ -24,9 +24,9 @@ final class TerminalSignInTests: XCTestCase {
     }
 
     func testExplanationPointsAtTheInstallPageWhenTheToolIsMissing() {
-        let route = SignInRoute.command("codenotch-no-such-tool login", name: "Example",
+        let route = SignInRoute.command("siggy-no-such-tool login", name: "Example",
                                         install: URL(string: "https://example.com"))
-        XCTAssertFalse(TerminalCommand.isInstalled(command: "codenotch-no-such-tool login"))
+        XCTAssertFalse(TerminalCommand.isInstalled(command: "siggy-no-such-tool login"))
         XCTAssertTrue(route.explanation.contains("Install"), route.explanation)
     }
 

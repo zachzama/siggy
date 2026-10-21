@@ -1,5 +1,5 @@
 #!/bin/bash
-# Add Codenotch's Team ID to the partition list of every Claude Code keychain
+# Add Siggy's Team ID to the partition list of every Claude Code keychain
 # item.
 #
 # Why this is needed at all: a keychain item carries two separate gates. The
@@ -10,7 +10,7 @@
 # clicking Always Allow records an approval that is discarded on the next read.
 # That is the prompt-every-60-seconds loop.
 #
-# Codenotch used to be ad-hoc signed, so its identity was a cdhash that changed
+# Siggy used to be ad-hoc signed, so its identity was a cdhash that changed
 # on every build; now it is signed with a real Team ID and the identity is
 # stable, but these items were written before that and only list "apple-tool:"
 # (the /usr/bin/security CLI, which is how Claude Code writes them).
@@ -19,15 +19,15 @@
 # because argv is readable by any process via ps.
 set -euo pipefail
 
-TEAM_ID="$(codesign -dv /Applications/Codenotch.app 2>&1 | sed -nE 's/^TeamIdentifier=([A-Z0-9]{10})$/\1/p')"
+TEAM_ID="$(codesign -dv /Applications/Siggy.app 2>&1 | sed -nE 's/^TeamIdentifier=([A-Z0-9]{10})$/\1/p')"
 if [ -z "$TEAM_ID" ] || [ "$TEAM_ID" = "not" ]; then
-  echo "Codenotch is not signed with a Team ID — rebuild with 'make install' first." >&2
+  echo "Siggy is not signed with a Team ID — rebuild with 'make install' first." >&2
   exit 1
 fi
 
 # apple-tool: and apple: are kept, not replaced: Claude Code and the token
 # refresher both reach these items through /usr/bin/security, and dropping
-# apple-tool: would lock *them* out to let Codenotch in.
+# apple-tool: would lock *them* out to let Siggy in.
 PARTITIONS="apple-tool:,apple:,teamid:${TEAM_ID}"
 
 # Claude Code's own naming rule: the bare service for ~/.claude, and a suffix
@@ -66,7 +66,7 @@ unset PASSWORD
 echo
 if [ "$failed" -eq 0 ]; then
   echo "Done. Partition list is now: $PARTITIONS"
-  echo "Codenotch should stop asking for the password."
+  echo "Siggy should stop asking for the password."
 else
   echo "Some items could not be updated — check the password and re-run." >&2
   exit 1

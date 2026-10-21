@@ -4,7 +4,7 @@ import Foundation
 ///
 /// The cached quota in the Desktop database can lag behind the account, so
 /// each refresh asks GetUserStatus instead. The session is read-only:
-/// whichever tool owns sign-in and token rotation, Codenotch never refreshes
+/// whichever tool owns sign-in and token rotation, Siggy never refreshes
 /// or writes its token.
 actor DevinLocalProvider: UsageProvider {
     nonisolated let id = "devin"

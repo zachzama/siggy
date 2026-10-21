@@ -220,7 +220,7 @@ final class LMStudioMetricsTests: XCTestCase {
     }
 
     func testLiveLMStudioWhenExplicitlyEnabled() async throws {
-        guard ProcessInfo.processInfo.environment["CODENOTCH_LMSTUDIO_LIVE"] == "1" else {
+        guard ProcessInfo.processInfo.environment["SIGGY_LMSTUDIO_LIVE"] == "1" else {
             throw XCTSkip("Opt-in live LM Studio check")
         }
         // The whole history of this Mac's server log, timed: half a gigabyte

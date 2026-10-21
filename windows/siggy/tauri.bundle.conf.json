@@ -1,0 +1,7 @@
+{
+  "bundle": {
+    "resources": {
+      "../target/hook/release/siggy-hook.exe": "siggy-hook.exe"
+    }
+  }
+}

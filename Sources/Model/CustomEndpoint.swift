@@ -480,8 +480,8 @@ public struct CustomEndpointPreset: Identifiable, Sendable {
 public enum CustomIconStore {
     private static var customIconsDirectory: URL {
         let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
-        let codenotchDir = appSupport.appendingPathComponent("Siggy", isDirectory: true)
-        let iconsDir = codenotchDir.appendingPathComponent("CustomIcons", isDirectory: true)
+        let siggyDir = appSupport.appendingPathComponent("Siggy", isDirectory: true)
+        let iconsDir = siggyDir.appendingPathComponent("CustomIcons", isDirectory: true)
         try? FileManager.default.createDirectory(at: iconsDir, withIntermediateDirectories: true)
         return iconsDir
     }

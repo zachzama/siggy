@@ -9,7 +9,7 @@ final class AppLanguageTests: XCTestCase {
     private var previousTestLocale: Locale?
 
     /// A scratch suite, not `.standard`. The test host *is* the app, so
-    /// `.standard` is the preferences of the copy of Codenotch installed on
+    /// `.standard` is the preferences of the copy of Siggy installed on
     /// this Mac: reading it would let a language chosen in Settings decide
     /// what these assert, and writing it would leave a language behind in the
     /// real app when a test failed before its restore.

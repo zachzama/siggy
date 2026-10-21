@@ -1,4 +1,4 @@
-# Codenotch Phone Link — protocol v3
+# Siggy Phone Link — protocol v3
 
 **Status:** contract for implementation. Both the Mac server and the phone client
 build against this document. Where this document and existing code disagree,
@@ -37,7 +37,7 @@ Re-pairing costs the user one QR scan.
 - `/health` advertises `"api": 3`. The phone refuses to pair against `api < 3`
   with "Your Mac app is out of date".
 
-The v1 path (the standalone `agent/codenotch_agent.py`, static secret, plaintext)
+The v1 path (the standalone `agent/siggy_agent.py`, static secret, plaintext)
 stays in the phone client for now and is **out of scope for this round**. The
 phone must show a persistent "Unencrypted (legacy agent)" indicator whenever a
 v1 connection is active.
@@ -169,7 +169,7 @@ it cannot enable a replay.
 
 | Endpoint | Auth | Body |
 |---|---|---|
-| `GET /health` | none | plaintext JSON, `{"ok":true,"app":"codenotch","api":3,"version":"x.y.z"}` |
+| `GET /health` | none | plaintext JSON, `{"ok":true,"app":"siggy","api":3,"version":"x.y.z"}` |
 | `POST /api/v3/pair` | `K_pair_sig` + window open | encrypted under `K_pair_enc` |
 | `GET /api/v3/snapshot` | `K_sig` | encrypted under `K_enc` |
 | `POST /api/v3/refresh` | `K_sig` | encrypted under `K_enc` |

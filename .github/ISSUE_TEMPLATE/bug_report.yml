@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report an issue or unexpected behavior in Codenotch.
+description: Report an issue or unexpected behavior in Siggy.
 title: "fix: "
 labels: ["bug"]
 body:
@@ -22,7 +22,7 @@ body:
       label: Steps to Reproduce
       description: Steps to reproduce the behavior.
       placeholder: |
-        1. Open Codenotch with provider '...'
+        1. Open Siggy with provider '...'
         2. Perform action '...'
         3. See error
     validations:
@@ -65,8 +65,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: Codenotch Version
-      description: The version of Codenotch where this occurred (e.g., 1.9.0, or git commit SHA).
+      label: Siggy Version
+      description: The version of Siggy where this occurred (e.g., 1.9.0, or git commit SHA).
       placeholder: "1.9.0"
     validations:
       required: true

@@ -1,6 +1,6 @@
-# Codenotch Phone Link — protocol v2
+# Siggy Phone Link — protocol v2
 
-The contract between desktop Codenotch (macOS, Swift) and the Codenotch phone
+The contract between desktop Siggy (macOS, Swift) and the Siggy phone
 app (Expo). Both sides implement exactly this. When the two disagree, this file
 wins. Test vectors at the end are mandatory on both sides.
 
@@ -103,7 +103,7 @@ Bad signature → `401 {"error":"bad-signature"}`. Clock skew →
 Rate limit (120/min per IP) → `429 {"error":"rate-limited"}`.
 
 Unauthenticated:
-- `GET /health` → `200 {"ok":true,"app":"codenotch","api":2,"version":"1.9.0"}` (private-network gate still applies).
+- `GET /health` → `200 {"ok":true,"app":"siggy","api":2,"version":"1.9.0"}` (private-network gate still applies).
 
 All responses are `application/json`, `Connection: close` is acceptable.
 
@@ -122,7 +122,7 @@ Exactly the phone's `src/lib/types.ts` `Snapshot`:
                    "remaining": null, "used": null, "resetsAt": "2026-09-11T20:07:00Z"}],
       "headlineId": "session",
       "block": null,
-      "account": {"plan": "max", "source": "Codenotch"}
+      "account": {"plan": "max", "source": "Siggy"}
     }
   ],
   "sessions": [

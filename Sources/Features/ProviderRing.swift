@@ -34,11 +34,11 @@ struct ProviderRing: View {
     var bandOverride: UsageBand? = nil
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @Environment(\.codenotchReduceTransparency) private var reduceTransparency
+    @Environment(\.siggyReduceTransparency) private var reduceTransparency
     @Environment(\.usageWatchLimit) private var watchLimit
     @Environment(\.usageCriticalLimit) private var criticalLimit
     @Environment(\.colorTransitionStyle) private var colorTransitionStyle
-    @Environment(\.codenotchAccentColor) private var accentColor
+    @Environment(\.siggyAccentColor) private var accentColor
     @Environment(\.weeklyRingDashed) private var weeklyRingDashed
     @State private var spin: Double = 0
 
@@ -219,7 +219,7 @@ private struct ActivityArc: View {
     let summary: ActivitySummary
 
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @Environment(\.codenotchReduceTransparency) private var reduceTransparency
+    @Environment(\.siggyReduceTransparency) private var reduceTransparency
     @State private var pulsing = false
 
     /// How much of the circle the moving arc covers.

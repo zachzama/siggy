@@ -25,7 +25,7 @@ interaction is switched off for the read, and a refusal is retried through
 `/usr/bin/security`, which is Apple-signed and on the item's access list. The
 one read that may prompt is the one somebody clicks **Allow access…** for in
 Settings. To stop the refusal happening at all, `Scripts/fix-keychain-partitions.sh`
-adds Codenotch's Team ID to those items' partition lists — once, with your login
+adds Siggy's Team ID to those items' partition lists — once, with your login
 password.
 
 `make release TEAM_ID=<team>` is different: it archives, signs with a
@@ -65,7 +65,7 @@ feed. You won't need it to contribute.
 - Don't freeze `L10n.t` in a `static let` — lookup has to see the current
   language.
 - Follow System plus the in-app Language setting; don't set `AppleLanguages`.
-- Windows `windows/codenotch/src/i18n.rs` is a separate system — don't merge
+- Windows `windows/siggy/src/i18n.rs` is a separate system — don't merge
   the two.
 
 ## Adding a provider

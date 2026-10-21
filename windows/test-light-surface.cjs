@@ -7,14 +7,14 @@ const assert = require('node:assert/strict');
 const { test } = require('node:test');
 
 const root = __dirname;
-const notch = readFileSync(join(root, 'codenotch/ui/notch.html'), 'utf8');
-const settings = readFileSync(join(root, 'codenotch/ui/settings.html'), 'utf8');
-const dropzones = readFileSync(join(root, 'codenotch/ui/dropzones.html'), 'utf8');
-const main = readFileSync(join(root, 'codenotch/src/main.rs'), 'utf8');
-const settingsWindow = readFileSync(join(root, 'codenotch/src/settings_window.rs'), 'utf8');
-const dropzonesWindow = readFileSync(join(root, 'codenotch/src/dropzones.rs'), 'utf8');
-const carry = readFileSync(join(root, 'codenotch/ui/carry.html'), 'utf8');
-const carryWindow = readFileSync(join(root, 'codenotch/src/carry.rs'), 'utf8');
+const notch = readFileSync(join(root, 'siggy/ui/notch.html'), 'utf8');
+const settings = readFileSync(join(root, 'siggy/ui/settings.html'), 'utf8');
+const dropzones = readFileSync(join(root, 'siggy/ui/dropzones.html'), 'utf8');
+const main = readFileSync(join(root, 'siggy/src/main.rs'), 'utf8');
+const settingsWindow = readFileSync(join(root, 'siggy/src/settings_window.rs'), 'utf8');
+const dropzonesWindow = readFileSync(join(root, 'siggy/src/dropzones.rs'), 'utf8');
+const carry = readFileSync(join(root, 'siggy/ui/carry.html'), 'utf8');
+const carryWindow = readFileSync(join(root, 'siggy/src/carry.rs'), 'utf8');
 
 function cssBlock(source, selector) {
   const escaped = selector.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');

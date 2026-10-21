@@ -485,7 +485,7 @@ final class CodexActivityTests: XCTestCase {
 
     private func rollout(_ records: [String]) throws -> URL {
         let url = FileManager.default.temporaryDirectory
-            .appendingPathComponent("CodenotchCodexRollout-\(UUID().uuidString).jsonl")
+            .appendingPathComponent("SiggyCodexRollout-\(UUID().uuidString).jsonl")
         try records.joined(separator: "\n").data(using: .utf8)!.write(to: url)
         addTeardownBlock { try? FileManager.default.removeItem(at: url) }
         return url
@@ -522,7 +522,7 @@ final class CodexActivityTests: XCTestCase {
 
     private func rollout(data: Data) throws -> URL {
         let url = FileManager.default.temporaryDirectory
-            .appendingPathComponent("CodenotchCodexRollout-\(UUID().uuidString).jsonl")
+            .appendingPathComponent("SiggyCodexRollout-\(UUID().uuidString).jsonl")
         try data.write(to: url)
         addTeardownBlock { try? FileManager.default.removeItem(at: url) }
         return url
@@ -750,7 +750,7 @@ final class CodexStoreCacheTests: XCTestCase {
 
     override func setUpWithError() throws {
         dir = FileManager.default.temporaryDirectory
-            .appendingPathComponent("CodenotchStoreCache-\(UUID().uuidString)")
+            .appendingPathComponent("SiggyStoreCache-\(UUID().uuidString)")
         try FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
     }
 

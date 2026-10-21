@@ -1,0 +1,9 @@
+[package]
+name = "siggy-hook"
+version = "0.3.0"
+edition = "2021"
+description = "Siggy hook launcher: report Claude Code hook events, auto-start main app"
+license = "MIT"
+repository = "https://github.com/Im-Midi/codenotch-windows"
+
+[dependencies]

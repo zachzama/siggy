@@ -24,7 +24,7 @@ jobs:
   package:
     # workflow_dispatch is let through so a fork can try the installer before
     # opening a pull request; every other trigger only runs here.
-    if: github.repository == 'vinzdg/codenotch' || github.event_name == 'workflow_dispatch'
+    if: github.repository == 'zachzama/siggy' || github.event_name == 'workflow_dispatch'
     name: NSIS installer
     # Only the release step writes anything; `gh release upload` fails without it.
     permissions:
@@ -54,7 +54,7 @@ jobs:
       - name: Build the hook
         env:
           RUSTFLAGS: -C target-feature=+crt-static
-        run: cargo build --release --locked -p codenotch-hook --target-dir target/hook
+        run: cargo build --release --locked -p siggy-hook --target-dir target/hook
 
       # The signing key is what the updater in an already-installed copy checks the
       # download against. Asking the bundler for updater artifacts without one is a
@@ -75,7 +75,7 @@ jobs:
       # tauri.bundle.conf.json is merged only here, so a plain `cargo build`
       # never looks for a hook binary that has not been built.
       - name: Build the installer
-        working-directory: windows/codenotch
+        working-directory: windows/siggy
         env:
           TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
@@ -97,27 +97,27 @@ jobs:
         run: |
           $setup = @(Get-ChildItem target/release/bundle/nsis/*-setup.exe)
           if ($setup.Count -ne 1) { throw "expected one installer, found $($setup.Count)" }
-          Copy-Item $setup[0].FullName Codenotch-Setup.exe
+          Copy-Item $setup[0].FullName Siggy-Setup.exe
 
       # What someone double-clicking the download gets, on a machine that has
-      # never seen Codenotch: the hook beside the app (hooks_install.rs looks
+      # never seen Siggy: the hook beside the app (hooks_install.rs looks
       # for it there, so Install hooks fails without it), and an app that starts.
       - name: Install, run doctor, uninstall
         run: |
-          Start-Process -FilePath .\Codenotch-Setup.exe -ArgumentList '/S' -Wait
-          $hook = Get-ChildItem $env:LOCALAPPDATA -Filter codenotch-hook.exe -Recurse -Depth 3 -ErrorAction SilentlyContinue |
+          Start-Process -FilePath .\Siggy-Setup.exe -ArgumentList '/S' -Wait
+          $hook = Get-ChildItem $env:LOCALAPPDATA -Filter siggy-hook.exe -Recurse -Depth 3 -ErrorAction SilentlyContinue |
             Select-Object -First 1
-          if (-not $hook) { throw 'the installer did not install codenotch-hook.exe' }
+          if (-not $hook) { throw 'the installer did not install siggy-hook.exe' }
           $dir = $hook.DirectoryName
-          foreach ($f in 'codenotch.exe', 'uninstall.exe') {
-            if (-not (Test-Path (Join-Path $dir $f))) { throw "$f is not beside codenotch-hook.exe in $dir" }
+          foreach ($f in 'siggy.exe', 'uninstall.exe') {
+            if (-not (Test-Path (Join-Path $dir $f))) { throw "$f is not beside siggy-hook.exe in $dir" }
           }
           # The app is a GUI-subsystem exe that attaches to its parent's console,
           # so the report may reach either the redirected stdout or doctor.log.
-          Start-Process -FilePath (Join-Path $dir 'codenotch.exe') -ArgumentList 'doctor' `
+          Start-Process -FilePath (Join-Path $dir 'siggy.exe') -ArgumentList 'doctor' `
             -RedirectStandardOutput doctor.txt -Wait
-          $doctor = "$(Get-Content doctor.txt -Raw)$(Get-Content (Join-Path $env:APPDATA 'codenotch\doctor.log') -Raw -ErrorAction SilentlyContinue)"
-          if ($doctor -notmatch 'Codenotch doctor') { throw "codenotch.exe doctor did not run: $doctor" }
+          $doctor = "$(Get-Content doctor.txt -Raw)$(Get-Content (Join-Path $env:APPDATA 'siggy\doctor.log') -Raw -ErrorAction SilentlyContinue)"
+          if ($doctor -notmatch 'Siggy doctor') { throw "siggy.exe doctor did not run: $doctor" }
           $doctor
           Start-Process -FilePath (Join-Path $dir 'uninstall.exe') -ArgumentList '/S' -Wait
 
@@ -125,8 +125,8 @@ jobs:
       # the version only changes at a release.
       - uses: actions/upload-artifact@v7
         with:
-          name: Codenotch-Setup-${{ github.sha }}
-          path: windows/Codenotch-Setup.exe
+          name: Siggy-Setup-${{ github.sha }}
+          path: windows/Siggy-Setup.exe
           if-no-files-found: error
 
       # SmartScreen's warning names neither the fix nor the reason, so the
@@ -134,9 +134,9 @@ jobs:
       - name: Explain how to open it
         run: |
           @(
-            '### Codenotch for Windows — unsigned installer'
+            '### Siggy for Windows — unsigned installer'
             ''
-            'Download the artifact below, unzip it, and run `Codenotch-Setup.exe`.'
+            'Download the artifact below, unzip it, and run `Siggy-Setup.exe`.'
             'It installs for the current user, without administrator rights.'
             ''
             'The installer is not code-signed, so SmartScreen says *Windows protected your PC*'
@@ -154,17 +154,17 @@ jobs:
         run: |
           $zip = @(Get-ChildItem target/release/bundle/nsis/*-setup.nsis.zip -ErrorAction SilentlyContinue)
           if ($zip.Count -ne 1) { throw "expected one updater archive, found $($zip.Count)" }
-          Copy-Item $zip[0].FullName Codenotch-Setup.nsis.zip
+          Copy-Item $zip[0].FullName Siggy-Setup.nsis.zip
           $sigPath = "$($zip[0].FullName).sig"
           $signature = if (Test-Path $sigPath) { (Get-Content $sigPath -Raw).Trim() } else { '' }
-          $version = (Get-Content codenotch/tauri.conf.json -Raw | ConvertFrom-Json).version
+          $version = (Get-Content siggy/tauri.conf.json -Raw | ConvertFrom-Json).version
           $feed = [ordered]@{
             version = $version
             pub_date = (Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')
             platforms = [ordered]@{
               'windows-x86_64' = [ordered]@{
                 signature = $signature
-                url = "https://github.com/vinzdg/codenotch/releases/download/v$version/Codenotch-Setup.nsis.zip"
+                url = "https://github.com/zachzama/siggy/releases/download/v$version/Siggy-Setup.nsis.zip"
               }
             }
           }
@@ -174,10 +174,10 @@ jobs:
       - uses: actions/upload-artifact@v7
         if: steps.signing.outputs.signed == 'true'
         with:
-          name: Codenotch-update-feed-${{ github.sha }}
+          name: Siggy-update-feed-${{ github.sha }}
           path: |
             windows/latest.json
-            windows/Codenotch-Setup.nsis.zip
+            windows/Siggy-Setup.nsis.zip
           if-no-files-found: error
 
       # v* only: the rolling `preview` release belongs to Package, which deletes
@@ -187,7 +187,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ github.event.release.tag_name }}
-        run: gh release upload $env:TAG Codenotch-Setup.exe --clobber
+        run: gh release upload $env:TAG Siggy-Setup.exe --clobber
 
       # Last, and only once the installer is up: latest.json is what sends every
       # installed copy to that file, so it must never name one that is not there yet.
@@ -207,4 +207,4 @@ jobs:
           if (-not $feed.platforms.'windows-x86_64'.signature) {
             throw 'the updater archive was not signed; refusing to publish a feed every updater would reject'
           }
-          gh release upload $env:TAG Codenotch-Setup.nsis.zip latest.json --clobber
+          gh release upload $env:TAG Siggy-Setup.nsis.zip latest.json --clobber
