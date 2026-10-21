@@ -20,7 +20,7 @@ struct ApifyCredentialSources {
 ///
 /// 1. `APIFY_TOKEN` in the environment — the name the Apify SDKs and CLI read.
 /// 2. A token pasted in Settings, filed in the login keychain under a service
-///    name no other app uses. Codenotch owns this one, so switching the
+///    name no other app uses. Siggy owns this one, so switching the
 ///    provider off deletes it.
 /// 3. `~/.apify/auth.json`, where `apify login` keeps its login. Older CLIs,
 ///    and any CLI run with `APIFY_DISABLE_KEYRING=1`, write the token into
@@ -32,12 +32,12 @@ struct ApifyCredentialSources {
 ///    while an explicit token exists.
 ///
 /// The explicit sources win over the borrowed ones on purpose: pasting a token
-/// is a choice made in Codenotch, and a choice should not be overruled by
+/// is a choice made in Siggy, and a choice should not be overruled by
 /// whichever account happens to be logged into the CLI.
 enum ApifyCredentials {
     static let environmentKey = "APIFY_TOKEN"
     static let keychainService = "apify-api-token"
-    static let keychainAccount = "codenotch"
+    static let keychainAccount = "siggy"
 
     static var authURL: URL {
         URL(fileURLWithPath: NSHomeDirectory()).appendingPathComponent(".apify/auth.json")
@@ -135,7 +135,7 @@ enum ApifyCredentials {
         )
     }
 
-    // MARK: - The token Codenotch holds itself
+    // MARK: - The token Siggy holds itself
 
     /// Held until the item moves, for the reason spelled out in
     /// `CredentialCache`: a data read can prompt, and usage polling reaches

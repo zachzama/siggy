@@ -57,7 +57,7 @@ enum ChannelNotifications {
         }
     }
 
-    /// A banner; or, when banners are switched off for Codenotch in System
+    /// A banner; or, when banners are switched off for Siggy in System
     /// Settings, that pane, because a test that shows nothing and says
     /// nothing reads as broken.
     static func test() {

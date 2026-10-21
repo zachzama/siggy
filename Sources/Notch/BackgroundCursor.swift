@@ -1,6 +1,6 @@
 import AppKit
 
-/// **Lets the notch set the cursor while Codenotch is not the active app** —
+/// **Lets the notch set the cursor while Siggy is not the active app** —
 /// which, the notch being a non-activating panel, is nearly always.
 ///
 /// The window server only takes cursor changes from the frontmost app; ours

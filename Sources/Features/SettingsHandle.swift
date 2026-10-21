@@ -121,7 +121,7 @@ struct SettingsOrb: View {
     private static let squeezeScale: CGFloat = 0.84
 
     @Environment(\.notchSurfaceStyle) private var surfaceStyle
-    @Environment(\.codenotchReduceTransparency) private var reduceTransparency
+    @Environment(\.siggyReduceTransparency) private var reduceTransparency
 
     /// Reduce transparency means "no see-through chrome", which for the orb is
     /// the solid style — the same precedence the Settings window applies to its

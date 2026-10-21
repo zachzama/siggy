@@ -1,4 +1,4 @@
-# Codenotch — Implementation Plan
+# Siggy — Implementation Plan
 
 Spec: `docs/specs/2026-08-28-usage-notch-design.md`
 Started: 2026-08-28
@@ -10,10 +10,10 @@ every later milestone can be cut without leaving the app broken.
 
 ## M0 — Project skeleton
 
-- [ ] `project.yml` for XcodeGen: app target `Codenotch` + unit test target
+- [ ] `project.yml` for XcodeGen: app target `Siggy` + unit test target
 - [ ] `Makefile` with `gen` / `build` / `test` / `run` / `clean`
 - [ ] `Sources/Info.plist` with `LSUIElement: true`, min system 26.0
-- [ ] `Sources/App/CodenotchMain.swift` + `AppDelegate` that launches with no window
+- [ ] `Sources/App/SiggyMain.swift` + `AppDelegate` that launches with no window
 - [ ] `make run` puts a running, invisible agent app in the process list
 
 **Done when:** `make build` succeeds and `make run` starts a process with no Dock icon.
@@ -105,7 +105,7 @@ pointer from cell to card does not dismiss it.
 
 ## Open questions
 
-1. **Name.** `Codenotch` is a placeholder.
+1. **Name.** `Siggy` is a placeholder.
 2. **Third provider.** The glyph in the mockup's third slot is not identified — which
    service is it? (Gemini, Cursor, Copilot, Perplexity…)
 3. **Plan ceilings.** The local Claude Code adapter needs to know your plan's session

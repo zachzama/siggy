@@ -2,11 +2,11 @@ import Foundation
 
 /// Keeps the Claude OAuth token in the login keychain from ageing out.
 ///
-/// Codenotch reads that item; only the standalone Claude Code command ever
+/// Siggy reads that item; only the standalone Claude Code command ever
 /// writes it. On a Mac where Claude Code is used through the desktop app the
 /// item is therefore written once and then rots — the desktop app renews its
 /// own copy elsewhere — and eight hours later every usage reading stops, with
-/// nothing the user can do from inside Codenotch. That is the hole this fills.
+/// nothing the user can do from inside Siggy. That is the hole this fills.
 ///
 /// **How it renews, and why that is a compatibility mechanism rather than an
 /// interface.** Running `claude -p` with an empty stdin makes the command go
@@ -212,7 +212,7 @@ final class ClaudeTokenRefresher: ObservableObject {
     /// started every MCP server and hook the user had configured, from
     /// whatever directory the app was launched in — `/` from Finder — and
     /// macOS put their reads of Desktop, Documents, Downloads and network
-    /// volumes to the user as Codenotch asking for access.
+    /// volumes to the user as Siggy asking for access.
     static let arguments = ["-p", "--no-session-persistence", "--strict-mcp-config"]
 
     static func run(_ cli: URL, timeout: TimeInterval) throws

@@ -247,7 +247,7 @@ struct CostEstimator: Sendable {
 
 
 /// Subscription plans and their list prices, from a JSON catalog the user can
-/// edit (Application Support/Codenotch/costs/plans.json, seeded from the bundle) or point
+/// edit (Application Support/Siggy/costs/plans.json, seeded from the bundle) or point
 /// at a URL that is re-read once a day. Nothing about plans lives in code.
 @MainActor
 final class PlanCatalog: ObservableObject {

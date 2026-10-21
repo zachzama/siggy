@@ -6,7 +6,7 @@ import Foundation
 final class UsageLimitWatcher {
     private struct TrackedLimit {
         /// False until this window has been read once. The first reading of a
-        /// window only records: a limit already spent when Codenotch starts is
+        /// window only records: a limit already spent when Siggy starts is
         /// not news. Kept per window rather than per provider because the
         /// windows do not arrive together: the store's first publication can
         /// be a placeholder with no window at all, and the weekly window can

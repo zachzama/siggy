@@ -1,5 +1,5 @@
 #!/bin/sh
-# Codenotch on Linux.
+# Siggy on Linux.
 #
 # Two things the desktop needs help with:
 #   * Wayland does not let a client place its own windows, and the notch has to
@@ -9,11 +9,11 @@
 set -eu
 
 root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
-bin=${CODENOTCH_BIN:-$root/target/release/codenotch}
-[ -x "$bin" ] || bin=$root/target/debug/codenotch
+bin=${SIGGY_BIN:-$root/target/release/siggy}
+[ -x "$bin" ] || bin=$root/target/debug/siggy
 
 if [ ! -x "$bin" ]; then
-  echo "No binary yet. Build one first:  cargo build --release -p codenotch" >&2
+  echo "No binary yet. Build one first:  cargo build --release -p siggy" >&2
   exit 1
 fi
 

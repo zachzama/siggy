@@ -170,7 +170,7 @@ private struct TooltipShell<Content: View>: View {
     var tailOffset: CGFloat = 0
     @ViewBuilder let content: Content
 
-    @Environment(\.codenotchReduceTransparency) private var reduceTransparency
+    @Environment(\.siggyReduceTransparency) private var reduceTransparency
     @Environment(\.notchSurfaceStyle) private var surfaceStyle
     @Environment(\.colorScheme) private var colorScheme
 
@@ -426,7 +426,7 @@ private struct LimitWindowRow: View {
     let now: Date
     let resetTimeFormat: ResetTimeFormat
     let showsUsagePace: Bool
-    @Environment(\.codenotchAccentColor) private var accentColor
+    @Environment(\.siggyAccentColor) private var accentColor
     @Environment(\.usageWatchLimit) private var watchLimit
     @Environment(\.usageCriticalLimit) private var criticalLimit
     @Environment(\.colorTransitionStyle) private var colorTransitionStyle
@@ -504,7 +504,7 @@ private struct MoneyBreakdownView: View {
     let title: String
     let money: UsageMoneyBreakdown
     let fidelity: Fidelity
-    @Environment(\.codenotchAccentColor) private var accentColor
+    @Environment(\.siggyAccentColor) private var accentColor
     @Environment(\.usageWatchLimit) private var watchLimit
     @Environment(\.usageCriticalLimit) private var criticalLimit
     @Environment(\.colorTransitionStyle) private var colorTransitionStyle
@@ -982,7 +982,7 @@ private struct SessionRow: View {
     let now: Date
     /// Set when rows can be clicked to jump to the session's terminal.
     var onFocus: ((pid_t) -> Void)? = nil
-    @Environment(\.codenotchAccentColor) private var accentColor
+    @Environment(\.siggyAccentColor) private var accentColor
     @Environment(\.tooltipSecondaryInk) private var secondaryInk
 
     private var stateColor: Color {

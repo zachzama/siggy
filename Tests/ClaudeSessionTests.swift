@@ -253,12 +253,12 @@ extension ClaudeSessionRecordTests {
     }
 }
 
-/// The session Codenotch starts itself must never reach the notch.
+/// The session Siggy starts itself must never reach the notch.
 ///
 /// Renewing the OAuth token runs the Claude CLI, and the CLI registers a
 /// session file for the second or so it is alive — verified on a real machine:
 /// the count under `~/.claude/sessions` goes six, seven, six, and the file
-/// carries the pid of the process Codenotch spawned. Left alone it draws a row
+/// carries the pid of the process Siggy spawned. Left alone it draws a row
 /// nobody asked for, and `isBusy` reads it as work in progress and starts
 /// polling usage hard on the strength of it.
 @MainActor
@@ -288,7 +288,7 @@ final class ClaudeOwnSessionFilterTests: XCTestCase {
     }
 
     /// The `/usage` probe runs from `ClaudeUsageCLI.scratchDirectory`, and a
-    /// session filed from there is Codenotch's whichever pid wrote it. Seen on
+    /// session filed from there is Siggy's whichever pid wrote it. Seen on
     /// a real machine as a "usage-scratch-e1 finished" banner: the probe ran
     /// `busy`, vanished, and was announced as a turn that ended.
     func testASessionFromTheUsageScratchDirectoryIsLeftOut() throws {
@@ -309,7 +309,7 @@ final class ClaudeOwnSessionFilterTests: XCTestCase {
     func testAnIgnoredPidIsLeftOut() throws {
         try writeSession(pid: livePID, name: "mine")
         let found = ClaudeSessionMonitor.read(directory: directory, ignoring: [livePID])
-        XCTAssertTrue(found.isEmpty, "the session Codenotch started is not the user's")
+        XCTAssertTrue(found.isEmpty, "the session Siggy started is not the user's")
     }
 
     /// Ignoring one must not hide the rest — the notch still has to show every

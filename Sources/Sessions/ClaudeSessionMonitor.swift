@@ -23,7 +23,7 @@ final class ClaudeSessionMonitor: ObservableObject, AgentActivityMonitor {
     /// the tests that only care about the registry want.
     private let transcripts: ClaudeTranscriptReader?
 
-    /// Sessions to leave out because Codenotch started them, not the user.
+    /// Sessions to leave out because Siggy started them, not the user.
     ///
     /// Renewing the OAuth token runs the Claude CLI, and the CLI registers a
     /// session file for the second or so it is alive, exactly like any other
@@ -32,11 +32,11 @@ final class ClaudeSessionMonitor: ObservableObject, AgentActivityMonitor {
     /// polling usage hard on the strength of it.
     ///
     /// The pid alone is enough: checked on this machine, the file the CLI
-    /// writes carries the pid of the process Codenotch spawned, with no fork in
+    /// writes carries the pid of the process Siggy spawned, with no fork in
     /// between. See `ClaudeTokenRefresher`.
     var ignoredPIDs: () -> Set<Int32> = { [] }
 
-    /// Working directories whose sessions are Codenotch's own, matched as a
+    /// Working directories whose sessions are Siggy's own, matched as a
     /// second net under the pids: the `/usage` probe runs in
     /// `ClaudeUsageCLI.scratchDirectory`, and a session filed from there is
     /// never the user's, whichever process wrote it.
@@ -189,7 +189,7 @@ final class ClaudeSessionMonitor: ObservableObject, AgentActivityMonitor {
     /// The live records in one profile's `sessions` directory.
     ///
     /// `ignoringDirectories` is the second net under the pids: a session filed
-    /// from Codenotch's own `/usage` scratch directory is never the user's,
+    /// from Siggy's own `/usage` scratch directory is never the user's,
     /// whichever profile's directory it turns up in.
     static func records(in directory: URL, ignoring: Set<Int32> = [],
                         ignoringDirectories: Set<String> = []) -> [ClaudeSessionRecord] {

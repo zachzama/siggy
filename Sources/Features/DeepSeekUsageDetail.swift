@@ -8,7 +8,7 @@ struct DeepSeekUsageDetail: View {
     let now: Date
     let schedule: DeepSeekPricing.Schedule
     let showsPricing: Bool
-    @Environment(\.codenotchAccentColor) private var accentColor
+    @Environment(\.siggyAccentColor) private var accentColor
 
     private var timeZoneText: String {
         let absolute = abs(detail.timeZoneSeconds)

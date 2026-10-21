@@ -127,7 +127,7 @@ final class PhoneLinkRequestHandler: ChannelInboundHandler {
             let version = (Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String) ?? "1.0.0"
             respondPlaintext(
                 channel,
-                jsonBody: Data("{\"ok\":true,\"app\":\"codenotch\",\"api\":3,\"version\":\"\(version)\"}".utf8)
+                jsonBody: Data("{\"ok\":true,\"app\":\"siggy\",\"api\":3,\"version\":\"\(version)\"}".utf8)
             )
             return
         }

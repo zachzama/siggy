@@ -1,6 +1,6 @@
-# Codenotch — Design Spec
+# Siggy — Design Spec
 
-> Working name. `Codenotch` is a placeholder, same as `NotchApp` in the other repo.
+> Working name. `Siggy` is a placeholder, same as `NotchApp` in the other repo.
 > Source of truth for the UI: `docs/design/frame-124-hover-tooltip.png` and
 > `docs/design/frame-125-detail.png`.
 

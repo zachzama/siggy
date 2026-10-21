@@ -503,7 +503,7 @@
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "在终端运行 amp login，Codenotch 会读取 ~/.local/share/amp/secrets.json。"
+            "value": "在终端运行 amp login，Siggy 会读取 ~/.local/share/amp/secrets.json。"
           }
         },
         "id": {
@@ -543,55 +543,55 @@
         }
       }
     },
-    "Codenotch reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
+    "Siggy reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
       "extractionState": "manual",
       "localizations": {
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
+            "value": "Siggy は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
+            "value": "Siggy читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
+            "value": "Siggy 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 會從這部 Mac 上已登入的工具讀取用量 — 它不會向你要密碼。安裝並登入 Claude Code（終端機工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp，或 Gemini API 金鑰（透過 Gemini CLI、OpenCode 或 Hermes），對應的圓環就會出現在瀏海上。"
+            "value": "Siggy 會從這部 Mac 上已登入的工具讀取用量 — 它不會向你要密碼。安裝並登入 Claude Code（終端機工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp，或 Gemini API 金鑰（透過 Gemini CLI、OpenCode 或 Hermes），對應的圓環就會出現在瀏海上。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
+            "value": "Siggy는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
+            "value": "Siggy foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch membaca penggunaan dari alat yang sudah login di Mac ini — Codenotch tidak pernah meminta kata sandi Anda. Instal dan login ke salah satu dari Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan cincinnya akan muncul di notch."
+            "value": "Siggy membaca penggunaan dari alat yang sudah login di Mac ini — Siggy tidak pernah meminta kata sandi Anda. Instal dan login ke salah satu dari Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan cincinnya akan muncul di notch."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
+            "value": "Siggy kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
           }
         }
       }
@@ -2598,79 +2598,79 @@
         }
       }
     },
-    "Codenotch was refused access to %@'s saved login. Click this ring to ask again, and choose Always Allow.": {
+    "Siggy was refused access to %@'s saved login. Click this ring to ask again, and choose Always Allow.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch s'est vu refuser l'accès aux identifiants enregistrés de %@. Cliquez sur cet anneau pour redemander, puis choisissez Toujours autoriser."
+            "value": "Siggy s'est vu refuser l'accès aux identifiants enregistrés de %@. Cliquez sur cet anneau pour redemander, puis choisissez Toujours autoriser."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は %@ の保存済みログインへのアクセスを拒否されました。このリングをクリックして再度要求し、「常に許可」を選んでください。"
+            "value": "Siggy は %@ の保存済みログインへのアクセスを拒否されました。このリングをクリックして再度要求し、「常に許可」を選んでください。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O Codenotch teve acesso negado ao login salvo do %@. Clique neste anel para pedir de novo e escolha Sempre Permitir."
+            "value": "O Siggy teve acesso negado ao login salvo do %@. Clique neste anel para pedir de novo e escolha Sempre Permitir."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 未能读取 %@ 已保存的登录信息。点击这个圆环再试一次，并选择「始终允许」。"
+            "value": "Siggy 未能读取 %@ 已保存的登录信息。点击这个圆环再试一次，并选择「始终允许」。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 未能讀取 %@ 已儲存的登入資訊。點按這個圓環再試一次，並選擇「始終允許」。"
+            "value": "Siggy 未能讀取 %@ 已儲存的登入資訊。點按這個圓環再試一次，並選擇「始終允許」。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch не получил доступ к сохранённому входу %@. Нажмите это кольцо, повторите запрос и выберите «Разрешать всегда»."
+            "value": "Siggy не получил доступ к сохранённому входу %@. Нажмите это кольцо, повторите запрос и выберите «Разрешать всегда»."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch wurde der Zugriff auf die gespeicherte Anmeldung von %@ verweigert. Klicke auf diesen Ring, um erneut zu fragen, und wähle „Immer erlauben“."
+            "value": "Siggy wurde der Zugriff auf die gespeicherte Anmeldung von %@ verweigert. Klicke auf diesen Ring, um erneut zu fragen, und wähle „Immer erlauben“."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch не отримав доступу до збереженого входу %@. Натисніть це кільце, щоб запитати знову, і виберіть «Завжди дозволяти»."
+            "value": "Siggy не отримав доступу до збереженого входу %@. Натисніть це кільце, щоб запитати знову, і виберіть «Завжди дозволяти»."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@의 저장된 로그인 정보에 대한 Codenotch의 접근이 거부되었습니다. 이 링을 클릭해 다시 요청하고 ‘항상 허용’을 선택하십시오."
+            "value": "%@의 저장된 로그인 정보에 대한 Siggy의 접근이 거부되었습니다. 이 링을 클릭해 다시 요청하고 ‘항상 허용’을 선택하십시오."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotchʼga %@ ning saqlangan kirish maʼlumotiga ruxsat berilmadi. Qayta soʻrash uchun bu halqani bosing va Always Allow ni tanlang."
+            "value": "Siggyʼga %@ ning saqlangan kirish maʼlumotiga ruxsat berilmadi. Qayta soʻrash uchun bu halqani bosing va Always Allow ni tanlang."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch ditolak mengakses info login %@ yang tersimpan. Klik ring ini untuk meminta izin lagi, lalu pilih Selalu Izinkan."
+            "value": "Siggy ditolak mengakses info login %@ yang tersimpan. Klik ring ini untuk meminta izin lagi, lalu pilih Selalu Izinkan."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch'un %@ için kayıtlı girişe erişimi reddedildi. Tekrar sormak için bu halkaya tıklayın ve Her Zaman İzin Ver'i seçin."
+            "value": "Siggy'un %@ için kayıtlı girişe erişimi reddedildi. Tekrar sormak için bu halkaya tıklayın ve Her Zaman İzin Ver'i seçin."
           }
         }
       }
@@ -6371,79 +6371,79 @@
         }
       }
     },
-    "Nothing on screen. Open Codenotch again from Applications to bring these settings back.": {
+    "Nothing on screen. Open Siggy again from Applications to bring these settings back.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ничего не показывать. Откройте Codenotch снова из Программ, чтобы вернуть эти настройки."
+            "value": "Ничего не показывать. Откройте Siggy снова из Программ, чтобы вернуть эти настройки."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Rien à l'écran. Rouvrez Codenotch depuis Applications pour retrouver ces réglages."
+            "value": "Rien à l'écran. Rouvrez Siggy depuis Applications pour retrouver ces réglages."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "画面には何も出ません。この設定に戻るには、アプリケーションから Codenotch をもう一度開いてください。"
+            "value": "画面には何も出ません。この設定に戻るには、アプリケーションから Siggy をもう一度開いてください。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nada na tela. Abra o Codenotch novamente em Aplicativos para trazer estes ajustes de volta."
+            "value": "Nada na tela. Abra o Siggy novamente em Aplicativos para trazer estes ajustes de volta."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "屏幕上什么都没有。从「应用程序」再打开 Codenotch，才能回到这些设置。"
+            "value": "屏幕上什么都没有。从「应用程序」再打开 Siggy，才能回到这些设置。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "螢幕上什麼都沒有。從「應用程式」再開啟 Codenotch，才能回到這些設定。"
+            "value": "螢幕上什麼都沒有。從「應用程式」再開啟 Siggy，才能回到這些設定。"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nichts auf dem Bildschirm. Öffne Codenotch erneut aus dem Programme-Ordner, um diese Einstellungen zurückzuholen."
+            "value": "Nichts auf dem Bildschirm. Öffne Siggy erneut aus dem Programme-Ordner, um diese Einstellungen zurückzuholen."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Нічого на екрані. Відкрийте Codenotch знову з теки «Програми», щоб повернути ці налаштування."
+            "value": "Нічого на екрані. Відкрийте Siggy знову з теки «Програми», щоб повернути ці налаштування."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "화면에 아무것도 표시하지 않습니다. 이 설정으로 돌아오려면 응용 프로그램에서 Codenotch를 다시 여십시오."
+            "value": "화면에 아무것도 표시하지 않습니다. 이 설정으로 돌아오려면 응용 프로그램에서 Siggy를 다시 여십시오."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ekranda hech narsa yoʻq. Bu sozlamalarni qaytarish uchun Codenotchʼni Applicationsʼdan qayta oching."
+            "value": "Ekranda hech narsa yoʻq. Bu sozlamalarni qaytarish uchun Siggyʼni Applicationsʼdan qayta oching."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tidak ada di layar. Buka kembali Codenotch dari Aplikasi untuk mengembalikan pengaturan ini."
+            "value": "Tidak ada di layar. Buka kembali Siggy dari Aplikasi untuk mengembalikan pengaturan ini."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ekranda hiçbir şey yok. Bu ayarları geri getirmek için Codenotch'u Uygulamalar klasöründen yeniden açın."
+            "value": "Ekranda hiçbir şey yok. Bu ayarları geri getirmek için Siggy'u Uygulamalar klasöründen yeniden açın."
           }
         }
       }
@@ -8373,156 +8373,156 @@
         }
       }
     },
-    "Codenotch never signs in — each reading is borrowed from the tool that already holds the account. Signing out here stops the credential being read and forgets the numbers, but leaves you signed in to that tool. macOS asks once per tool the first time, and again whenever you sign in to a different account; Always Allow keeps it quiet.": {
+    "Siggy never signs in — each reading is borrowed from the tool that already holds the account. Signing out here stops the credential being read and forgets the numbers, but leaves you signed in to that tool. macOS asks once per tool the first time, and again whenever you sign in to a different account; Always Allow keeps it quiet.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch ne se connecte jamais — chaque relevé est emprunté à l'outil qui détient déjà le compte. Vous déconnecter ici arrête la lecture de l'identifiant et oublie les chiffres, mais vous restez connecté à cet outil. macOS demande une fois par outil la première fois, puis à nouveau chaque fois que vous vous connectez à un autre compte ; Toujours autoriser évite les rappels."
+            "value": "Siggy ne se connecte jamais — chaque relevé est emprunté à l'outil qui détient déjà le compte. Vous déconnecter ici arrête la lecture de l'identifiant et oublie les chiffres, mais vous restez connecté à cet outil. macOS demande une fois par outil la première fois, puis à nouveau chaque fois que vous vous connectez à un autre compte ; Toujours autoriser évite les rappels."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch がサインインすることはありません。読み取りはすべて、すでにアカウントを保持しているツールから借りたものです。ここでサインアウトすると資格情報の読み取りが止まり、数値も忘れられますが、そのツールへのサインインはそのまま残ります。macOS はツールごとに初回の一度、そして別のアカウントにサインインするたびに確認します。「常に許可」を選べば以後は尋ねられません。"
+            "value": "Siggy がサインインすることはありません。読み取りはすべて、すでにアカウントを保持しているツールから借りたものです。ここでサインアウトすると資格情報の読み取りが止まり、数値も忘れられますが、そのツールへのサインインはそのまま残ります。macOS はツールごとに初回の一度、そして別のアカウントにサインインするたびに確認します。「常に許可」を選べば以後は尋ねられません。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O Codenotch nunca faz login — cada leitura é emprestada da ferramenta que já tem a conta. Sair daqui interrompe a leitura da credencial e esquece os números, mas você continua conectado naquela ferramenta. O macOS pergunta uma vez por ferramenta na primeira vez, e de novo sempre que você entrar em outra conta; Sempre Permitir mantém isso em silêncio."
+            "value": "O Siggy nunca faz login — cada leitura é emprestada da ferramenta que já tem a conta. Sair daqui interrompe a leitura da credencial e esquece os números, mas você continua conectado naquela ferramenta. O macOS pergunta uma vez por ferramenta na primeira vez, e de novo sempre que você entrar em outra conta; Sempre Permitir mantém isso em silêncio."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 从不自己登录 — 每条读数都借自已经持有该账号的工具。在这里退出只会停止读取凭证并忘掉数字，你在那个工具里仍然是登录状态。macOS 每种工具第一次会问一次，换账号再登录时还会再问；选「始终允许」就不会再打扰。"
+            "value": "Siggy 从不自己登录 — 每条读数都借自已经持有该账号的工具。在这里退出只会停止读取凭证并忘掉数字，你在那个工具里仍然是登录状态。macOS 每种工具第一次会问一次，换账号再登录时还会再问；选「始终允许」就不会再打扰。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 從不自己登入 — 每條讀數都借自已經持有該帳號的工具。在這裡登出只會停止讀取憑證並忘掉數字，你在那個工具裡仍然是登入狀態。macOS 每種工具第一次會問一次，換帳號再登入時還會再問；選「始終允許」就不會再打擾。"
+            "value": "Siggy 從不自己登入 — 每條讀數都借自已經持有該帳號的工具。在這裡登出只會停止讀取憑證並忘掉數字，你在那個工具裡仍然是登入狀態。macOS 每種工具第一次會問一次，換帳號再登入時還會再問；選「始終允許」就不會再打擾。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch не выполняет вход — каждое показание берётся из уже авторизованного инструмента. Выход здесь прекращает чтение учётных данных и удаляет числа, но не выполняет выход из инструмента. macOS спрашивает разрешение один раз для каждого инструмента и при смене аккаунта; «Разрешать всегда» отключает повторные запросы."
+            "value": "Siggy не выполняет вход — каждое показание берётся из уже авторизованного инструмента. Выход здесь прекращает чтение учётных данных и удаляет числа, но не выполняет выход из инструмента. macOS спрашивает разрешение один раз для каждого инструмента и при смене аккаунта; «Разрешать всегда» отключает повторные запросы."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch meldet sich nie selbst an — jeder Messwert wird von dem Tool geliehen, das das Konto bereits besitzt. Sich hier abzumelden stoppt nur das Lesen der Zugangsdaten und vergisst die Zahlen, meldet dich aber nicht bei diesem Tool ab. macOS fragt beim ersten Mal einmal pro Tool nach, und erneut, sobald du dich bei einem anderen Konto anmeldest; „Immer erlauben“ hält es still."
+            "value": "Siggy meldet sich nie selbst an — jeder Messwert wird von dem Tool geliehen, das das Konto bereits besitzt. Sich hier abzumelden stoppt nur das Lesen der Zugangsdaten und vergisst die Zahlen, meldet dich aber nicht bei diesem Tool ab. macOS fragt beim ersten Mal einmal pro Tool nach, und erneut, sobald du dich bei einem anderen Konto anmeldest; „Immer erlauben“ hält es still."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch ніколи не виконує вхід — кожен показник позичено в інструмента, який уже тримає акаунт. Вихід тут лише припиняє читання облікових даних і забуває числа, але вхід у сам інструмент лишається. macOS питає один раз для кожного інструмента під час першого читання і ще раз щоразу, коли ви входите в інший акаунт; «Завжди дозволяти» знімає ці запити."
+            "value": "Siggy ніколи не виконує вхід — кожен показник позичено в інструмента, який уже тримає акаунт. Вихід тут лише припиняє читання облікових даних і забуває числа, але вхід у сам інструмент лишається. macOS питає один раз для кожного інструмента під час першого читання і ще раз щоразу, коли ви входите в інший акаунт; «Завжди дозволяти» знімає ці запити."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch는 직접 로그인하지 않고, 이미 계정에 로그인된 도구에서 측정값을 가져옵니다. 여기서 로그아웃하면 자격 증명 읽기를 중단하고 측정값을 삭제하지만, 해당 도구의 로그인은 유지됩니다. macOS는 도구마다 처음 한 번, 그리고 다른 계정에 로그인할 때마다 권한을 요청합니다. ‘항상 허용’을 선택하면 더 이상 묻지 않습니다."
+            "value": "Siggy는 직접 로그인하지 않고, 이미 계정에 로그인된 도구에서 측정값을 가져옵니다. 여기서 로그아웃하면 자격 증명 읽기를 중단하고 측정값을 삭제하지만, 해당 도구의 로그인은 유지됩니다. macOS는 도구마다 처음 한 번, 그리고 다른 계정에 로그인할 때마다 권한을 요청합니다. ‘항상 허용’을 선택하면 더 이상 묻지 않습니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch hech qachon tizimga kirmaydi — har bir koʻrsatkich hisobni allaqachon saqlab turgan vositadan olinadi. Bu yerda chiqish kirish maʼlumoti oʻqilishini toʻxtatadi va raqamlarni unutadi, lekin siz oʻsha vositada kirgan holda qolasiz. macOS har bir vosita uchun birinchi marta, soʻng boshqa hisobga kirganingizda qayta soʻraydi; Always Allow uni jim qiladi."
+            "value": "Siggy hech qachon tizimga kirmaydi — har bir koʻrsatkich hisobni allaqachon saqlab turgan vositadan olinadi. Bu yerda chiqish kirish maʼlumoti oʻqilishini toʻxtatadi va raqamlarni unutadi, lekin siz oʻsha vositada kirgan holda qolasiz. macOS har bir vosita uchun birinchi marta, soʻng boshqa hisobga kirganingizda qayta soʻraydi; Always Allow uni jim qiladi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch tidak pernah masuk secara mandiri — setiap data dipinjam dari alat yang sudah menampung akun. Keluar di sini akan menghentikan pembacaan kredensial dan menghapus angkanya, tetapi Anda tetap masuk di alat tersebut. macOS akan meminta izin sekali per alat pertama kali, dan lagi setiap kali Anda masuk ke akun lain; Selalu Izinkan akan mencegah dialog berulang."
+            "value": "Siggy tidak pernah masuk secara mandiri — setiap data dipinjam dari alat yang sudah menampung akun. Keluar di sini akan menghentikan pembacaan kredensial dan menghapus angkanya, tetapi Anda tetap masuk di alat tersebut. macOS akan meminta izin sekali per alat pertama kali, dan lagi setiap kali Anda masuk ke akun lain; Selalu Izinkan akan mencegah dialog berulang."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch hiçbir zaman kendisi giriş yapmaz — her veri, hesabı zaten tutan araçtan ödünç alınır. Buradan çıkış yapmak kimlik bilgisinin okunmasını durdurur ve rakamları unutur, ancak o araçtaki girişiniz sürer. macOS her araç için ilk seferde bir kez, farklı bir hesapla giriş yaptığınızda da yeniden sorar; Her Zaman İzin Ver seçilirse bir daha sormaz."
+            "value": "Siggy hiçbir zaman kendisi giriş yapmaz — her veri, hesabı zaten tutan araçtan ödünç alınır. Buradan çıkış yapmak kimlik bilgisinin okunmasını durdurur ve rakamları unutur, ancak o araçtaki girişiniz sürer. macOS her araç için ilk seferde bir kez, farklı bir hesapla giriş yaptığınızda da yeniden sorar; Her Zaman İzin Ver seçilirse bir daha sormaz."
           }
         }
       }
     },
-    "Codenotch reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor, Codex, Antigravity, GLM, Grok or OpenCode, and its ring appears in the notch.": {
+    "Siggy reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor, Codex, Antigravity, GLM, Grok or OpenCode, and its ring appears in the notch.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch lit la consommation des outils déjà connectés sur ce Mac — il ne demande jamais votre mot de passe. Installez l'un de Claude Code (l'outil en terminal, pas l'app Claude), Cursor, Codex, Antigravity, GLM, Grok ou OpenCode et connectez-vous : son anneau apparaît dans l'encoche."
+            "value": "Siggy lit la consommation des outils déjà connectés sur ce Mac — il ne demande jamais votre mot de passe. Installez l'un de Claude Code (l'outil en terminal, pas l'app Claude), Cursor, Codex, Antigravity, GLM, Grok ou OpenCode et connectez-vous : son anneau apparaît dans l'encoche."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor、Codex、Antigravity、GLM、Grok、OpenCode のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
+            "value": "Siggy は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor、Codex、Antigravity、GLM、Grok、OpenCode のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O Codenotch lê o uso de ferramentas já conectadas neste Mac — ele nunca pede sua senha. Instale e entre em qualquer um destes: Claude Code (a ferramenta de terminal, não o app Claude), Cursor, Codex, Antigravity, GLM, Grok ou OpenCode, e o anel correspondente aparece no notch."
+            "value": "O Siggy lê o uso de ferramentas já conectadas neste Mac — ele nunca pede sua senha. Instale e entre em qualquer um destes: Claude Code (a ferramenta de terminal, não o app Claude), Cursor, Codex, Antigravity, GLM, Grok ou OpenCode, e o anel correspondente aparece no notch."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor、Codex、Antigravity、GLM、Grok 或 OpenCode 中的任意一个，刘海里就会出现对应的圆环。"
+            "value": "Siggy 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor、Codex、Antigravity、GLM、Grok 或 OpenCode 中的任意一个，刘海里就会出现对应的圆环。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 讀取這台 Mac 上已經登入的工具的用量 — 從不問你的密碼。安裝並登入 Claude Code（終端工具，不是 Claude App）、Cursor、Codex、Antigravity、GLM、Grok 或 OpenCode 中的任意一個，瀏海裡就會出現對應的圓環。"
+            "value": "Siggy 讀取這台 Mac 上已經登入的工具的用量 — 從不問你的密碼。安裝並登入 Claude Code（終端工具，不是 Claude App）、Cursor、Codex、Antigravity、GLM、Grok 或 OpenCode 中的任意一個，瀏海裡就會出現對應的圓環。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читает использование из инструментов, уже авторизованных на этом Mac, и никогда не спрашивает пароль. Установите и авторизуйтесь в Claude Code (терминальном инструменте, не приложении Claude), Cursor, Codex, Antigravity, GLM, Grok или OpenCode — и кольцо появится на панели."
+            "value": "Siggy читает использование из инструментов, уже авторизованных на этом Mac, и никогда не спрашивает пароль. Установите и авторизуйтесь в Claude Code (терминальном инструменте, не приложении Claude), Cursor, Codex, Antigravity, GLM, Grok или OpenCode — и кольцо появится на панели."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch liest die Nutzung von Tools, die auf diesem Mac bereits angemeldet sind — es fragt nie nach deinem Passwort. Installiere eines von Claude Code (das Terminal-Tool, nicht die Claude-App), Cursor, Codex, Antigravity, GLM, Grok oder OpenCode und melde dich an — der zugehörige Ring erscheint dann in der Notch."
+            "value": "Siggy liest die Nutzung von Tools, die auf diesem Mac bereits angemeldet sind — es fragt nie nach deinem Passwort. Installiere eines von Claude Code (das Terminal-Tool, nicht die Claude-App), Cursor, Codex, Antigravity, GLM, Grok oder OpenCode und melde dich an — der zugehörige Ring erscheint dann in der Notch."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor, Codex, Antigravity, GLM, Grok або OpenCode — і увійдіть: його кільце зʼявиться у вирізі."
+            "value": "Siggy читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor, Codex, Antigravity, GLM, Grok або OpenCode — і увійдіть: його кільце зʼявиться у вирізі."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor, Codex, Antigravity, GLM, Grok, OpenCode 중 하나를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
+            "value": "Siggy는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor, Codex, Antigravity, GLM, Grok, OpenCode 중 하나를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor, Codex, Antigravity, GLM, Grok yoki OpenCode — va uning halqasi notchʼda paydo boʻladi."
+            "value": "Siggy foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor, Codex, Antigravity, GLM, Grok yoki OpenCode — va uning halqasi notchʼda paydo boʻladi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch membaca penggunaan dari alat yang sudah masuk di Mac ini — tidak pernah meminta kata sandi Anda. Pasang dan masuk ke salah satu dari Claude Code (alat terminal, bukan aplikasi Claude), Cursor, Codex, Antigravity, GLM, Grok, atau OpenCode, dan ring akan muncul di notch."
+            "value": "Siggy membaca penggunaan dari alat yang sudah masuk di Mac ini — tidak pernah meminta kata sandi Anda. Pasang dan masuk ke salah satu dari Claude Code (alat terminal, bukan aplikasi Claude), Cursor, Codex, Antigravity, GLM, Grok, atau OpenCode, dan ring akan muncul di notch."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor, Codex, Antigravity, GLM, Grok veya OpenCode'dan herhangi birini kurup giriş yapın; halkası çentikte belirir."
+            "value": "Siggy kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor, Codex, Antigravity, GLM, Grok veya OpenCode'dan herhangi birini kurup giriş yapın; halkası çentikte belirir."
           }
         }
       }
@@ -8604,79 +8604,79 @@
         }
       }
     },
-    "Version %@. Updates install in the background and apply next time Codenotch starts.": {
+    "Version %@. Updates install in the background and apply next time Siggy starts.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Version %@. Les mises à jour s'installent en arrière-plan et s'appliquent au prochain démarrage de Codenotch."
+            "value": "Version %@. Les mises à jour s'installent en arrière-plan et s'appliquent au prochain démarrage de Siggy."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "バージョン %@。アップデートはバックグラウンドでインストールされ、次回 Codenotch を起動したときに適用されます。"
+            "value": "バージョン %@。アップデートはバックグラウンドでインストールされ、次回 Siggy を起動したときに適用されます。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Versão %@. As atualizações são instaladas em segundo plano e valem na próxima vez que o Codenotch iniciar."
+            "value": "Versão %@. As atualizações são instaladas em segundo plano e valem na próxima vez que o Siggy iniciar."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "版本 %@。更新在后台安装，下次启动 Codenotch 时生效。"
+            "value": "版本 %@。更新在后台安装，下次启动 Siggy 时生效。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "版本 %@。更新在背景安裝，下次啟動 Codenotch 時生效。"
+            "value": "版本 %@。更新在背景安裝，下次啟動 Siggy 時生效。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Версия %@. Обновления устанавливаются в фоне и применяются при следующем запуске Codenotch."
+            "value": "Версия %@. Обновления устанавливаются в фоне и применяются при следующем запуске Siggy."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Version %@. Updates werden im Hintergrund installiert und gelten ab dem nächsten Start von Codenotch."
+            "value": "Version %@. Updates werden im Hintergrund installiert und gelten ab dem nächsten Start von Siggy."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Версія %@. Оновлення встановлюються у фоні й застосовуються під час наступного запуску Codenotch."
+            "value": "Версія %@. Оновлення встановлюються у фоні й застосовуються під час наступного запуску Siggy."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "버전 %@. 업데이트는 백그라운드에서 설치되며 다음에 Codenotch를 시작할 때 적용됩니다."
+            "value": "버전 %@. 업데이트는 백그라운드에서 설치되며 다음에 Siggy를 시작할 때 적용됩니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ versiyasi. Yangilanishlar fonda oʻrnatiladi va Codenotch keyingi safar ishga tushganda qoʻllanadi."
+            "value": "%@ versiyasi. Yangilanishlar fonda oʻrnatiladi va Siggy keyingi safar ishga tushganda qoʻllanadi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Versi %@. Pembaruan dipasang di latar belakang dan diterapkan saat Codenotch dimulai berikutnya."
+            "value": "Versi %@. Pembaruan dipasang di latar belakang dan diterapkan saat Siggy dimulai berikutnya."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sürüm %@. Güncellemeler arka planda yüklenir ve Codenotch bir sonraki açılışında uygulanır."
+            "value": "Sürüm %@. Güncellemeler arka planda yüklenir ve Siggy bir sonraki açılışında uygulanır."
           }
         }
       }
@@ -9143,79 +9143,79 @@
         }
       }
     },
-    "Codenotch is not reading %@'s saved login. Choose Allow access… above and answer Allow.": {
+    "Siggy is not reading %@'s saved login. Choose Allow access… above and answer Allow.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch ne lit pas la connexion enregistrée de %@. Choisissez Autoriser l'accès… ci-dessus et répondez Autoriser."
+            "value": "Siggy ne lit pas la connexion enregistrée de %@. Choisissez Autoriser l'accès… ci-dessus et répondez Autoriser."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は %@ の保存済みログインを読んでいません。上の「アクセスを許可…」を選び、「許可」と答えてください。"
+            "value": "Siggy は %@ の保存済みログインを読んでいません。上の「アクセスを許可…」を選び、「許可」と答えてください。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O Codenotch não está lendo o login salvo de %@. Escolha Permitir acesso… acima e responda Permitir."
+            "value": "O Siggy não está lendo o login salvo de %@. Escolha Permitir acesso… acima e responda Permitir."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 没有读取 %@ 保存的登录信息。请在上方选择“允许访问…”，然后选择“允许”。"
+            "value": "Siggy 没有读取 %@ 保存的登录信息。请在上方选择“允许访问…”，然后选择“允许”。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 沒有讀取 %@ 儲存的登入資訊。請在上方選擇“允許取用…”，然後選擇“允許”。"
+            "value": "Siggy 沒有讀取 %@ 儲存的登入資訊。請在上方選擇“允許取用…”，然後選擇“允許”。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch не читает сохранённый вход %@. Выберите «Разрешить доступ…» выше и ответьте «Разрешить»."
+            "value": "Siggy не читает сохранённый вход %@. Выберите «Разрешить доступ…» выше и ответьте «Разрешить»."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch liest die gespeicherte Anmeldung von %@ nicht. Wähle oben „Zugriff erlauben…“ und antworte mit „Erlauben“."
+            "value": "Siggy liest die gespeicherte Anmeldung von %@ nicht. Wähle oben „Zugriff erlauben…“ und antworte mit „Erlauben“."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch не читає збережений вхід %@. Виберіть «Дозволити доступ…» вище й дайте відповідь «Дозволити»."
+            "value": "Siggy не читає збережений вхід %@. Виберіть «Дозволити доступ…» вище й дайте відповідь «Дозволити»."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch가 %@의 저장된 로그인 정보를 읽고 있지 않습니다. 위의 ‘접근 허용…’을 선택한 다음 ‘허용’을 선택하십시오."
+            "value": "Siggy가 %@의 저장된 로그인 정보를 읽고 있지 않습니다. 위의 ‘접근 허용…’을 선택한 다음 ‘허용’을 선택하십시오."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch %@ ning saqlangan kirish maʼlumotini oʻqimayapti. Yuqoridagi Ruxsat berish… ni tanlang va Allow deb javob bering."
+            "value": "Siggy %@ ning saqlangan kirish maʼlumotini oʻqimayapti. Yuqoridagi Ruxsat berish… ni tanlang va Allow deb javob bering."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch tidak sedang membaca login tersimpan %@. Pilih Izinkan akses… di atas dan jawab Izinkan."
+            "value": "Siggy tidak sedang membaca login tersimpan %@. Pilih Izinkan akses… di atas dan jawab Izinkan."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch, %@ için kayıtlı girişi okumuyor. Yukarıdan Erişime izin ver…'i seçin ve İzin Ver yanıtını verin."
+            "value": "Siggy, %@ için kayıtlı girişi okumuyor. Yukarıdan Erişime izin ver…'i seçin ve İzin Ver yanıtını verin."
           }
         }
       }
@@ -9451,79 +9451,79 @@
         }
       }
     },
-    "Codenotch Settings": {
+    "Siggy Settings": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Réglages de Codenotch"
+            "value": "Réglages de Siggy"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 設定"
+            "value": "Siggy 設定"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ajustes do Codenotch"
+            "value": "Ajustes do Siggy"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 设置"
+            "value": "Siggy 设置"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 設定"
+            "value": "Siggy 設定"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Настройки Codenotch"
+            "value": "Настройки Siggy"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch-Einstellungen"
+            "value": "Siggy-Einstellungen"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Налаштування Codenotch"
+            "value": "Налаштування Siggy"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 설정"
+            "value": "Siggy 설정"
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch sozlamalari"
+            "value": "Siggy sozlamalari"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pengaturan Codenotch"
+            "value": "Pengaturan Siggy"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch Ayarları"
+            "value": "Siggy Ayarları"
           }
         }
       }
@@ -10452,79 +10452,79 @@
         }
       }
     },
-    "Signs out of %@ — the session belongs to Codenotch.": {
+    "Signs out of %@ — the session belongs to Siggy.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Выход из %@ — сессия принадлежит Codenotch."
+            "value": "Выход из %@ — сессия принадлежит Siggy."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Vous déconnecte de %@ — la session appartient à Codenotch."
+            "value": "Vous déconnecte de %@ — la session appartient à Siggy."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ からサインアウトします — このセッションは Codenotch のものです。"
+            "value": "%@ からサインアウトします — このセッションは Siggy のものです。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sai do %@ — a sessão pertence ao Codenotch."
+            "value": "Sai do %@ — a sessão pertence ao Siggy."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "会退出 %@ — 这个会话属于 Codenotch。"
+            "value": "会退出 %@ — 这个会话属于 Siggy。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "會登出 %@ — 這個工作階段屬於 Codenotch。"
+            "value": "會登出 %@ — 這個工作階段屬於 Siggy。"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Meldet dich bei %@ ab — die Sitzung gehört Codenotch."
+            "value": "Meldet dich bei %@ ab — die Sitzung gehört Siggy."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Вихід із %@ — сесія належить Codenotch."
+            "value": "Вихід із %@ — сесія належить Siggy."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@에서 로그아웃합니다 — 이 세션은 Codenotch가 관리합니다."
+            "value": "%@에서 로그아웃합니다 — 이 세션은 Siggy가 관리합니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ dan chiqadi — sessiya Codenotchʼga tegishli."
+            "value": "%@ dan chiqadi — sessiya Siggyʼga tegishli."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Keluar dari %@ — sesi ini milik Codenotch."
+            "value": "Keluar dari %@ — sesi ini milik Siggy."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ oturumunu kapatır — bu oturum Codenotch'a aittir."
+            "value": "%@ oturumunu kapatır — bu oturum Siggy'a aittir."
           }
         }
       }
@@ -10885,7 +10885,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Запустіть grok login — команда виконує вхід і оновлює токен, який читає Codenotch."
+            "value": "Запустіть grok login — команда виконує вхід і оновлює токен, який читає Siggy."
           }
         },
         "ko": {
@@ -11116,7 +11116,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Запустіть `%@` один раз — команда виконує вхід і оновлює токен, який читає Codenotch. Щоб змінити акаунт, введіть там /login."
+            "value": "Запустіть `%@` один раз — команда виконує вхід і оновлює токен, який читає Siggy. Щоб змінити акаунт, введіть там /login."
           }
         },
         "ko": {
@@ -11838,79 +11838,79 @@
         }
       }
     },
-    "Codenotch is set to Always show. Change it in Settings.": {
+    "Siggy is set to Always show. Change it in Settings.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch est réglé sur Toujours afficher. Modifiez-le dans les Réglages."
+            "value": "Siggy est réglé sur Toujours afficher. Modifiez-le dans les Réglages."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は「常に表示」に設定されています。設定で変更してください。"
+            "value": "Siggy は「常に表示」に設定されています。設定で変更してください。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O Codenotch está definido como Sempre exibir. Altere isso nos Ajustes."
+            "value": "O Siggy está definido como Sempre exibir. Altere isso nos Ajustes."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 已设为「始终显示」。请在设置里更改。"
+            "value": "Siggy 已设为「始终显示」。请在设置里更改。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 已設為「始終顯示」。請在設定裡更改。"
+            "value": "Siggy 已設為「始終顯示」。請在設定裡更改。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Для Codenotch включён режим «Показывать всегда». Измените его в настройках."
+            "value": "Для Siggy включён режим «Показывать всегда». Измените его в настройках."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch ist auf „Immer anzeigen“ eingestellt. Ändere das in den Einstellungen."
+            "value": "Siggy ist auf „Immer anzeigen“ eingestellt. Ändere das in den Einstellungen."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Для Codenotch увімкнено режим «Показувати завжди». Змініть його в налаштуваннях."
+            "value": "Для Siggy увімкнено режим «Показувати завжди». Змініть його в налаштуваннях."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch가 ‘항상 표시’로 설정되어 있습니다. 설정에서 변경하십시오."
+            "value": "Siggy가 ‘항상 표시’로 설정되어 있습니다. 설정에서 변경하십시오."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch “Doimo” holatiga oʻrnatilgan. Buni Sozlamalarda oʻzgartiring."
+            "value": "Siggy “Doimo” holatiga oʻrnatilgan. Buni Sozlamalarda oʻzgartiring."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch diatur ke Selalu tampilkan. Ubah di Pengaturan."
+            "value": "Siggy diatur ke Selalu tampilkan. Ubah di Pengaturan."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch Her zaman gösterecek şekilde ayarlı. Bunu Ayarlar'dan değiştirebilirsiniz."
+            "value": "Siggy Her zaman gösterecek şekilde ayarlı. Bunu Ayarlar'dan değiştirebilirsiniz."
           }
         }
       }
@@ -11992,79 +11992,79 @@
         }
       }
     },
-    "Codenotch is up to date.": {
+    "Siggy is up to date.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch обновлён."
+            "value": "Siggy обновлён."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch est à jour."
+            "value": "Siggy est à jour."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は最新です。"
+            "value": "Siggy は最新です。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O Codenotch está atualizado."
+            "value": "O Siggy está atualizado."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 已是最新版本。"
+            "value": "Siggy 已是最新版本。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 已是最新版本。"
+            "value": "Siggy 已是最新版本。"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch ist auf dem neuesten Stand."
+            "value": "Siggy ist auf dem neuesten Stand."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch має найновішу версію."
+            "value": "Siggy має найновішу версію."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch가 최신 버전입니다."
+            "value": "Siggy가 최신 버전입니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch eng soʻnggi versiyada."
+            "value": "Siggy eng soʻnggi versiyada."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch sudah diperbarui ke versi terbaru."
+            "value": "Siggy sudah diperbarui ke versi terbaru."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch güncel."
+            "value": "Siggy güncel."
           }
         }
       }
@@ -12146,79 +12146,79 @@
         }
       }
     },
-    "Couldn't reach the update server. Codenotch will try again on its own — nothing is wrong with this copy.": {
+    "Couldn't reach the update server. Siggy will try again on its own — nothing is wrong with this copy.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Serveur de mise à jour injoignable. Codenotch réessaiera de lui-même — cette copie n'a aucun problème."
+            "value": "Serveur de mise à jour injoignable. Siggy réessaiera de lui-même — cette copie n'a aucun problème."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "アップデートサーバーに接続できませんでした。Codenotch が自動で再試行します — このコピーに問題はありません。"
+            "value": "アップデートサーバーに接続できませんでした。Siggy が自動で再試行します — このコピーに問題はありません。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Não foi possível acessar o servidor de atualizações. O Codenotch tentará de novo sozinho — não há nada de errado com esta cópia."
+            "value": "Não foi possível acessar o servidor de atualizações. O Siggy tentará de novo sozinho — não há nada de errado com esta cópia."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "连不上更新服务器。Codenotch 会自己再试 — 这份安装没有问题。"
+            "value": "连不上更新服务器。Siggy 会自己再试 — 这份安装没有问题。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "連不上更新伺服器。Codenotch 會自己再試 — 這份安裝沒有問題。"
+            "value": "連不上更新伺服器。Siggy 會自己再試 — 這份安裝沒有問題。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Не удалось связаться с сервером обновлений. Codenotch повторит попытку автоматически — с этой копией всё в порядке."
+            "value": "Не удалось связаться с сервером обновлений. Siggy повторит попытку автоматически — с этой копией всё в порядке."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Der Update-Server war nicht erreichbar. Codenotch versucht es von selbst noch einmal — mit dieser Kopie ist alles in Ordnung."
+            "value": "Der Update-Server war nicht erreichbar. Siggy versucht es von selbst noch einmal — mit dieser Kopie ist alles in Ordnung."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Не вдалося звʼязатися із сервером оновлень. Codenotch спробує ще раз самостійно — із цією копією все гаразд."
+            "value": "Не вдалося звʼязатися із сервером оновлень. Siggy спробує ще раз самостійно — із цією копією все гаразд."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "업데이트 서버에 연결할 수 없습니다. Codenotch가 자동으로 다시 시도합니다 — 설치된 앱에는 문제가 없습니다."
+            "value": "업데이트 서버에 연결할 수 없습니다. Siggy가 자동으로 다시 시도합니다 — 설치된 앱에는 문제가 없습니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Yangilanish serveriga ulanib boʻlmadi. Codenotch oʻzi qayta urinib koʻradi — bu nusxada hech qanday muammo yoʻq."
+            "value": "Yangilanish serveriga ulanib boʻlmadi. Siggy oʻzi qayta urinib koʻradi — bu nusxada hech qanday muammo yoʻq."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tidak dapat menjangkau server pembaruan. Codenotch akan mencoba lagi secara otomatis — salinan aplikasi Anda tidak bermasalah."
+            "value": "Tidak dapat menjangkau server pembaruan. Siggy akan mencoba lagi secara otomatis — salinan aplikasi Anda tidak bermasalah."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Güncelleme sunucusuna ulaşılamadı. Codenotch kendiliğinden yeniden deneyecek — bu kopyada bir sorun yok."
+            "value": "Güncelleme sunucusuna ulaşılamadı. Siggy kendiliğinden yeniden deneyecek — bu kopyada bir sorun yok."
           }
         }
       }
@@ -18231,79 +18231,79 @@
         }
       }
     },
-    "Nothing on screen. The readings stay in the menu bar menu when App icon is Menu bar. Otherwise, open Codenotch again from Applications to bring these settings back.": {
+    "Nothing on screen. The readings stay in the menu bar menu when App icon is Menu bar. Otherwise, open Siggy again from Applications to bring these settings back.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Rien à l'écran. Les relevés restent dans le menu de la barre des menus quand Icône de l'app est réglée sur Barre des menus. Sinon, rouvrez Codenotch depuis Applications pour retrouver ces réglages."
+            "value": "Rien à l'écran. Les relevés restent dans le menu de la barre des menus quand Icône de l'app est réglée sur Barre des menus. Sinon, rouvrez Siggy depuis Applications pour retrouver ces réglages."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "画面には何も出ません。「アプリアイコン」が「メニューバー」なら、読み取りはメニューバーのメニューに残ります。それ以外の場合、この設定に戻るには、アプリケーションから Codenotch をもう一度開いてください。"
+            "value": "画面には何も出ません。「アプリアイコン」が「メニューバー」なら、読み取りはメニューバーのメニューに残ります。それ以外の場合、この設定に戻るには、アプリケーションから Siggy をもう一度開いてください。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nada na tela. As leituras continuam no menu da barra de menus quando o Ícone do app é Barra de menus. Caso contrário, abra o Codenotch novamente em Aplicativos para trazer estes ajustes de volta."
+            "value": "Nada na tela. As leituras continuam no menu da barra de menus quando o Ícone do app é Barra de menus. Caso contrário, abra o Siggy novamente em Aplicativos para trazer estes ajustes de volta."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "屏幕上什么都没有。应用图标选「菜单栏」时，读数仍在菜单栏菜单里。否则，从「应用程序」再打开 Codenotch，才能回到这些设置。"
+            "value": "屏幕上什么都没有。应用图标选「菜单栏」时，读数仍在菜单栏菜单里。否则，从「应用程序」再打开 Siggy，才能回到这些设置。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "螢幕上什麼都沒有。App 圖示選「選單列」時，讀數仍在選單列選單裡。否則，從「應用程式」再開啟 Codenotch，才能回到這些設定。"
+            "value": "螢幕上什麼都沒有。App 圖示選「選單列」時，讀數仍在選單列選單裡。否則，從「應用程式」再開啟 Siggy，才能回到這些設定。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "На экране ничего нет. Если значок приложения находится в строке меню, показания остаются в её меню. Иначе снова откройте Codenotch из папки «Программы», чтобы вернуть эти настройки."
+            "value": "На экране ничего нет. Если значок приложения находится в строке меню, показания остаются в её меню. Иначе снова откройте Siggy из папки «Программы», чтобы вернуть эти настройки."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nichts auf dem Bildschirm. Wenn App-Symbol auf Menüleiste steht, bleiben die Messwerte im Menü der Menüleiste. Andernfalls öffne Codenotch erneut aus dem Programme-Ordner, um diese Einstellungen zurückzuholen."
+            "value": "Nichts auf dem Bildschirm. Wenn App-Symbol auf Menüleiste steht, bleiben die Messwerte im Menü der Menüleiste. Andernfalls öffne Siggy erneut aus dem Programme-Ordner, um diese Einstellungen zurückzuholen."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Нічого на екрані. Якщо значок застосунку — «Рядок меню», показники лишаються в його меню. Інакше відкрийте Codenotch знову з теки «Програми», щоб повернути ці налаштування."
+            "value": "Нічого на екрані. Якщо значок застосунку — «Рядок меню», показники лишаються в його меню. Інакше відкрийте Siggy знову з теки «Програми», щоб повернути ці налаштування."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "화면에 아무것도 표시하지 않습니다. ‘앱 아이콘’이 ‘메뉴 막대’로 설정되어 있으면 메뉴 막대의 메뉴에서 측정값을 볼 수 있습니다. 그 외에는 응용 프로그램에서 Codenotch를 다시 열어 이 설정으로 돌아올 수 있습니다."
+            "value": "화면에 아무것도 표시하지 않습니다. ‘앱 아이콘’이 ‘메뉴 막대’로 설정되어 있으면 메뉴 막대의 메뉴에서 측정값을 볼 수 있습니다. 그 외에는 응용 프로그램에서 Siggy를 다시 열어 이 설정으로 돌아올 수 있습니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ekranda hech narsa yoʻq. Ilova belgisi Menyu paneli boʻlsa, koʻrsatkichlar menyu paneli menyusida qoladi. Aks holda, bu sozlamalarni qaytarish uchun Codenotchʼni Applicationsʼdan qayta oching."
+            "value": "Ekranda hech narsa yoʻq. Ilova belgisi Menyu paneli boʻlsa, koʻrsatkichlar menyu paneli menyusida qoladi. Aks holda, bu sozlamalarni qaytarish uchun Siggyʼni Applicationsʼdan qayta oching."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tidak ada di layar. Data tetap ada di menu bilah menu jika Ikon Aplikasi disetel ke Bilah menu. Jika tidak, buka kembali Codenotch dari Aplikasi untuk mengembalikan pengaturan ini."
+            "value": "Tidak ada di layar. Data tetap ada di menu bilah menu jika Ikon Aplikasi disetel ke Bilah menu. Jika tidak, buka kembali Siggy dari Aplikasi untuk mengembalikan pengaturan ini."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ekranda hiçbir şey yok. Uygulama simgesi Menü çubuğu olarak ayarlıysa veriler menü çubuğu menüsünde kalır. Aksi hâlde bu ayarları geri getirmek için Codenotch'u Uygulamalar klasöründen yeniden açın."
+            "value": "Ekranda hiçbir şey yok. Uygulama simgesi Menü çubuğu olarak ayarlıysa veriler menü çubuğu menüsünde kalır. Aksi hâlde bu ayarları geri getirmek için Siggy'u Uygulamalar klasöründen yeniden açın."
           }
         }
       }
@@ -22081,79 +22081,79 @@
         }
       }
     },
-    "That display is disconnected. Codenotch follows the active window until it returns.": {
+    "That display is disconnected. Siggy follows the active window until it returns.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Cet écran est déconnecté. Codenotch suit la fenêtre active jusqu'à son retour."
+            "value": "Cet écran est déconnecté. Siggy suit la fenêtre active jusqu'à son retour."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "そのディスプレイは接続されていません。復帰するまで、Codenotch はアクティブなウインドウに追従します。"
+            "value": "そのディスプレイは接続されていません。復帰するまで、Siggy はアクティブなウインドウに追従します。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Essa tela está desconectada. O Codenotch acompanha a janela ativa até ela voltar."
+            "value": "Essa tela está desconectada. O Siggy acompanha a janela ativa até ela voltar."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "那台显示器已断开。Codenotch 会跟随活动窗口，直到它回来。"
+            "value": "那台显示器已断开。Siggy 会跟随活动窗口，直到它回来。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "那台顯示器已斷開。Codenotch 會跟隨活動視窗，直到它回來。"
+            "value": "那台顯示器已斷開。Siggy 會跟隨活動視窗，直到它回來。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Этот дисплей отключён. Codenotch следует за активным окном, пока дисплей не вернётся."
+            "value": "Этот дисплей отключён. Siggy следует за активным окном, пока дисплей не вернётся."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dieser Bildschirm ist getrennt. Codenotch folgt dem aktiven Fenster, bis er zurückkommt."
+            "value": "Dieser Bildschirm ist getrennt. Siggy folgt dem aktiven Fenster, bis er zurückkommt."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Цей дисплей відʼєднано. Codenotch стежить за активним вікном, доки дисплей не повернеться."
+            "value": "Цей дисплей відʼєднано. Siggy стежить за активним вікном, доки дисплей не повернеться."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "해당 디스플레이의 연결이 끊겼습니다. 다시 연결될 때까지 Codenotch는 활성 창을 따라갑니다."
+            "value": "해당 디스플레이의 연결이 끊겼습니다. 다시 연결될 때까지 Siggy는 활성 창을 따라갑니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bu displey uzilgan. U qaytgunicha Codenotch faol oynaga ergashadi."
+            "value": "Bu displey uzilgan. U qaytgunicha Siggy faol oynaga ergashadi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Layar tersebut terputus. Codenotch mengikuti jendela aktif hingga layar terhubung kembali."
+            "value": "Layar tersebut terputus. Siggy mengikuti jendela aktif hingga layar terhubung kembali."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "O ekranın bağlantısı kesildi. Codenotch, ekran geri gelene kadar etkin pencereyi izler."
+            "value": "O ekranın bağlantısı kesildi. Siggy, ekran geri gelene kadar etkin pencereyi izler."
           }
         }
       }
@@ -22543,156 +22543,156 @@
         }
       }
     },
-    "Codenotch reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
+    "Siggy reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch lit la consommation des outils déjà connectés sur ce Mac — il ne demande jamais votre mot de passe. Installez l'un de Claude Code (l'outil en terminal, pas l'app Claude), Cursor (l'éditeur ou cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot ou une clé API Gemini (via Gemini CLI, OpenCode ou Hermes) et connectez-vous : son anneau apparaît dans l'encoche."
+            "value": "Siggy lit la consommation des outils déjà connectés sur ce Mac — il ne demande jamais votre mot de passe. Installez l'un de Claude Code (l'outil en terminal, pas l'app Claude), Cursor (l'éditeur ou cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot ou une clé API Gemini (via Gemini CLI, OpenCode ou Hermes) et connectez-vous : son anneau apparaît dans l'encoche."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、GitHub Copilot、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
+            "value": "Siggy は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、GitHub Copilot、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O Codenotch lê o uso de ferramentas que já têm sessão iniciada neste Mac — ele nunca pede sua senha. Instale e faça login em uma destas opções: Claude Code (a ferramenta de terminal, não o app Claude), Cursor (o editor ou o cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot ou uma chave de API do Gemini (via Gemini CLI, OpenCode ou Hermes). O anel correspondente aparecerá no notch."
+            "value": "O Siggy lê o uso de ferramentas que já têm sessão iniciada neste Mac — ele nunca pede sua senha. Instale e faça login em uma destas opções: Claude Code (a ferramenta de terminal, não o app Claude), Cursor (o editor ou o cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot ou uma chave de API do Gemini (via Gemini CLI, OpenCode ou Hermes). O anel correspondente aparecerá no notch."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、GitHub Copilot 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
+            "value": "Siggy 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、GitHub Copilot 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 讀取這台 Mac 上已經登入的工具的用量 — 從不問你的密碼。安裝並登入 Claude Code（終端工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、GitHub Copilot 或 Gemini API 金鑰（經由 Gemini CLI、OpenCode 或 Hermes）中的任意一個，瀏海裡就會出現對應的圓環。"
+            "value": "Siggy 讀取這台 Mac 上已經登入的工具的用量 — 從不問你的密碼。安裝並登入 Claude Code（終端工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、GitHub Copilot 或 Gemini API 金鑰（經由 Gemini CLI、OpenCode 或 Hermes）中的任意一個，瀏海裡就會出現對應的圓環。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читает использование из инструментов, уже авторизованных на этом Mac, и никогда не спрашивает пароль. Установите и авторизуйтесь в Claude Code (терминальном инструменте, не приложении Claude), Cursor (редакторе или cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot или Gemini API через Gemini CLI, OpenCode или Hermes — и кольцо появится на панели."
+            "value": "Siggy читает использование из инструментов, уже авторизованных на этом Mac, и никогда не спрашивает пароль. Установите и авторизуйтесь в Claude Code (терминальном инструменте, не приложении Claude), Cursor (редакторе или cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot или Gemini API через Gemini CLI, OpenCode или Hermes — и кольцо появится на панели."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch liest die Nutzung von Tools, die auf diesem Mac bereits angemeldet sind — es fragt nie nach deinem Passwort. Installiere eines von Claude Code (das Terminal-Tool, nicht die Claude-App), Cursor (den Editor oder cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot oder einen Gemini-API-Schlüssel (über Gemini CLI, OpenCode oder Hermes) und melde dich an — der zugehörige Ring erscheint dann in der Notch."
+            "value": "Siggy liest die Nutzung von Tools, die auf diesem Mac bereits angemeldet sind — es fragt nie nach deinem Passwort. Installiere eines von Claude Code (das Terminal-Tool, nicht die Claude-App), Cursor (den Editor oder cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot oder einen Gemini-API-Schlüssel (über Gemini CLI, OpenCode oder Hermes) und melde dich an — der zugehörige Ring erscheint dann in der Notch."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
+            "value": "Siggy читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
+            "value": "Siggy는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
+            "value": "Siggy foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch membaca penggunaan dari alat yang sudah login di Mac ini — aplikasi tidak pernah meminta kata sandi Anda. Pasang dan masuk ke Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan ring akan muncul di notch."
+            "value": "Siggy membaca penggunaan dari alat yang sudah login di Mac ini — aplikasi tidak pernah meminta kata sandi Anda. Pasang dan masuk ke Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan ring akan muncul di notch."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
+            "value": "Siggy kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, GitHub Copilot veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
           }
         }
       }
     },
-    "macOS may ask before Codenotch reads Claude Code's, Antigravity's or cursor-agent's saved login. Background refreshes never show that question; it appears only when you click Allow access…, and Deny stops Codenotch reading that login until you ask again.": {
+    "macOS may ask before Siggy reads Claude Code's, Antigravity's or cursor-agent's saved login. Background refreshes never show that question; it appears only when you click Allow access…, and Deny stops Siggy reading that login until you ask again.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS peut demander l'autorisation avant que Codenotch lise la connexion enregistrée de Claude Code, d'Antigravity ou de cursor-agent. Les actualisations en arrière-plan n'affichent jamais cette question ; elle n'apparaît que lorsque vous cliquez sur Autoriser l'accès…, et Refuser empêche Codenotch de lire cette connexion jusqu'à ce que vous redemandiez."
+            "value": "macOS peut demander l'autorisation avant que Siggy lise la connexion enregistrée de Claude Code, d'Antigravity ou de cursor-agent. Les actualisations en arrière-plan n'affichent jamais cette question ; elle n'apparaît que lorsque vous cliquez sur Autoriser l'accès…, et Refuser empêche Siggy de lire cette connexion jusqu'à ce que vous redemandiez."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch が Claude Code・Antigravity・cursor-agent の保存済みログインを読む前に、macOS が確認することがあります。バックグラウンドの更新でこの確認が表示されることはなく、「アクセスを許可…」をクリックしたときだけ表示されます。「拒否」を選ぶと、もう一度求めるまで Codenotch はそのログインを読みません。"
+            "value": "Siggy が Claude Code・Antigravity・cursor-agent の保存済みログインを読む前に、macOS が確認することがあります。バックグラウンドの更新でこの確認が表示されることはなく、「アクセスを許可…」をクリックしたときだけ表示されます。「拒否」を選ぶと、もう一度求めるまで Siggy はそのログインを読みません。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O macOS pode perguntar antes de o Codenotch ler o login salvo do Claude Code, do Antigravity ou do cursor-agent. As atualizações em segundo plano nunca mostram essa pergunta; ela só aparece quando você clica em Permitir acesso…, e Negar impede o Codenotch de ler esse login até você pedir de novo."
+            "value": "O macOS pode perguntar antes de o Siggy ler o login salvo do Claude Code, do Antigravity ou do cursor-agent. As atualizações em segundo plano nunca mostram essa pergunta; ela só aparece quando você clica em Permitir acesso…, e Negar impede o Siggy de ler esse login até você pedir de novo."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 读取 Claude Code、Antigravity 或 cursor-agent 保存的登录信息前，macOS 可能会先询问。后台刷新从不弹出这个询问；只有点击“允许访问…”时才会出现，选择“拒绝”后，在你再次请求之前 Codenotch 不会读取该登录信息。"
+            "value": "Siggy 读取 Claude Code、Antigravity 或 cursor-agent 保存的登录信息前，macOS 可能会先询问。后台刷新从不弹出这个询问；只有点击“允许访问…”时才会出现，选择“拒绝”后，在你再次请求之前 Siggy 不会读取该登录信息。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 讀取 Claude Code、Antigravity 或 cursor-agent 儲存的登入資訊前，macOS 可能會先詢問。背景重新整理從不彈出這個詢問；只有點按“允許取用…”時才會出現，選擇“拒絕”後，在你再次要求之前 Codenotch 不會讀取該登入資訊。"
+            "value": "Siggy 讀取 Claude Code、Antigravity 或 cursor-agent 儲存的登入資訊前，macOS 可能會先詢問。背景重新整理從不彈出這個詢問；只有點按“允許取用…”時才會出現，選擇“拒絕”後，在你再次要求之前 Siggy 不會讀取該登入資訊。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS может спросить разрешение, прежде чем Codenotch прочитает сохранённый вход Claude Code, Antigravity или cursor-agent. Фоновые обновления никогда не показывают этот вопрос: он появляется только после нажатия «Разрешить доступ…», а «Запретить» не даёт Codenotch читать этот вход, пока вы не спросите снова."
+            "value": "macOS может спросить разрешение, прежде чем Siggy прочитает сохранённый вход Claude Code, Antigravity или cursor-agent. Фоновые обновления никогда не показывают этот вопрос: он появляется только после нажатия «Разрешить доступ…», а «Запретить» не даёт Siggy читать этот вход, пока вы не спросите снова."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS kann fragen, bevor Codenotch die gespeicherte Anmeldung von Claude Code, Antigravity oder cursor-agent liest. Hintergrundaktualisierungen zeigen diese Frage nie; sie erscheint nur, wenn du auf „Zugriff erlauben…“ klickst, und „Ablehnen“ verhindert, dass Codenotch diese Anmeldung liest, bis du erneut fragst."
+            "value": "macOS kann fragen, bevor Siggy die gespeicherte Anmeldung von Claude Code, Antigravity oder cursor-agent liest. Hintergrundaktualisierungen zeigen diese Frage nie; sie erscheint nur, wenn du auf „Zugriff erlauben…“ klickst, und „Ablehnen“ verhindert, dass Siggy diese Anmeldung liest, bis du erneut fragst."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS може запитати дозвіл, перш ніж Codenotch прочитає збережений вхід Claude Code, Antigravity або cursor-agent. Фонові оновлення ніколи не показують цього запитання: воно з'являється лише після натискання «Дозволити доступ…», а «Заборонити» не дає Codenotch читати цей вхід, доки ви не запитаєте знову."
+            "value": "macOS може запитати дозвіл, перш ніж Siggy прочитає збережений вхід Claude Code, Antigravity або cursor-agent. Фонові оновлення ніколи не показують цього запитання: воно з'являється лише після натискання «Дозволити доступ…», а «Заборонити» не дає Siggy читати цей вхід, доки ви не запитаєте знову."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch가 Claude Code, Antigravity 또는 cursor-agent의 저장된 로그인 정보를 읽기 전에 macOS가 권한을 요청할 수 있습니다. 백그라운드 새로 고침 중에는 요청하지 않으며, ‘접근 허용…’을 클릭할 때만 나타납니다. ‘거부’를 선택하면 다시 요청할 때까지 해당 로그인 정보를 읽지 않습니다."
+            "value": "Siggy가 Claude Code, Antigravity 또는 cursor-agent의 저장된 로그인 정보를 읽기 전에 macOS가 권한을 요청할 수 있습니다. 백그라운드 새로 고침 중에는 요청하지 않으며, ‘접근 허용…’을 클릭할 때만 나타납니다. ‘거부’를 선택하면 다시 요청할 때까지 해당 로그인 정보를 읽지 않습니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch Claude Code, Antigravity yoki cursor-agentʼning saqlangan kirish maʼlumotini oʻqishidan oldin macOS soʻrashi mumkin. Fondagi yangilanishlar bu savolni hech qachon koʻrsatmaydi; u faqat Ruxsat berish… ni bosganingizda paydo boʻladi, Deny esa siz qayta soʻramaguningizcha Codenotch oʻsha kirish maʼlumotini oʻqishini toʻxtatadi."
+            "value": "Siggy Claude Code, Antigravity yoki cursor-agentʼning saqlangan kirish maʼlumotini oʻqishidan oldin macOS soʻrashi mumkin. Fondagi yangilanishlar bu savolni hech qachon koʻrsatmaydi; u faqat Ruxsat berish… ni bosganingizda paydo boʻladi, Deny esa siz qayta soʻramaguningizcha Siggy oʻsha kirish maʼlumotini oʻqishini toʻxtatadi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS mungkin meminta konfirmasi sebelum Codenotch membaca login tersimpan Claude Code, Antigravity, atau cursor-agent. Penyegaran latar belakang tidak pernah menampilkan pertanyaan tersebut; ini hanya muncul saat Anda mengeklik Izinkan akses…, dan Menolak akan menghentikan pembacaan login hingga Anda memintanya kembali."
+            "value": "macOS mungkin meminta konfirmasi sebelum Siggy membaca login tersimpan Claude Code, Antigravity, atau cursor-agent. Penyegaran latar belakang tidak pernah menampilkan pertanyaan tersebut; ini hanya muncul saat Anda mengeklik Izinkan akses…, dan Menolak akan menghentikan pembacaan login hingga Anda memintanya kembali."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS, Codenotch Claude Code'un, Antigravity'nin veya cursor-agent'ın kayıtlı girişini okumadan önce sorabilir. Arka plandaki yenilemeler bu soruyu asla göstermez; soru yalnızca Erişime izin ver…'e tıkladığınızda çıkar ve Reddet seçilirse Codenotch siz yeniden isteyene kadar o girişi okumaz."
+            "value": "macOS, Siggy Claude Code'un, Antigravity'nin veya cursor-agent'ın kayıtlı girişini okumadan önce sorabilir. Arka plandaki yenilemeler bu soruyu asla göstermez; soru yalnızca Erişime izin ver…'e tıkladığınızda çıkar ve Reddet seçilirse Siggy siz yeniden isteyene kadar o girişi okumaz."
           }
         }
       }
@@ -24488,79 +24488,79 @@
         }
       }
     },
-    "Codenotch uses this language even if the Mac does not.": {
+    "Siggy uses this language even if the Mac does not.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch использует этот язык независимо от языка Mac."
+            "value": "Siggy использует этот язык независимо от языка Mac."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch utilise cette langue même si le Mac ne le fait pas."
+            "value": "Siggy utilise cette langue même si le Mac ne le fait pas."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mac がこの言語でなくても、Codenotch はこの言語を使います。"
+            "value": "Mac がこの言語でなくても、Siggy はこの言語を使います。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O Codenotch usa este idioma mesmo que o Mac não use."
+            "value": "O Siggy usa este idioma mesmo que o Mac não use."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "即使 Mac 不是这种语言，Codenotch 也使用它。"
+            "value": "即使 Mac 不是这种语言，Siggy 也使用它。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "即使 Mac 不是這種語言，Codenotch 也使用它。"
+            "value": "即使 Mac 不是這種語言，Siggy 也使用它。"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch verwendet diese Sprache, auch wenn der Mac es nicht tut."
+            "value": "Siggy verwendet diese Sprache, auch wenn der Mac es nicht tut."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch використовує цю мову, навіть якщо в системі вибрано іншу."
+            "value": "Siggy використовує цю мову, навіть якщо в системі вибрано іншу."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mac의 언어 설정과 관계없이 Codenotch에 이 언어를 사용합니다."
+            "value": "Mac의 언어 설정과 관계없이 Siggy에 이 언어를 사용합니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mac boshqa tilda boʻlsa ham, Codenotch shu tildan foydalanadi."
+            "value": "Mac boshqa tilda boʻlsa ham, Siggy shu tildan foydalanadi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch menggunakan bahasa ini meskipun berbeda dari Mac."
+            "value": "Siggy menggunakan bahasa ini meskipun berbeda dari Mac."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mac bu dili kullanmasa bile Codenotch kullanır."
+            "value": "Mac bu dili kullanmasa bile Siggy kullanır."
           }
         }
       }
@@ -24719,19 +24719,19 @@
         }
       }
     },
-    "It spends a request every time. A provider that rate-limits answers one request too many by refusing the next few minutes of them, and the figure then ages further than it would have. Worth turning on to check Codenotch against a provider's own dashboard, and worth turning off again after.": {
+    "It spends a request every time. A provider that rate-limits answers one request too many by refusing the next few minutes of them, and the figure then ages further than it would have. Worth turning on to check Siggy against a provider's own dashboard, and worth turning off again after.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Каждый раз это стоит одного запроса. Провайдер с ограничением частоты отвечает на лишний запрос отказом на следующие несколько минут, и цифра тогда становится ещё старее, чем была бы. Стоит включить, чтобы сверить Codenotch с панелью самого провайдера, и потом выключить обратно."
+            "value": "Каждый раз это стоит одного запроса. Провайдер с ограничением частоты отвечает на лишний запрос отказом на следующие несколько минут, и цифра тогда становится ещё старее, чем была бы. Стоит включить, чтобы сверить Siggy с панелью самого провайдера, и потом выключить обратно."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Cela coûte une requête à chaque fois. Un fournisseur qui limite le débit répond à une requête de trop en refusant celles des quelques minutes suivantes, et le chiffre vieillit alors plus qu'il ne l'aurait fait. À activer pour comparer Codenotch au tableau de bord d'un fournisseur, et à désactiver ensuite."
+            "value": "Cela coûte une requête à chaque fois. Un fournisseur qui limite le débit répond à une requête de trop en refusant celles des quelques minutes suivantes, et le chiffre vieillit alors plus qu'il ne l'aurait fait. À activer pour comparer Siggy au tableau de bord d'un fournisseur, et à désactiver ensuite."
           }
         },
         "ja": {
@@ -24743,7 +24743,7 @@
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Isso gasta uma requisição a cada vez. Um provedor com limite de taxa responde a uma requisição a mais recusando as dos próximos minutos, e o número então envelhece mais do que teria envelhecido. Vale ligar para comparar o Codenotch com o painel do provedor, e desligar depois."
+            "value": "Isso gasta uma requisição a cada vez. Um provedor com limite de taxa responde a uma requisição a mais recusando as dos próximos minutos, e o número então envelhece mais do que teria envelhecido. Vale ligar para comparar o Siggy com o painel do provedor, e desligar depois."
           }
         },
         "zh-Hans": {
@@ -24761,13 +24761,13 @@
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Das kostet jedes Mal eine Anfrage. Ein Anbieter mit Ratenbegrenzung antwortet auf eine Anfrage zu viel, indem er die der nächsten Minuten ablehnt, und der Wert altert dann weiter als sonst. Lohnt sich, um Codenotch mit dem Dashboard eines Anbieters zu vergleichen — und danach wieder auszuschalten."
+            "value": "Das kostet jedes Mal eine Anfrage. Ein Anbieter mit Ratenbegrenzung antwortet auf eine Anfrage zu viel, indem er die der nächsten Minuten ablehnt, und der Wert altert dann weiter als sonst. Lohnt sich, um Siggy mit dem Dashboard eines Anbieters zu vergleichen — und danach wieder auszuschalten."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Щоразу це коштує одного запиту. Провайдер з обмеженням частоти відповідає на зайвий запит відмовою на наступні кілька хвилин, і цифра тоді старіє ще більше, ніж старіла б. Варто ввімкнути, щоб зіставити Codenotch із власною панеллю провайдера, і потім вимкнути назад."
+            "value": "Щоразу це коштує одного запиту. Провайдер з обмеженням частоти відповідає на зайвий запит відмовою на наступні кілька хвилин, і цифра тоді старіє ще більше, ніж старіла б. Варто ввімкнути, щоб зіставити Siggy із власною панеллю провайдера, і потім вимкнути назад."
           }
         },
         "ko": {
@@ -24779,19 +24779,19 @@
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bu har safar bitta soʻrov sarflaydi. Soʻrovlarni cheklaydigan provayder ortiqcha bitta soʻrovga keyingi bir necha daqiqalik soʻrovlarni rad etib javob beradi va koʻrsatkich shunda avvalgidan ham eskiradi. Codenotch'ni provayderning oʻz paneli bilan solishtirish uchun yoqib, keyin qaytib oʻchirishga arziydi."
+            "value": "Bu har safar bitta soʻrov sarflaydi. Soʻrovlarni cheklaydigan provayder ortiqcha bitta soʻrovga keyingi bir necha daqiqalik soʻrovlarni rad etib javob beradi va koʻrsatkich shunda avvalgidan ham eskiradi. Siggy'ni provayderning oʻz paneli bilan solishtirish uchun yoqib, keyin qaytib oʻchirishga arziydi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Setiap kali, ini memakai satu permintaan. Penyedia yang membatasi laju akan menolak permintaan beberapa menit berikutnya begitu ada satu permintaan yang berlebih, dan angkanya justru menjadi lebih tua. Berguna untuk membandingkan Codenotch dengan dasbor penyedia, lalu dimatikan lagi setelahnya."
+            "value": "Setiap kali, ini memakai satu permintaan. Penyedia yang membatasi laju akan menolak permintaan beberapa menit berikutnya begitu ada satu permintaan yang berlebih, dan angkanya justru menjadi lebih tua. Berguna untuk membandingkan Siggy dengan dasbor penyedia, lalu dimatikan lagi setelahnya."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Her seferinde bir istek harcar. İstek sınırı olan bir sağlayıcı, bir fazla isteğe sonraki birkaç dakikanınkini reddederek karşılık verir; sayı o zaman olacağından daha da eskir. Codenotch'u sağlayıcının kendi panosundaki değerle karşılaştırmak için açmaya, sonra yeniden kapatmaya değer."
+            "value": "Her seferinde bir istek harcar. İstek sınırı olan bir sağlayıcı, bir fazla isteğe sonraki birkaç dakikanınkini reddederek karşılık verir; sayı o zaman olacağından daha da eskir. Siggy'u sağlayıcının kendi panosundaki değerle karşılaştırmak için açmaya, sonra yeniden kapatmaya değer."
           }
         }
       }
@@ -26952,79 +26952,79 @@
         }
       }
     },
-    "Codenotch reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
+    "Siggy reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
       "extractionState": "manual",
       "localizations": {
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch lit la consommation des outils déjà connectés sur ce Mac — il ne demande jamais votre mot de passe. Installez l'un de Claude Code (l'outil en terminal, pas l'app Claude), Cursor (l'éditeur ou cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot ou une clé API Gemini (via Gemini CLI, OpenCode ou Hermes) et connectez-vous : son anneau apparaît dans l'encoche."
+            "value": "Siggy lit la consommation des outils déjà connectés sur ce Mac — il ne demande jamais votre mot de passe. Installez l'un de Claude Code (l'outil en terminal, pas l'app Claude), Cursor (l'éditeur ou cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot ou une clé API Gemini (via Gemini CLI, OpenCode ou Hermes) et connectez-vous : son anneau apparaît dans l'encoche."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
+            "value": "Siggy は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "O Codenotch lê o uso de ferramentas já conectadas neste Mac — ele nunca pede sua senha. Instale e entre em qualquer um destes: Claude Code (a ferramenta de terminal, não o app Claude), Cursor (o editor ou o cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot ou uma chave de API do Gemini (via CLI do Gemini, OpenCode ou Hermes), e o anel correspondente aparece no notch."
+            "value": "O Siggy lê o uso de ferramentas já conectadas neste Mac — ele nunca pede sua senha. Instale e entre em qualquer um destes: Claude Code (a ferramenta de terminal, não o app Claude), Cursor (o editor ou o cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot ou uma chave de API do Gemini (via CLI do Gemini, OpenCode ou Hermes), e o anel correspondente aparece no notch."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
+            "value": "Siggy 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 讀取這台 Mac 上已經登入的工具的用量 — 從不問你的密碼。安裝並登入 Claude Code（終端工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot 或 Gemini API 金鑰（經由 Gemini CLI、OpenCode 或 Hermes）中的任意一個，瀏海裡就會出現對應的圓環。"
+            "value": "Siggy 讀取這台 Mac 上已經登入的工具的用量 — 從不問你的密碼。安裝並登入 Claude Code（終端工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot 或 Gemini API 金鑰（經由 Gemini CLI、OpenCode 或 Hermes）中的任意一個，瀏海裡就會出現對應的圓環。"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читает использование из инструментов, уже авторизованных на этом Mac, и никогда не спрашивает пароль. Установите и авторизуйтесь в Claude Code (терминальном инструменте, не приложении Claude), Cursor (редакторе или cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot или Gemini API через Gemini CLI, OpenCode или Hermes — и кольцо появится на панели."
+            "value": "Siggy читает использование из инструментов, уже авторизованных на этом Mac, и никогда не спрашивает пароль. Установите и авторизуйтесь в Claude Code (терминальном инструменте, не приложении Claude), Cursor (редакторе или cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot или Gemini API через Gemini CLI, OpenCode или Hermes — и кольцо появится на панели."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch liest die Nutzung von Tools, die auf diesem Mac bereits angemeldet sind — es fragt nie nach deinem Passwort. Installiere eines von Claude Code (das Terminal-Tool, nicht die Claude-App), Cursor (den Editor oder cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot oder einen Gemini-API-Schlüssel (über Gemini CLI, OpenCode oder Hermes) und melde dich an — der zugehörige Ring erscheint dann in der Notch."
+            "value": "Siggy liest die Nutzung von Tools, die auf diesem Mac bereits angemeldet sind — es fragt nie nach deinem Passwort. Installiere eines von Claude Code (das Terminal-Tool, nicht die Claude-App), Cursor (den Editor oder cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot oder einen Gemini-API-Schlüssel (über Gemini CLI, OpenCode oder Hermes) und melde dich an — der zugehörige Ring erscheint dann in der Notch."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
+            "value": "Siggy читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
+            "value": "Siggy는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
+            "value": "Siggy foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch membaca penggunaan dari alat yang sudah masuk di Mac ini — tidak pernah meminta kata sandi Anda. Pasang dan masuk ke Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan ring akan muncul di notch."
+            "value": "Siggy membaca penggunaan dari alat yang sudah masuk di Mac ini — tidak pernah meminta kata sandi Anda. Pasang dan masuk ke Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan ring akan muncul di notch."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
+            "value": "Siggy kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
           }
         }
       }
@@ -32036,61 +32036,61 @@
         }
       }
     },
-    "Codenotch already knows the moment an agent stops working or stops to ask you something. Clicking the notch while it is open brings that session's app to the front — the app, not the tab: only some terminals let anything outside them choose a tab, so the tooltip names the session instead.": {
+    "Siggy already knows the moment an agent stops working or stops to ask you something. Clicking the notch while it is open brings that session's app to the front — the app, not the tab: only some terminals let anything outside them choose a tab, so the tooltip names the session instead.": {
       "extractionState": "manual",
       "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch weiß bereits in dem Moment Bescheid, in dem ein Agent aufhört zu arbeiten oder dich etwas fragt. Ein Klick auf die geöffnete Notch holt die App dieser Sitzung in den Vordergrund — die App, nicht den Tab: Nur manche Terminals erlauben es, von außen einen Tab auszuwählen, deshalb nennt der Tooltip stattdessen die Sitzung."
+            "value": "Siggy weiß bereits in dem Moment Bescheid, in dem ein Agent aufhört zu arbeiten oder dich etwas fragt. Ein Klick auf die geöffnete Notch holt die App dieser Sitzung in den Vordergrund — die App, nicht den Tab: Nur manche Terminals erlauben es, von außen einen Tab auszuwählen, deshalb nennt der Tooltip stattdessen die Sitzung."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は、エージェントが作業を止めた瞬間や、あなたに質問するために止まった瞬間をすでに把握しています。開いているノッチをクリックすると、そのセッションのアプリが前面に出ます。タブではなくアプリです。外部からタブを選べるターミナルは一部に限られるため、代わりにツールチップがセッション名を示します。"
+            "value": "Siggy は、エージェントが作業を止めた瞬間や、あなたに質問するために止まった瞬間をすでに把握しています。開いているノッチをクリックすると、そのセッションのアプリが前面に出ます。タブではなくアプリです。外部からタブを選べるターミナルは一部に限られるため、代わりにツールチップがセッション名を示します。"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 已经知道助手何时停下来、或停下来问你。刘海展开时点一下，会把那个会话的应用带到前台 — 是应用，不是标签页：只有部分终端允许外部选定标签，所以提示里会写会话名称。"
+            "value": "Siggy 已经知道助手何时停下来、或停下来问你。刘海展开时点一下，会把那个会话的应用带到前台 — 是应用，不是标签页：只有部分终端允许外部选定标签，所以提示里会写会话名称。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 已經知道助手何時停下來、或停下來問你。瀏海展開時點一下，會把那個工作階段的 App 帶到前景 — 是 App，不是分頁：只有部分終端允許外部選定標籤，所以提示裡會寫工作階段名稱。"
+            "value": "Siggy 已經知道助手何時停下來、或停下來問你。瀏海展開時點一下，會把那個工作階段的 App 帶到前景 — 是 App，不是分頁：只有部分終端允許外部選定標籤，所以提示裡會寫工作階段名稱。"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch уже знає момент, коли агент завершує роботу або зупиняється, щоб щось запитати. Клік по відкритому вирізу виводить наперед застосунок цієї сесії — саме застосунок, не вкладку: лише деякі термінали дозволяють вибирати вкладку ззовні, тому підказка натомість називає сесію."
+            "value": "Siggy уже знає момент, коли агент завершує роботу або зупиняється, щоб щось запитати. Клік по відкритому вирізу виводить наперед застосунок цієї сесії — саме застосунок, не вкладку: лише деякі термінали дозволяють вибирати вкладку ззовні, тому підказка натомість називає сесію."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch는 에이전트가 작업을 마치거나 질문을 위해 멈추는 순간을 감지합니다. 노치가 열려 있을 때 클릭하면 해당 세션의 앱을 앞으로 가져옵니다. 외부에서 탭을 선택할 수 있는 터미널은 일부뿐이므로, 탭 대신 앱을 열고 툴팁에 세션 이름을 표시합니다."
+            "value": "Siggy는 에이전트가 작업을 마치거나 질문을 위해 멈추는 순간을 감지합니다. 노치가 열려 있을 때 클릭하면 해당 세션의 앱을 앞으로 가져옵니다. 외부에서 탭을 선택할 수 있는 터미널은 일부뿐이므로, 탭 대신 앱을 열고 툴팁에 세션 이름을 표시합니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch agent ishdan toʻxtagan yoki sizdan nimadir soʻramoqchi boʻlgan lahzani darhol biladi. Notch ochiq turganda uni bosish oʻsha sessiyaning ilovasini oldinga chiqaradi — ilovani, varaqni emas: faqat baʼzi terminallar tashqaridan varaq tanlashga ruxsat beradi, shuning uchun maslahat oynasi sessiya nomini koʻrsatadi."
+            "value": "Siggy agent ishdan toʻxtagan yoki sizdan nimadir soʻramoqchi boʻlgan lahzani darhol biladi. Notch ochiq turganda uni bosish oʻsha sessiyaning ilovasini oldinga chiqaradi — ilovani, varaqni emas: faqat baʼzi terminallar tashqaridan varaq tanlashga ruxsat beradi, shuning uchun maslahat oynasi sessiya nomini koʻrsatadi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch langsung mendeteksi saat agen berhenti bekerja atau menunggu masukan Anda. Mengeklik notch saat terbuka akan membawa aplikasi sesi tersebut ke depan — aplikasi, bukan tab: hanya sebagian terminal yang mengizinkan pemilihan tab dari luar, sehingga tooltip menampilkan nama sesinya."
+            "value": "Siggy langsung mendeteksi saat agen berhenti bekerja atau menunggu masukan Anda. Mengeklik notch saat terbuka akan membawa aplikasi sesi tersebut ke depan — aplikasi, bukan tab: hanya sebagian terminal yang mengizinkan pemilihan tab dari luar, sehingga tooltip menampilkan nama sesinya."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch bir ajanın çalışmayı bıraktığı ya da size bir şey sormak için durduğu anı zaten bilir. Çentik açıkken ona tıklamak o oturumun uygulamasını öne getirir — sekmeyi değil, uygulamayı: yalnızca bazı terminaller dışarıdan sekme seçilmesine izin verir, bu yüzden ipucu kartı onun yerine oturumun adını gösterir."
+            "value": "Siggy bir ajanın çalışmayı bıraktığı ya da size bir şey sormak için durduğu anı zaten bilir. Çentik açıkken ona tıklamak o oturumun uygulamasını öne getirir — sekmeyi değil, uygulamayı: yalnızca bazı terminaller dışarıdan sekme seçilmesine izin verir, bu yüzden ipucu kartı onun yerine oturumun adını gösterir."
           }
         }
       }
@@ -32154,61 +32154,61 @@
         }
       }
     },
-    "Most readings are borrowed from a tool that already holds the account. DeepSeek is the exception: clicking Sign in opens its own Codenotch WebView, and signing out here clears only that session and its saved reading.": {
+    "Most readings are borrowed from a tool that already holds the account. DeepSeek is the exception: clicking Sign in opens its own Siggy WebView, and signing out here clears only that session and its saved reading.": {
       "extractionState": "manual",
       "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Die meisten Messwerte werden von einem Tool geliehen, das das Konto bereits besitzt. DeepSeek ist die Ausnahme: Ein Klick auf „Anmelden“ öffnet eine eigene WebView von Codenotch, und eine Abmeldung hier löscht nur diese Sitzung und ihren gespeicherten Messwert."
+            "value": "Die meisten Messwerte werden von einem Tool geliehen, das das Konto bereits besitzt. DeepSeek ist die Ausnahme: Ein Klick auf „Anmelden“ öffnet eine eigene WebView von Siggy, und eine Abmeldung hier löscht nur diese Sitzung und ihren gespeicherten Messwert."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ほとんどの読み取りは、すでにアカウントを持っているツールから借りています。DeepSeek だけは例外で、「サインイン」をクリックすると Codenotch 専用の WebView が開きます。ここでサインアウトしても、消えるのはそのセッションと保存された読み取りだけです。"
+            "value": "ほとんどの読み取りは、すでにアカウントを持っているツールから借りています。DeepSeek だけは例外で、「サインイン」をクリックすると Siggy 専用の WebView が開きます。ここでサインアウトしても、消えるのはそのセッションと保存された読み取りだけです。"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "大多数读数借自已经持有该账号的工具。DeepSeek 是例外：点「登录」会打开 Codenotch 自己的 WebView，在这里退出只会清掉这次会话和已保存的读数。"
+            "value": "大多数读数借自已经持有该账号的工具。DeepSeek 是例外：点「登录」会打开 Siggy 自己的 WebView，在这里退出只会清掉这次会话和已保存的读数。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "大多數讀數借自已經持有該帳號的工具。DeepSeek 是例外：點「登入」會開啟 Codenotch 自己的 WebView，在這裡登出只會清掉這次工作階段和已儲存的讀數。"
+            "value": "大多數讀數借自已經持有該帳號的工具。DeepSeek 是例外：點「登入」會開啟 Siggy 自己的 WebView，在這裡登出只會清掉這次工作階段和已儲存的讀數。"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Більшість показників беруться з інструмента, який уже тримає цей акаунт. Виняток — DeepSeek: натискання «Увійти» відкриває власний WebView Codenotch, а вихід тут очищає лише цю сесію та її збережений показник."
+            "value": "Більшість показників беруться з інструмента, який уже тримає цей акаунт. Виняток — DeepSeek: натискання «Увійти» відкриває власний WebView Siggy, а вихід тут очищає лише цю сесію та її збережений показник."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "대부분의 측정값은 이미 계정에 로그인된 도구에서 가져옵니다. DeepSeek는 예외로, ‘로그인’을 클릭하면 Codenotch 전용 WebView가 열리며 여기서 로그아웃하면 해당 세션과 저장된 측정값만 삭제합니다."
+            "value": "대부분의 측정값은 이미 계정에 로그인된 도구에서 가져옵니다. DeepSeek는 예외로, ‘로그인’을 클릭하면 Siggy 전용 WebView가 열리며 여기서 로그아웃하면 해당 세션과 저장된 측정값만 삭제합니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Koʻrsatkichlarning aksariyati hisobni allaqachon saqlab turgan vositadan olinadi. DeepSeek bundan mustasno: Kirish tugmasini bosish uning oʻz Codenotch WebViewʼini ochadi, bu yerda chiqish esa faqat oʻsha sessiya va uning saqlangan koʻrsatkichini tozalaydi."
+            "value": "Koʻrsatkichlarning aksariyati hisobni allaqachon saqlab turgan vositadan olinadi. DeepSeek bundan mustasno: Kirish tugmasini bosish uning oʻz Siggy WebViewʼini ochadi, bu yerda chiqish esa faqat oʻsha sessiya va uning saqlangan koʻrsatkichini tozalaydi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sebagian besar data dipinjam dari alat yang sudah menampung akun. DeepSeek adalah pengecualian: mengeklik Masuk akan membuka WebView Codenotch tersendiri, dan keluar di sini hanya menghapus sesi tersebut dan data tersimpannya."
+            "value": "Sebagian besar data dipinjam dari alat yang sudah menampung akun. DeepSeek adalah pengecualian: mengeklik Masuk akan membuka WebView Siggy tersendiri, dan keluar di sini hanya menghapus sesi tersebut dan data tersimpannya."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Verilerin çoğu, hesabı zaten tutan bir araçtan ödünç alınır. DeepSeek istisnadır: Giriş yap'a tıklamak Codenotch'un kendi WebView'ını açar ve buradan çıkış yapmak yalnızca o oturumu ve kayıtlı verisini temizler."
+            "value": "Verilerin çoğu, hesabı zaten tutan bir araçtan ödünç alınır. DeepSeek istisnadır: Giriş yap'a tıklamak Siggy'un kendi WebView'ını açar ve buradan çıkış yapmak yalnızca o oturumu ve kayıtlı verisini temizler."
           }
         }
       }
@@ -34396,61 +34396,61 @@
         }
       }
     },
-    "To measure responses, point your chat client to http://127.0.0.1:11435 and keep Codenotch open.": {
+    "To measure responses, point your chat client to http://127.0.0.1:11435 and keep Siggy open.": {
       "extractionState": "manual",
       "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Um Antworten zu messen, richte deinen Chat-Client auf http://127.0.0.1:11435 und lass Codenotch geöffnet."
+            "value": "Um Antworten zu messen, richte deinen Chat-Client auf http://127.0.0.1:11435 und lass Siggy geöffnet."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "応答を計測するには、チャットクライアントの向き先を http://127.0.0.1:11435 にして、Codenotch を開いたままにしてください。"
+            "value": "応答を計測するには、チャットクライアントの向き先を http://127.0.0.1:11435 にして、Siggy を開いたままにしてください。"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "要测量回复，把聊天客户端指向 http://127.0.0.1:11435，并保持 Codenotch 打开。"
+            "value": "要测量回复，把聊天客户端指向 http://127.0.0.1:11435，并保持 Siggy 打开。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "要測量回復，把聊天客戶端指向 http://127.0.0.1:11435，並保持 Codenotch 開啟。"
+            "value": "要測量回復，把聊天客戶端指向 http://127.0.0.1:11435，並保持 Siggy 開啟。"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Щоб вимірювати відповіді, спрямуйте свій чат-клієнт на http://127.0.0.1:11435 і не закривайте Codenotch."
+            "value": "Щоб вимірювати відповіді, спрямуйте свій чат-клієнт на http://127.0.0.1:11435 і не закривайте Siggy."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "응답을 측정하려면 채팅 클라이언트의 주소를 http://127.0.0.1:11435로 설정하고 Codenotch를 열어 두십시오."
+            "value": "응답을 측정하려면 채팅 클라이언트의 주소를 http://127.0.0.1:11435로 설정하고 Siggy를 열어 두십시오."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Javoblarni oʻlchash uchun chat mijozingizni http://127.0.0.1:11435 ga yoʻnaltiring va Codenotchʼni ochiq qoldiring."
+            "value": "Javoblarni oʻlchash uchun chat mijozingizni http://127.0.0.1:11435 ga yoʻnaltiring va Siggyʼni ochiq qoldiring."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Untuk mengukur respons, arahkan klien obrolan Anda ke http://127.0.0.1:11435 dan biarkan Codenotch tetap terbuka."
+            "value": "Untuk mengukur respons, arahkan klien obrolan Anda ke http://127.0.0.1:11435 dan biarkan Siggy tetap terbuka."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Yanıtları ölçmek için sohbet istemcinizi http://127.0.0.1:11435 adresine yönlendirin ve Codenotch'u açık tutun."
+            "value": "Yanıtları ölçmek için sohbet istemcinizi http://127.0.0.1:11435 adresine yönlendirin ve Siggy'u açık tutun."
           }
         }
       }
@@ -39362,7 +39362,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Запустіть kimi і увійдіть через /login — так записується й оновлюється токен, який читає Codenotch."
+            "value": "Запустіть kimi і увійдіть через /login — так записується й оновлюється токен, який читає Siggy."
           }
         },
         "zh-Hans": {
@@ -39627,7 +39627,7 @@
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Запустіть kiro-cli login — так записується й оновлюється сесія, яку читає Codenotch."
+            "value": "Запустіть kiro-cli login — так записується й оновлюється сесія, яку читає Siggy."
           }
         },
         "zh-Hans": {
@@ -40139,55 +40139,55 @@
         }
       }
     },
-    "Codenotch reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
+    "Siggy reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
       "extractionState": "manual",
       "localizations": {
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
+            "value": "Siggy は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
+            "value": "Siggy читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
+            "value": "Siggy 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 會從這部 Mac 上已登入的工具讀取用量 — 它不會向你要密碼。安裝並登入 Claude Code（終端機工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro，或 Gemini API 金鑰（透過 Gemini CLI、OpenCode 或 Hermes），對應的圓環就會出現在瀏海上。"
+            "value": "Siggy 會從這部 Mac 上已登入的工具讀取用量 — 它不會向你要密碼。安裝並登入 Claude Code（終端機工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro，或 Gemini API 金鑰（透過 Gemini CLI、OpenCode 或 Hermes），對應的圓環就會出現在瀏海上。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
+            "value": "Siggy는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
+            "value": "Siggy foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch membaca penggunaan dari alat yang sudah masuk di Mac ini — tidak pernah meminta kata sandi Anda. Pasang dan masuk ke Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan ring akan muncul di notch."
+            "value": "Siggy membaca penggunaan dari alat yang sudah masuk di Mac ini — tidak pernah meminta kata sandi Anda. Pasang dan masuk ke Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan ring akan muncul di notch."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
+            "value": "Siggy kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
           }
         }
       }
@@ -40404,55 +40404,55 @@
         }
       }
     },
-    "Most readings are borrowed from a tool that already holds the account. DeepSeek and MiniMax are the exceptions: clicking Sign in opens a Codenotch window for that account, and signing out here clears only that session and its saved reading.": {
+    "Most readings are borrowed from a tool that already holds the account. DeepSeek and MiniMax are the exceptions: clicking Sign in opens a Siggy window for that account, and signing out here clears only that session and its saved reading.": {
       "extractionState": "manual",
       "localizations": {
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ほとんどの読み取りは、すでにアカウントを持っているツールから借りています。DeepSeek と MiniMax だけは例外で、「サインイン」をクリックするとそのアカウント用の Codenotch のウインドウが開きます。ここでサインアウトしても、消えるのはそのセッションと保存された読み取りだけです。"
+            "value": "ほとんどの読み取りは、すでにアカウントを持っているツールから借りています。DeepSeek と MiniMax だけは例外で、「サインイン」をクリックするとそのアカウント用の Siggy のウインドウが開きます。ここでサインアウトしても、消えるのはそのセッションと保存された読み取りだけです。"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Більшість показників беруться з інструмента, який уже тримає цей акаунт. Винятки — DeepSeek і MiniMax: натискання «Увійти» відкриває вікно Codenotch для цього акаунта, а вихід тут очищає лише цю сесію та її збережений показник."
+            "value": "Більшість показників беруться з інструмента, який уже тримає цей акаунт. Винятки — DeepSeek і MiniMax: натискання «Увійти» відкриває вікно Siggy для цього акаунта, а вихід тут очищає лише цю сесію та її збережений показник."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "大多数读数借自已经持有该账号的工具。DeepSeek 和 MiniMax 是例外：点「登录」会打开该账号的 Codenotch 窗口，在这里退出只会清掉这次会话和已保存的读数。"
+            "value": "大多数读数借自已经持有该账号的工具。DeepSeek 和 MiniMax 是例外：点「登录」会打开该账号的 Siggy 窗口，在这里退出只会清掉这次会话和已保存的读数。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "大多數讀數是向已經持有帳號的工具借用的。DeepSeek 與 MiniMax 是例外：點一下「登入」會開啟該帳號的 Codenotch 視窗，而在這裡登出只會清除該工作階段及其已儲存的讀數。"
+            "value": "大多數讀數是向已經持有帳號的工具借用的。DeepSeek 與 MiniMax 是例外：點一下「登入」會開啟該帳號的 Siggy 視窗，而在這裡登出只會清除該工作階段及其已儲存的讀數。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "대부분의 측정값은 이미 계정에 로그인된 도구에서 가져옵니다. DeepSeek와 MiniMax는 예외로, ‘로그인’을 클릭하면 해당 계정의 Codenotch 창이 열리며 여기서 로그아웃하면 해당 세션과 저장된 측정값만 삭제합니다."
+            "value": "대부분의 측정값은 이미 계정에 로그인된 도구에서 가져옵니다. DeepSeek와 MiniMax는 예외로, ‘로그인’을 클릭하면 해당 계정의 Siggy 창이 열리며 여기서 로그아웃하면 해당 세션과 저장된 측정값만 삭제합니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Koʻrsatkichlarning aksariyati hisobni allaqachon saqlab turgan vositadan olinadi. DeepSeek va MiniMax bundan mustasno: Kirish tugmasini bosish oʻsha hisob uchun Codenotch oynasini ochadi, bu yerda chiqish esa faqat oʻsha sessiya va uning saqlangan koʻrsatkichini tozalaydi."
+            "value": "Koʻrsatkichlarning aksariyati hisobni allaqachon saqlab turgan vositadan olinadi. DeepSeek va MiniMax bundan mustasno: Kirish tugmasini bosish oʻsha hisob uchun Siggy oynasini ochadi, bu yerda chiqish esa faqat oʻsha sessiya va uning saqlangan koʻrsatkichini tozalaydi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sebagian besar data dipinjam dari alat yang sudah menampung akun. DeepSeek dan MiniMax adalah pengecualian: mengeklik Masuk akan membuka jendela Codenotch untuk akun tersebut, dan keluar di sini hanya menghapus sesi tersebut dan data tersimpannya."
+            "value": "Sebagian besar data dipinjam dari alat yang sudah menampung akun. DeepSeek dan MiniMax adalah pengecualian: mengeklik Masuk akan membuka jendela Siggy untuk akun tersebut, dan keluar di sini hanya menghapus sesi tersebut dan data tersimpannya."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Verilerin çoğu, hesabı zaten tutan bir araçtan ödünç alınır. DeepSeek ve MiniMax istisnadır: Giriş yap'a tıklamak o hesap için bir Codenotch penceresi açar ve buradan çıkış yapmak yalnızca o oturumu ve kayıtlı verisini temizler."
+            "value": "Verilerin çoğu, hesabı zaten tutan bir araçtan ödünç alınır. DeepSeek ve MiniMax istisnadır: Giriş yap'a tıklamak o hesap için bir Siggy penceresi açar ve buradan çıkış yapmak yalnızca o oturumu ve kayıtlı verisini temizler."
           }
         }
       }
@@ -40722,55 +40722,55 @@
         }
       }
     },
-    "Sign in to MiniMax in Codenotch, or paste a Coding Plan key. A Cookie header is optional. Codenotch never reads a browser's cookies.": {
+    "Sign in to MiniMax in Siggy, or paste a Coding Plan key. A Cookie header is optional. Siggy never reads a browser's cookies.": {
       "extractionState": "manual",
       "localizations": {
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch で MiniMax にサインインするか、Coding Plan のキーを貼り付けてください。Cookie ヘッダーは任意です。Codenotch がブラウザの Cookie を読むことはありません。"
+            "value": "Siggy で MiniMax にサインインするか、Coding Plan のキーを貼り付けてください。Cookie ヘッダーは任意です。Siggy がブラウザの Cookie を読むことはありません。"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Увійдіть у MiniMax просто в Codenotch або вставте ключ Coding Plan. Заголовок Cookie можна не вказувати. Codenotch ніколи не читає кукі браузера."
+            "value": "Увійдіть у MiniMax просто в Siggy або вставте ключ Coding Plan. Заголовок Cookie можна не вказувати. Siggy ніколи не читає кукі браузера."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "在 Codenotch 里登录 MiniMax，或粘贴 Coding Plan 密钥。Cookie 请求头可选。Codenotch 从不读取浏览器的 Cookie。"
+            "value": "在 Siggy 里登录 MiniMax，或粘贴 Coding Plan 密钥。Cookie 请求头可选。Siggy 从不读取浏览器的 Cookie。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "在 Codenotch 登入 MiniMax，或貼上 Coding Plan 金鑰。Cookie 標頭為選用。Codenotch 絕不會讀取瀏覽器的 Cookie。"
+            "value": "在 Siggy 登入 MiniMax，或貼上 Coding Plan 金鑰。Cookie 標頭為選用。Siggy 絕不會讀取瀏覽器的 Cookie。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch에서 MiniMax에 로그인하거나 Coding Plan 키를 붙여넣으십시오. Cookie 헤더는 선택 사항입니다. Codenotch는 브라우저의 쿠키를 읽지 않습니다."
+            "value": "Siggy에서 MiniMax에 로그인하거나 Coding Plan 키를 붙여넣으십시오. Cookie 헤더는 선택 사항입니다. Siggy는 브라우저의 쿠키를 읽지 않습니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotchʼda MiniMaxʼga kiring yoki Coding Plan kalitini joylashtiring. Cookie sarlavhasi ixtiyoriy. Codenotch hech qachon brauzer cookieʼlarini oʻqimaydi."
+            "value": "Siggyʼda MiniMaxʼga kiring yoki Coding Plan kalitini joylashtiring. Cookie sarlavhasi ixtiyoriy. Siggy hech qachon brauzer cookieʼlarini oʻqimaydi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Masuk ke MiniMax di Codenotch, atau tempel kunci Coding Plan. Header Cookie bersifat opsional. Codenotch tidak pernah membaca cookie peramban."
+            "value": "Masuk ke MiniMax di Siggy, atau tempel kunci Coding Plan. Header Cookie bersifat opsional. Siggy tidak pernah membaca cookie peramban."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch içinde MiniMax'e giriş yapın veya bir Coding Plan anahtarı yapıştırın. Cookie başlığı isteğe bağlıdır. Codenotch hiçbir zaman bir tarayıcının çerezlerini okumaz."
+            "value": "Siggy içinde MiniMax'e giriş yapın veya bir Coding Plan anahtarı yapıştırın. Cookie başlığı isteğe bağlıdır. Siggy hiçbir zaman bir tarayıcının çerezlerini okumaz."
           }
         }
       }
@@ -41318,79 +41318,79 @@
         }
       }
     },
-    "Asks macOS for %@'s saved login again. Deny stops Codenotch reading it until you ask again.": {
+    "Asks macOS for %@'s saved login again. Deny stops Siggy reading it until you ask again.": {
       "extractionState": "manual",
       "localizations": {
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fragt macOS erneut nach der gespeicherten Anmeldung von %@. „Ablehnen“ verhindert, dass Codenotch sie liest, bis du erneut fragst."
+            "value": "Fragt macOS erneut nach der gespeicherten Anmeldung von %@. „Ablehnen“ verhindert, dass Siggy sie liest, bis du erneut fragst."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Redemande à macOS la connexion enregistrée de %@. Refuser empêche Codenotch de la lire jusqu'à ce que vous redemandiez."
+            "value": "Redemande à macOS la connexion enregistrée de %@. Refuser empêche Siggy de la lire jusqu'à ce que vous redemandiez."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ の保存済みログインをもう一度 macOS に求めます。「拒否」を選ぶと、もう一度求めるまで Codenotch はそれを読みません。"
+            "value": "%@ の保存済みログインをもう一度 macOS に求めます。「拒否」を選ぶと、もう一度求めるまで Siggy はそれを読みません。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pede de novo ao macOS o login salvo de %@. Negar impede o Codenotch de lê-lo até você pedir de novo."
+            "value": "Pede de novo ao macOS o login salvo de %@. Negar impede o Siggy de lê-lo até você pedir de novo."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Снова запрашивает у macOS сохранённый вход %@. «Запретить» не даёт Codenotch читать его, пока вы не спросите снова."
+            "value": "Снова запрашивает у macOS сохранённый вход %@. «Запретить» не даёт Siggy читать его, пока вы не спросите снова."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Знову запитує в macOS збережений вхід %@. «Заборонити» не дає Codenotch читати його, доки ви не запитаєте знову."
+            "value": "Знову запитує в macOS збережений вхід %@. «Заборонити» не дає Siggy читати його, доки ви не запитаєте знову."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "再次向 macOS 请求 %@ 保存的登录信息。选择“拒绝”后，在你再次请求之前 Codenotch 不会读取它。"
+            "value": "再次向 macOS 请求 %@ 保存的登录信息。选择“拒绝”后，在你再次请求之前 Siggy 不会读取它。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "再次向 macOS 要求 %@ 儲存的登入資訊。選擇“拒絕”後，在你再次要求之前 Codenotch 不會讀取它。"
+            "value": "再次向 macOS 要求 %@ 儲存的登入資訊。選擇“拒絕”後，在你再次要求之前 Siggy 不會讀取它。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@의 저장된 로그인 정보를 macOS에 다시 요청합니다. ‘거부’를 선택하면 다시 요청할 때까지 Codenotch가 해당 정보를 읽지 않습니다."
+            "value": "%@의 저장된 로그인 정보를 macOS에 다시 요청합니다. ‘거부’를 선택하면 다시 요청할 때까지 Siggy가 해당 정보를 읽지 않습니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOSʼdan %@ ning saqlangan kirish maʼlumotini qayta soʻraydi. Deny esa siz qayta soʻramaguningizcha Codenotch uni oʻqishini toʻxtatadi."
+            "value": "macOSʼdan %@ ning saqlangan kirish maʼlumotini qayta soʻraydi. Deny esa siz qayta soʻramaguningizcha Siggy uni oʻqishini toʻxtatadi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Meminta izin ke macOS lagi untuk login tersimpan %@. Menolak akan menghentikan Codenotch membacanya hingga Anda meminta kembali."
+            "value": "Meminta izin ke macOS lagi untuk login tersimpan %@. Menolak akan menghentikan Siggy membacanya hingga Anda meminta kembali."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "macOS'tan %@ için kayıtlı girişi yeniden ister. Reddet seçilirse Codenotch siz yeniden isteyene kadar onu okumaz."
+            "value": "macOS'tan %@ için kayıtlı girişi yeniden ister. Reddet seçilirse Siggy siz yeniden isteyene kadar onu okumaz."
           }
         }
       }
@@ -43123,233 +43123,233 @@
         }
       }
     },
-    "Shows %@'s five-hour limit in the menu bar. Codenotch reads it either way.": {
+    "Shows %@'s five-hour limit in the menu bar. Siggy reads it either way.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Показывает пятичасовой лимит %@ в строке меню. Codenotch читает его в любом случае."
+            "value": "Показывает пятичасовой лимит %@ в строке меню. Siggy читает его в любом случае."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Affiche la limite de cinq heures de %@ dans la barre des menus. Codenotch le lit dans tous les cas."
+            "value": "Affiche la limite de cinq heures de %@ dans la barre des menus. Siggy le lit dans tous les cas."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ の5時間の上限をメニューバーに表示します。どちらの場合も Codenotch は読み取りを続けます。"
+            "value": "%@ の5時間の上限をメニューバーに表示します。どちらの場合も Siggy は読み取りを続けます。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mostra o limite de cinco horas de %@ na barra de menus. O Codenotch continua a lê-lo de qualquer forma."
+            "value": "Mostra o limite de cinco horas de %@ na barra de menus. O Siggy continua a lê-lo de qualquer forma."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "在菜单栏显示 %@ 的 5 小时额度。无论是否显示，Codenotch 都会读取它。"
+            "value": "在菜单栏显示 %@ 的 5 小时额度。无论是否显示，Siggy 都会读取它。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "在選單列顯示 %@ 的 5 小時額度。無論是否顯示，Codenotch 都會讀取它。"
+            "value": "在選單列顯示 %@ 的 5 小時額度。無論是否顯示，Siggy 都會讀取它。"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Zeigt das Fünf-Stunden-Limit von %@ in der Menüleiste. Codenotch liest den Anbieter so oder so."
+            "value": "Zeigt das Fünf-Stunden-Limit von %@ in der Menüleiste. Siggy liest den Anbieter so oder so."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Показує п’ятигодинний ліміт %@ у рядку меню. Codenotch читає його в будь-якому разі."
+            "value": "Показує п’ятигодинний ліміт %@ у рядку меню. Siggy читає його в будь-якому разі."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@의 5시간 한도를 메뉴 막대에 표시합니다. 이 설정과 관계없이 Codenotch는 계속 사용량을 읽습니다."
+            "value": "%@의 5시간 한도를 메뉴 막대에 표시합니다. 이 설정과 관계없이 Siggy는 계속 사용량을 읽습니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Menyu panelida %@ ning besh soatlik limitini koʻrsatadi. Codenotch uni baribir oʻqiydi."
+            "value": "Menyu panelida %@ ning besh soatlik limitini koʻrsatadi. Siggy uni baribir oʻqiydi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Menampilkan batas 5 jam %@ di bilah menu. Codenotch tetap membacanya dalam kondisi apa pun."
+            "value": "Menampilkan batas 5 jam %@ di bilah menu. Siggy tetap membacanya dalam kondisi apa pun."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "%@ için beş saatlik limiti menü çubuğunda gösterir. Codenotch onu her iki durumda da okur."
+            "value": "%@ için beş saatlik limiti menü çubuğunda gösterir. Siggy onu her iki durumda da okur."
           }
         }
       }
     },
-    "Nothing Codenotch reads has a five-hour limit to show yet. Claude and Codex do — switch one on in Accounts.": {
+    "Nothing Siggy reads has a five-hour limit to show yet. Claude and Codex do — switch one on in Accounts.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ни у одного провайдера, которого читает Codenotch, пока нет пятичасового лимита. У Claude и Codex он есть — включите одного из них в разделе «Аккаунты»."
+            "value": "Ни у одного провайдера, которого читает Siggy, пока нет пятичасового лимита. У Claude и Codex он есть — включите одного из них в разделе «Аккаунты»."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Rien de ce que lit Codenotch n'a encore de limite de cinq heures à afficher. Claude et Codex en ont une — activez-en un dans Comptes."
+            "value": "Rien de ce que lit Siggy n'a encore de limite de cinq heures à afficher. Claude et Codex en ont une — activez-en un dans Comptes."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch が読み取っているものには、まだ表示できる5時間の上限がありません。Claude と Codex にはあります。「アカウント」でどちらかをオンにしてください。"
+            "value": "Siggy が読み取っているものには、まだ表示できる5時間の上限がありません。Claude と Codex にはあります。「アカウント」でどちらかをオンにしてください。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nada do que o Codenotch lê tem ainda um limite de cinco horas para mostrar. Claude e Codex têm — ative um deles em Contas."
+            "value": "Nada do que o Siggy lê tem ainda um limite de cinco horas para mostrar. Claude e Codex têm — ative um deles em Contas."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 读取的服务中还没有可显示的 5 小时额度。Claude 和 Codex 有——在“账号”中打开其中一个。"
+            "value": "Siggy 读取的服务中还没有可显示的 5 小时额度。Claude 和 Codex 有——在“账号”中打开其中一个。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 讀取的服務中還沒有可顯示的 5 小時額度。Claude 和 Codex 有——在“帳號”中開啟其中一個。"
+            "value": "Siggy 讀取的服務中還沒有可顯示的 5 小時額度。Claude 和 Codex 有——在“帳號”中開啟其中一個。"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Nichts, was Codenotch liest, hat bisher ein Fünf-Stunden-Limit zum Anzeigen. Claude und Codex haben eines – schalte einen davon unter „Konten“ ein."
+            "value": "Nichts, was Siggy liest, hat bisher ein Fünf-Stunden-Limit zum Anzeigen. Claude und Codex haben eines – schalte einen davon unter „Konten“ ein."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Жоден провайдер, якого читає Codenotch, поки не має п’ятигодинного ліміту. У Claude і Codex він є — увімкніть одного з них у розділі «Акаунти»."
+            "value": "Жоден провайдер, якого читає Siggy, поки не має п’ятигодинного ліміту. У Claude і Codex він є — увімкніть одного з них у розділі «Акаунти»."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "현재 Codenotch가 읽는 항목에는 표시할 5시간 한도가 없습니다. Claude와 Codex가 지원하므로 ‘계정’에서 하나를 켜십시오."
+            "value": "현재 Siggy가 읽는 항목에는 표시할 5시간 한도가 없습니다. Claude와 Codex가 지원하므로 ‘계정’에서 하나를 켜십시오."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch oʻqiydigan hech narsada hali koʻrsatiladigan besh soatlik limit yoʻq. Claude va Codexʼda bor — birini Hisoblar boʻlimida yoqing."
+            "value": "Siggy oʻqiydigan hech narsada hali koʻrsatiladigan besh soatlik limit yoʻq. Claude va Codexʼda bor — birini Hisoblar boʻlimida yoqing."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Belum ada penyedia yang dibaca Codenotch yang memiliki batas 5 jam. Claude dan Codex memilikinya — aktifkan salah satunya di Akun."
+            "value": "Belum ada penyedia yang dibaca Siggy yang memiliki batas 5 jam. Claude dan Codex memilikinya — aktifkan salah satunya di Akun."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch'un okuduğu hiçbir şeyin henüz gösterilecek beş saatlik limiti yok. Claude ve Codex'in var — Hesaplar'dan birini açın."
+            "value": "Siggy'un okuduğu hiçbir şeyin henüz gösterilecek beş saatlik limiti yok. Claude ve Codex'in var — Hesaplar'dan birini açın."
           }
         }
       }
     },
-    "Leaving a provider out keeps it off the menu bar only — Codenotch still reads it. With none chosen, the icon comes back.": {
+    "Leaving a provider out keeps it off the menu bar only — Siggy still reads it. With none chosen, the icon comes back.": {
       "extractionState": "manual",
       "localizations": {
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Невыбранный провайдер лишь исчезает из строки меню — Codenotch продолжает его читать. Если не выбран ни один, возвращается значок."
+            "value": "Невыбранный провайдер лишь исчезает из строки меню — Siggy продолжает его читать. Если не выбран ни один, возвращается значок."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Exclure un fournisseur le retire seulement de la barre des menus — Codenotch continue de le lire. Si aucun n'est choisi, l'icône revient."
+            "value": "Exclure un fournisseur le retire seulement de la barre des menus — Siggy continue de le lire. Si aucun n'est choisi, l'icône revient."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "オフにしたプロバイダはメニューバーに出なくなるだけで、Codenotch は読み取りを続けます。何も選ばないとアイコンに戻ります。"
+            "value": "オフにしたプロバイダはメニューバーに出なくなるだけで、Siggy は読み取りを続けます。何も選ばないとアイコンに戻ります。"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Deixar um provedor de fora só o tira da barra de menus — o Codenotch continua a lê-lo. Sem nenhum escolhido, o ícone volta."
+            "value": "Deixar um provedor de fora só o tira da barra de menus — o Siggy continua a lê-lo. Sem nenhum escolhido, o ícone volta."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "不选某个服务只会让它离开菜单栏——Codenotch 仍会读取它。一个都不选时，图标会回来。"
+            "value": "不选某个服务只会让它离开菜单栏——Siggy 仍会读取它。一个都不选时，图标会回来。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "不選某個服務只會讓它離開選單列——Codenotch 仍會讀取它。一個都不選時，圖示會回來。"
+            "value": "不選某個服務只會讓它離開選單列——Siggy 仍會讀取它。一個都不選時，圖示會回來。"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Ein ausgelassener Anbieter fehlt nur in der Menüleiste – Codenotch liest ihn weiter. Ist keiner gewählt, kehrt das Symbol zurück."
+            "value": "Ein ausgelassener Anbieter fehlt nur in der Menüleiste – Siggy liest ihn weiter. Ist keiner gewählt, kehrt das Symbol zurück."
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Невибраний провайдер лише зникає з рядка меню — Codenotch і далі його читає. Якщо не вибрано жодного, повертається значок."
+            "value": "Невибраний провайдер лише зникає з рядка меню — Siggy і далі його читає. Якщо не вибрано жодного, повертається значок."
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "선택하지 않은 제공자는 메뉴 막대에서만 숨기며 Codenotch는 계속 사용량을 읽습니다. 아무것도 선택하지 않으면 아이콘을 다시 표시합니다."
+            "value": "선택하지 않은 제공자는 메뉴 막대에서만 숨기며 Siggy는 계속 사용량을 읽습니다. 아무것도 선택하지 않으면 아이콘을 다시 표시합니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Provayderni tanlamaslik uni faqat menyu panelidan chetda qoldiradi — Codenotch uni baribir oʻqiydi. Hech biri tanlanmasa, belgi qaytadi."
+            "value": "Provayderni tanlamaslik uni faqat menyu panelidan chetda qoldiradi — Siggy uni baribir oʻqiydi. Hech biri tanlanmasa, belgi qaytadi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mengecualikan penyedia hanya akan menghilangkannya dari bilah menu — Codenotch tetap membacanya. Jika tidak ada yang dipilih, ikon standar akan muncul kembali."
+            "value": "Mengecualikan penyedia hanya akan menghilangkannya dari bilah menu — Siggy tetap membacanya. Jika tidak ada yang dipilih, ikon standar akan muncul kembali."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bir sağlayıcıyı dışarıda bırakmak onu yalnızca menü çubuğundan uzak tutar — Codenotch onu okumaya devam eder. Hiçbiri seçilmezse simge geri gelir."
+            "value": "Bir sağlayıcıyı dışarıda bırakmak onu yalnızca menü çubuğundan uzak tutar — Siggy onu okumaya devam eder. Hiçbiri seçilmezse simge geri gelir."
           }
         }
       }
@@ -49869,55 +49869,55 @@
     "Apify CLI": {
       "extractionState": "manual"
     },
-    "Codenotch reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
+    "Siggy reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
       "extractionState": "manual",
       "localizations": {
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp、Apify、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
+            "value": "Siggy は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp、Apify、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
+            "value": "Siggy читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp、Apify 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
+            "value": "Siggy 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp、Apify 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 會從這部 Mac 上已登入的工具讀取用量 — 它不會向你要密碼。安裝並登入 Claude Code（終端機工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp、Apify，或 Gemini API 金鑰（透過 Gemini CLI、OpenCode 或 Hermes），對應的圓環就會出現在瀏海上。"
+            "value": "Siggy 會從這部 Mac 上已登入的工具讀取用量 — 它不會向你要密碼。安裝並登入 Claude Code（終端機工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、Amp、Apify，或 Gemini API 金鑰（透過 Gemini CLI、OpenCode 或 Hermes），對應的圓環就會出現在瀏海上。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
+            "value": "Siggy는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
+            "value": "Siggy foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch membaca penggunaan dari alat yang sudah login di Mac ini — Codenotch tidak pernah meminta kata sandi Anda. Instal dan login ke salah satu dari Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan cincinnya akan muncul di notch."
+            "value": "Siggy membaca penggunaan dari alat yang sudah login di Mac ini — Siggy tidak pernah meminta kata sandi Anda. Instal dan login ke salah satu dari Claude Code (alat terminal, bukan aplikasi Claude), Cursor (editor atau cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify, atau kunci API Gemini (melalui Gemini CLI, OpenCode, atau Hermes), dan cincinnya akan muncul di notch."
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
+            "value": "Siggy kullanımı bu Mac'te zaten giriş yapılmış araçlardan okur — asla parolanızı istemez. Claude Code (Claude uygulaması değil, terminal aracı), Cursor (düzenleyici veya cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, Amp, Apify veya bir Gemini API anahtarından (Gemini CLI, OpenCode ya da Hermes üzerinden) herhangi birini kurup giriş yapın; halkası çentikte belirir."
           }
         }
       }
@@ -50048,43 +50048,43 @@
     "Quota Used": {
       "extractionState": "manual"
     },
-    "Codenotch reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, the Kilo CLI or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
+    "Siggy reads usage from tools already signed in on this Mac — it never asks for your password. Install and sign in to any of Claude Code (the terminal tool, not the Claude app), Cursor (the editor or cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro, the Kilo CLI or a Gemini API key (via Gemini CLI, OpenCode or Hermes), and its ring appears in the notch.": {
       "extractionState": "manual",
       "localizations": {
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
+            "value": "Siggy は、この Mac ですでにサインイン済みのツールから使用量を読み取ります。パスワードを尋ねることはありません。Claude Code（Claude アプリではなくターミナルのツール）、Cursor（エディタまたは cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro、または Gemini API キー（Gemini CLI、OpenCode、Hermes 経由）のいずれかをインストールしてサインインすると、そのリングがノッチに現れます。"
           }
         },
         "uk": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
+            "value": "Siggy читає використання з інструментів, у які вже виконано вхід на цьому Mac, і ніколи не питає ваш пароль. Установіть будь-який з них — Claude Code (термінальний інструмент, не застосунок Claude), Cursor (редактор або cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro чи ключ Gemini API (через Gemini CLI, OpenCode або Hermes) — і увійдіть: його кільце зʼявиться у вирізі."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
+            "value": "Siggy 读取这台 Mac 上已经登录的工具的用量 — 从不问你的密码。安装并登录 Claude Code（终端工具，不是 Claude 应用）、Cursor（编辑器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro 或 Gemini API 密钥（经由 Gemini CLI、OpenCode 或 Hermes）中的任意一个，刘海里就会出现对应的圆环。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch 會從這部 Mac 上已登入的工具讀取用量 — 它不會向你要密碼。安裝並登入 Claude Code（終端機工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro，或 Gemini API 金鑰（透過 Gemini CLI、OpenCode 或 Hermes），對應的圓環就會出現在瀏海上。"
+            "value": "Siggy 會從這部 Mac 上已登入的工具讀取用量 — 它不會向你要密碼。安裝並登入 Claude Code（終端機工具，不是 Claude App）、Cursor（編輯器或 cursor-agent）、Codex、Antigravity、GLM、Grok、OpenCode、Command Code、GitHub Copilot、Kimi Code、Kiro，或 Gemini API 金鑰（透過 Gemini CLI、OpenCode 或 Hermes），對應的圓環就會出現在瀏海上。"
           }
         },
         "ko": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
+            "value": "Siggy는 이 Mac에서 이미 로그인된 도구의 사용량을 읽으며 비밀번호를 요구하지 않습니다. Claude Code(Claude 앱이 아닌 터미널 도구), Cursor(편집기 또는 cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro 또는 Gemini API 키(Gemini CLI, OpenCode, Hermes 경유)를 사용하는 도구를 설치하고 로그인하면 노치에 해당 링이 나타납니다."
           }
         },
         "uz": {
           "stringUnit": {
             "state": "translated",
-            "value": "Codenotch foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
+            "value": "Siggy foydalanishni shu Macʼda allaqachon tizimga kirgan vositalardan oʻqiydi — u hech qachon parolingizni soʻramaydi. Quyidagilardan birortasini oʻrnatib, unga kiring: Claude Code (terminal vositasi, Claude ilovasi emas), Cursor (muharrir yoki cursor-agent), Codex, Antigravity, GLM, Grok, OpenCode, Command Code, GitHub Copilot, Kimi Code, Kiro yoki Gemini API kaliti (Gemini CLI, OpenCode yoki Hermes orqali) — va uning halqasi notchʼda paydo boʻladi."
           }
         }
       }

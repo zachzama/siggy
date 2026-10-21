@@ -24,7 +24,7 @@ final class TooltipRenderTests: XCTestCase {
             let renderer = ImageRenderer(content: NotchRootView(model: model)
                 .frame(width: model.panelSize.width, height: model.panelSize.height)
                 .environment(\.colorScheme, .dark)
-                .environment(\.codenotchHeadlessGlass, true))
+                .environment(\.siggyHeadlessGlass, true))
             let image = try XCTUnwrap(renderer.cgImage)
             let pixels = NSBitmapImageRep(cgImage: image)
             var ink = 0
@@ -56,8 +56,8 @@ final class TooltipRenderTests: XCTestCase {
             .background(Color.black)
             .environment(\.colorScheme, .dark)
             .environment(\.notchSurfaceStyle, .solid)
-            .environment(\.codenotchAccentColor, .blue)
-            .environment(\.codenotchHeadlessGlass, true)
+            .environment(\.siggyAccentColor, .blue)
+            .environment(\.siggyHeadlessGlass, true)
 
             let renderer = ImageRenderer(content: view)
             renderer.scale = 3
@@ -94,8 +94,8 @@ final class TooltipRenderTests: XCTestCase {
         .background(Color.black)
         .environment(\.colorScheme, .dark)
         .environment(\.notchSurfaceStyle, .solid)
-        .environment(\.codenotchAccentColor, .blue)
-        .environment(\.codenotchHeadlessGlass, true)
+        .environment(\.siggyAccentColor, .blue)
+        .environment(\.siggyHeadlessGlass, true)
 
         let renderer = ImageRenderer(content: view)
         renderer.scale = 3
@@ -158,8 +158,8 @@ final class TooltipRenderTests: XCTestCase {
             .background(Color.black)
             .environment(\.colorScheme, .dark)
             .environment(\.notchSurfaceStyle, .solid)
-            .environment(\.codenotchAccentColor, .blue)
-            .environment(\.codenotchHeadlessGlass, true)
+            .environment(\.siggyAccentColor, .blue)
+            .environment(\.siggyHeadlessGlass, true)
         let renderer = ImageRenderer(content: view)
         renderer.scale = 3
         return try XCTUnwrap(renderer.nsImage)
@@ -184,9 +184,9 @@ final class TooltipRenderTests: XCTestCase {
             windows: [LimitWindow(id: "session", label: "Session", usedFraction: 0.47)]
         )
         let activity = ActivitySummary(sessions: [
-            session("codenotch-6f", .idle, minutes: 0),
+            session("siggy-6f", .idle, minutes: 0),
             session("hivinz-web-2f", .busy, minutes: 1),
-            session("codenotch-18", .waiting, minutes: 3)
+            session("siggy-18", .waiting, minutes: 3)
         ])
 
         let view = TooltipCard(snapshot: snapshot, activity: activity, now: Date())

@@ -56,7 +56,7 @@ final class ThresholdNotifier {
         let level = percent >= 100 ? 100 : percent >= 80 ? 80 : 0
 
         // The first reading only records. Every provider arrives with no
-        // history when Codenotch launches, and after a restart that reading is
+        // history when Siggy launches, and after a restart that reading is
         // the archived one, often already past a threshold; treating it as a
         // crossing rang "limit reached" on every start.
         guard let previous = crossed[snapshot.id] else {

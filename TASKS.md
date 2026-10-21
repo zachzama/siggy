@@ -1,4 +1,4 @@
-# Codenotch — Tasks
+# Siggy — Tasks
 
 Full detail in [`docs/plans/2026-08-28-usage-notch-plan.md`](docs/plans/2026-08-28-usage-notch-plan.md).
 Design spec in [`docs/specs/2026-08-28-usage-notch-design.md`](docs/specs/2026-08-28-usage-notch-design.md).
@@ -8,7 +8,7 @@ Design spec in [`docs/specs/2026-08-28-usage-notch-design.md`](docs/specs/2026-0
 - [x] `Makefile` (`gen` / `build` / `test` / `run` / `clean`)
 - [x] `.gitignore`, `README.md`, docs, design frames committed
 - [x] `Sources/Info.plist`
-- [x] `Sources/App/CodenotchMain.swift` + `AppDelegate` — launches with no window
+- [x] `Sources/App/SiggyMain.swift` + `AppDelegate` — launches with no window
 - [x] `make run` starts a Dock-less agent process
 
 ## M1 — The notch surface
@@ -546,7 +546,7 @@ into, so failures were invisible and the first attempts at a diagnosis were
 guesses from screenshots. `Sources/App/Log.swift` fixes that:
 
 ```sh
-/usr/bin/log stream --predicate 'subsystem == "com.vinz.codenotch"' --level debug
+/usr/bin/log stream --predicate 'subsystem == "com.zachzama.siggy"' --level debug
 ```
 
 Note `/usr/bin/log`, not `log` — zsh has a builtin of that name that swallows it.
@@ -576,7 +576,7 @@ and the tooltip header is dated.
 
 ### Accounts in settings
 
-Codenotch runs **no OAuth flow of its own**. It borrows a credential each tool
+Siggy runs **no OAuth flow of its own**. It borrows a credential each tool
 already holds — Claude Code's keychain token, Cursor's editor session, Codex's
 `auth.json` — so there is no account for it to connect, and a "Connect" button
 would be theatre. What there *is* to show is whose readings these are:
@@ -815,7 +815,7 @@ hundredths of a point wide; that is a fact about arcs, not a bug.
 ## Managing accounts from Settings
 
 The ask was "adjust login and logout through settings". Taken literally there is
-nothing to adjust: Codenotch runs no OAuth flow of its own, so it has no session
+nothing to adjust: Siggy runs no OAuth flow of its own, so it has no session
 to end. What it has is a decision about *whether to read* each borrowed
 credential, which is the same control under an honest name.
 
@@ -845,7 +845,7 @@ credential, which is the same control under an honest name.
       launch. `SignOutTests.testTheReadingDoesNotComeBackOnTheNextLaunch` is the
       case a plain disconnect fails.
 - [x] `WebSessionProvider.signOut()` clears its own cookies — the one true
-      logout in the app, because that session is the only one Codenotch created.
+      logout in the app, because that session is the only one Siggy created.
       Scoped to the site's host: the data store is shared, so emptying it would
       sign the user out of every other web provider too.
 - [x] Each row shows the account it reads (address and plan), with **Open** going
@@ -914,7 +914,7 @@ Two things worth keeping in mind:
       state, and it becomes `accepted` once the ticket is stapled.
 - [ ] **Store notary credentials** — needs an app-specific password, so it has
       to be run by hand once:
-      `xcrun notarytool store-credentials Codenotch --apple-id <id> --team-id 6WFPL8B9FB --password <app-specific-password>`
+      `xcrun notarytool store-credentials Siggy --apple-id <id> --team-id 6WFPL8B9FB --password <app-specific-password>`
 
 ### Automatic updates
 
@@ -973,7 +973,7 @@ macOS does not remove `~/Library` when an app is trashed, so a reinstall comes
 back with the old readings, the old choices and the old first-run flag — which
 is what makes a reinstall look like the app is broken.
 
-- [x] **Reset Codenotch…** in Settings: clears the defaults domain, caches,
+- [x] **Reset Siggy…** in Settings: clears the defaults domain, caches,
       WebKit and HTTP storage, then quits. Behind a confirmation, and the alert
       says what it does *not* touch — "reset" could reasonably be read as
       signing you out of Claude Code or Cursor, which it cannot do.
@@ -982,7 +982,7 @@ is what makes a reinstall look like the app is broken.
 
 ### Changing which account is read
 
-Codenotch cannot switch the account. The credential belongs to Claude Code,
+Siggy cannot switch the account. The credential belongs to Claude Code,
 Cursor or Codex, and the most this can honestly do is open the thing that owns
 it and then notice when the answer changes.
 
@@ -1225,7 +1225,7 @@ it and then notice when the answer changes.
 - [x] Reset is alone in its own section, and last. It used to sit a few pixels
       under a row of account switches, which is one slip from erasing
       everything.
-- [x] The "Codenotch never signs in" explanation moved into Integrations,
+- [x] The "Siggy never signs in" explanation moved into Integrations,
       beside the switches it explains, rather than stranded under a page about
       something else.
 - [x] 500 x 660. Without a row of tab titles to fit, the width is set by the
@@ -1246,10 +1246,10 @@ it and then notice when the answer changes.
       exists. Harmless (snapshots are built from `providers`, so it is ignored)
       but it never gets collected.
 
-## Renaming to Codenotch
+## Renaming to Siggy
 
 - [x] Every occurrence renamed, including the bundle identifier
-      (`com.vinz.codenotch`), scheme, target, test target and log subsystem.
+      (`com.zachzama.siggy`), scheme, target, test target and log subsystem.
       `UsageStore`, `UsageProvider`, `UsageBand` and friends keep their names on
       purpose: they are about *usage*, not about the app, and renaming them
       would be a rebrand leaking into the domain model.
@@ -1645,7 +1645,7 @@ renderer paints `glassEffect` as an opaque flat grey (136/255, alpha 1) over
 its ZStack siblings for the rest of the process, so the band probe read grey
 although the layer order was right all along. Earlier offscreen renders do not
 trigger it, and `stop()` does not undo it. The fix is the
-`\.codenotchHeadlessGlass` environment flag: it lets the two glass pixel tests
+`\.siggyHeadlessGlass` environment flag: it lets the two glass pixel tests
 render the glass path with the system material left out, so they check only
 what is ours — the transparent body fill, the `darkGlass` dim and the opaque
 band — since the material itself is the system's and is not testable headless.
@@ -1661,7 +1661,7 @@ with another test to be stale.
 
 ### Below macOS 26, and with Reduce transparency on
 
-Codenotch 1.7.0 targets macOS 15, where `glassEffect` does not exist yet. A
+Siggy 1.7.0 targets macOS 15, where `glassEffect` does not exist yet. A
 material in the notch panel would have nothing behind it to blur, so below
 macOS 26 the glass style resolves to solid and the Surface setting is not
 offered at all — there is nothing to choose between. Reduce transparency
@@ -1782,7 +1782,7 @@ Two events ask outside the schedule, and neither is a timer:
 ### Ask the provider every time you look
 
 Even bounded at two minutes, a percentage is still a figure that was *read*
-rather than a live wire — and somebody comparing Codenotch against a vendor's
+rather than a live wire — and somebody comparing Siggy against a vendor's
 own dashboard figure by figure wants the wire. `UsageFreshness.fromSource` is
 that: zero allowance on both of Claude's held sources, so whatever is held is
 skipped however new it is. A cache written two seconds ago *is* the account's
@@ -1839,7 +1839,7 @@ nevertheless stale:
   figure it woke up to show.
 
 ## Decisions needed
-- [ ] Final app name (`Codenotch` is a placeholder)
+- [ ] Final app name (`Siggy` is a placeholder)
 - [x] ~~Which service is the third glyph in the mockup?~~ Perplexity — its mark,
       traced off the frame, matches. Wired up as `ProviderGlyph.third`.
 - [ ] Plan ceilings: configured by hand, or inferred from observed peak usage?

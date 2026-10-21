@@ -75,7 +75,7 @@ struct MoveGrip: View, Animatable {
     static let hoverGrowth: CGFloat = 0.3
 
     @Environment(\.notchSurfaceStyle) private var surfaceStyle
-    @Environment(\.codenotchReduceTransparency) private var reduceTransparency
+    @Environment(\.siggyReduceTransparency) private var reduceTransparency
 
     private var glassy: Bool { surfaceStyle.isGlass && !reduceTransparency }
 
